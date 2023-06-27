@@ -13,6 +13,7 @@
 		BB10BB002A49E199003C91E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB10BAFF2A49E199003C91E4 /* Assets.xcassets */; };
 		BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */; };
 		BB10BB0E2A49E199003C91E4 /* MBNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB0D2A49E199003C91E4 /* MBNTests.swift */; };
+		BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB392A4B3C5E003C91E4 /* Hinario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		BB10BB042A49E199003C91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB10BB092A49E199003C91E4 /* MBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB10BB0D2A49E199003C91E4 /* MBNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBNTests.swift; sourceTree = "<group>"; };
+		BB10BB392A4B3C5E003C91E4 /* Hinario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hinario.swift; sourceTree = "<group>"; };
+		BB10BB3C2A4B3D05003C91E4 /* hinarioJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hinarioJSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		BB10BAF52A49E198003C91E4 /* MBN */ = {
 			isa = PBXGroup;
 			children = (
+				BB10BB3B2A4B3CDD003C91E4 /* Source */,
 				BB10BB362A4A5BE6003C91E4 /* Model */,
 				BB10BB352A4A5BDE003C91E4 /* View */,
 				BB10BB342A4A5BDA003C91E4 /* Controller */,
@@ -122,8 +126,17 @@
 		BB10BB362A4A5BE6003C91E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB10BB392A4B3C5E003C91E4 /* Hinario.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BB10BB3B2A4B3CDD003C91E4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BB10BB3C2A4B3D05003C91E4 /* hinarioJSON.json */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +241,7 @@
 			files = (
 				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
+				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

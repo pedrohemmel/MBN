@@ -14,6 +14,9 @@
 		BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */; };
 		BB10BB0E2A49E199003C91E4 /* MBNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB0D2A49E199003C91E4 /* MBNTests.swift */; };
 		BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB392A4B3C5E003C91E4 /* Hinario.swift */; };
+		BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */; };
+		BB10BB412A4B470A003C91E4 /* hinarioJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = BB10BB402A4B470A003C91E4 /* hinarioJSON.json */; };
+		BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB422A4B5AD6003C91E4 /* protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,9 @@
 		BB10BB092A49E199003C91E4 /* MBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB10BB0D2A49E199003C91E4 /* MBNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBNTests.swift; sourceTree = "<group>"; };
 		BB10BB392A4B3C5E003C91E4 /* Hinario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hinario.swift; sourceTree = "<group>"; };
-		BB10BB3C2A4B3D05003C91E4 /* hinarioJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hinarioJSON.json; sourceTree = "<group>"; };
+		BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinarioDataLoader.swift; sourceTree = "<group>"; };
+		BB10BB402A4B470A003C91E4 /* hinarioJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hinarioJSON.json; sourceTree = "<group>"; };
+		BB10BB422A4B5AD6003C91E4 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		BB10BAF52A49E198003C91E4 /* MBN */ = {
 			isa = PBXGroup;
 			children = (
+				BB10BB3D2A4B3FFC003C91E4 /* Utils */,
 				BB10BB3B2A4B3CDD003C91E4 /* Source */,
 				BB10BB362A4A5BE6003C91E4 /* Model */,
 				BB10BB352A4A5BDE003C91E4 /* View */,
@@ -134,9 +140,18 @@
 		BB10BB3B2A4B3CDD003C91E4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BB10BB3C2A4B3D05003C91E4 /* hinarioJSON.json */,
+				BB10BB402A4B470A003C91E4 /* hinarioJSON.json */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		BB10BB3D2A4B3FFC003C91E4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */,
+				BB10BB422A4B5AD6003C91E4 /* protocols.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */,
+				BB10BB412A4B470A003C91E4 /* hinarioJSON.json in Resources */,
 				BB10BB002A49E199003C91E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +258,9 @@
 				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
+				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
+				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

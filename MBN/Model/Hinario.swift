@@ -10,5 +10,5 @@ import Foundation
 struct Hinario: Codable {
     let hinarioId: Int
     let hinarioName: String
-    let hinarioLyrics: [String]
+    let hinarioLyrics: [Paragraph]
 }

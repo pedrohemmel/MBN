@@ -41,7 +41,7 @@ extension SearchController: HinarioCRUDDelegate {
     func getHinarioData() {
         self.hinarioList = self.hinarioDataLoader.hinarioList
         print("\(hinarioList[0].hinarioName)")
-        self.label.text = self.hinarioList[0].hinarioLyrics[0]
+        self.label.text = self.hinarioList[0].hinarioLyrics[0].lines[0]
     }
 }
 

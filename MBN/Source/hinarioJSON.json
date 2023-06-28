@@ -3,7 +3,12 @@
         "hinarioId": 1,
         "hinarioName": "EU OUÇO UM CANTAR DIVINAL (찬: 468)",
         "hinarioLyrics": [
-            "oi\nsumida\n\nsumida"
+            {
+                "lines": [
+                    "texto aqui",
+                    "Outro texto aqui"
+                ]
+            }
         ]
     }
 ]

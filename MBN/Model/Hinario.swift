@@ -6,7 +6,8 @@
 //
 
 import Foundation
-class Hinario: Codable {
+
+struct Hinario: Codable {
     let hinarioId: Int
     let hinarioName: String
     let hinarioLyrics: [String]

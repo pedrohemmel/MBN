@@ -18,6 +18,7 @@
 		BB10BB412A4B470A003C91E4 /* hinarioJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = BB10BB402A4B470A003C91E4 /* hinarioJSON.json */; };
 		BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB422A4B5AD6003C91E4 /* protocols.swift */; };
 		BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB462A4C8594003C91E4 /* Paragraph.swift */; };
+		BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BB10BB402A4B470A003C91E4 /* hinarioJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hinarioJSON.json; sourceTree = "<group>"; };
 		BB10BB422A4B5AD6003C91E4 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		BB10BB462A4C8594003C91E4 /* Paragraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paragraph.swift; sourceTree = "<group>"; };
+		BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
+				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
+				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,

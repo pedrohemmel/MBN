@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */; };
+		88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC222A4E018200ED8A4A /* HomeViewController.swift */; };
+		88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC242A4E09D500ED8A4A /* HomeView.swift */; };
+		88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC272A4E0A5C00ED8A4A /* HinoTableViewCell.swift */; };
 		BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BAF62A49E198003C91E4 /* AppDelegate.swift */; };
 		BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BAF82A49E198003C91E4 /* SceneDelegate.swift */; };
 		BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BAFA2A49E198003C91E4 /* SearchController.swift */; };
@@ -31,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinarioTableView.swift; sourceTree = "<group>"; };
+		88BEBC222A4E018200ED8A4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		88BEBC242A4E09D500ED8A4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88BEBC272A4E0A5C00ED8A4A /* HinoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinoTableViewCell.swift; sourceTree = "<group>"; };
 		BB10BAF32A49E198003C91E4 /* MBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB10BAF62A49E198003C91E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB10BAF82A49E198003C91E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88BEBC1F2A4DF05700ED8A4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */,
+				88BEBC272A4E0A5C00ED8A4A /* HinoTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		BB10BAEA2A49E198003C91E4 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				BB10BAFA2A49E198003C91E4 /* SearchController.swift */,
+				88BEBC222A4E018200ED8A4A /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -127,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
+				88BEBC242A4E09D500ED8A4A /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +172,7 @@
 			children = (
 				BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */,
 				BB10BB422A4B5AD6003C91E4 /* protocols.swift */,
+				88BEBC1F2A4DF05700ED8A4A /* Components */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -258,10 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */,
 				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
+				88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
+				88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */,
+				88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */,
 				BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,

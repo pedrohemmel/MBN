@@ -1,5 +1,4356 @@
 
 [
+  {
+        "hinarioId": 1,
+        "hinarioName": "EU OUÇO UM CANTAR DIVINAL (찬: 468)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Eu ouço um cantar divinal,",
+                    "Um coro sublime, ideal.",
+                    "Ouvi-lo é prazer sem igual:",
+                    "Ó paz! És dom de meu Deus!",
+                    "",
+                    "Paz, paz, paz, paz,",
+                    "Dom precioso dos Céus! Excelsa e dulcíssima paz,",
+                    "És dom do amor de meu Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Por Cristo nos veio esta paz;",
+                    "É bênção que nos satisfaz;",
+                    "Infinda alegria nos traz",
+                    "O excelso dom de meu Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Um dia, no belo porvir,",
+                    "Ao lar perenal vou subir,",
+                    "E então hei de sempre fruir",
+                    "A eterna paz de meu Deus."
+                ]
+            }
+        ]
+    },
+  {
+        "hinarioId": 2,
+        "hinarioName": "LÁ NA CRUZ (찬: 182)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Lá na cruz Jesus morreu,",
+                    "Por meus pecados Jesus morreu.",
+                    "Que maravilha, Senhor Jesus,",
+                    "Eu O louvarei.",
+                    "",
+                    "Ao Seu nome glória",
+                    "Ao Seu nome glória",
+                    "Que maravilha, Senhor Jesus, Eu O louvarei."
+                ]
+            },
+            {
+                "lines": [
+                    "Lá na cruz recebi o perdão",
+                    "Pelo sangue de Jesus,",
+                    "Meu coração se encheu de paz,",
+                    "Eu O louvarei"
+                ]
+            },
+            {
+                "lines": [
+                    "Lá na cruz uma fonte há,",
+                    "Fonte de água da vida",
+                    "Lavou as minhas transgressões,",
+                    "Eu O louvarei."
+                ]
+            },
+            {
+                "lines": [
+                    "Vem sem tardar à cruz do Senhor",
+                    "Ali te espera o Senhor Jesus,",
+                    "Lá falará o Deus do amor,",
+                    "Eu O louvarei."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 3,
+        "hinarioName": "GRANDIOSO ÉS TÚ! (찬: 40)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Senhor, meu Deus, quando eu, maravilhado,",
+                    "Contemplo a Tua imensa criação.",
+                    "O céu e a terra, vastos oceanos,",
+                    "Fico a pensar em Tua perfeição.",
+                    "",
+                    "Então, minh’alma",
+                    "Canta a Ti, Senhor:",
+                    "“Grandioso És Tu!”",
+                    "“Grandioso És Tu!”",
+                    "Então, minh’alma",
+                    "Canta a Ti, Senhor:",
+                    "“Grandioso És Tu!”",
+                    "“Grandioso És Tu!”"
+                ]
+            },
+            {
+                "lines": [
+                    "Ao caminhar nas matas e florestas,",
+                    "Escuto as aves todas a cantar;",
+                    "Olhando os montes, vales e campinas,",
+                    "Em tudo vejo o Teu poder sem par."
+                ]
+            },
+            {
+                "lines": [
+                    "Quando eu medito em Teu amor tão grande",
+                    "Que ofereceu Teu filho sobre o altar;",
+                    "Maravilhado e agradecido,",
+                    "Venho também a vida ofertar."
+                ]
+            },
+            {
+                "lines": [
+                    "E quando, enfim, Jesus vier em glória",
+                    "E ao lar celeste, então, me transportar,",
+                    "Adorarei, prostrado e para sempre:",
+                    "“Grandioso És Tu, meu Deus!”, hei de cantar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 4,
+        "hinarioName": "PAZ, PAZ, QUE DOCE PAZ (찬: 469)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "No fundo do coração há uma paz,",
+                    "Se difunde inundando meu ser.",
+                    "Uma calma infinita que só poderão",
+                    "Os amados de Deus compreender.",
+                    "",
+                    "Paz, paz, que doce paz",
+                    "É aquela que o Pai me dá.",
+                    "Eu Te peço que inunde",
+                    "Pra sempre o meu ser",
+                    "Nas ondas do amor de Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "Que tesouro eu tenho na paz que Ele deu,",
+                    "No fundo da alma estará",
+                    "Tão segura que não poderá resgatar,",
+                    "Quando vejo os anos passar."
+                ]
+            },
+            {
+                "lines": [
+                    "Sem cessar eu medito naquele lugar",
+                    "Naquele que é Autor da paz.",
+                    "E o hino mais doce, sim, hei de cantar,",
+                    "Da Sua paz hei de ouvir."
+                ]
+            },
+            {
+                "lines": [
+                    "Alma triste que em rude conflito se vê,",
+                    "Muito fraco eu sou nessa fé.",
+                    "O Cristo, meu Mestre, porque Ele é fiel,",
+                    "Da Sua paz receberei."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 5,
+        "hinarioName": "RUDE CRUZ (찬: 135)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Rude cruz se erigiu,",
+                    "Dela o dia fugiu,",
+                    "Revelando vergonha e pavor.",
+                    "Mas eu amo a Jesus,",
+                    "Que morreu nessa cruz,",
+                    "Dando a vida por mim, pecador.",
+                    "",
+                    "Sim, eu amo a mensagem da cruz;",
+                    "Suas bênçãos eu vou proclamar.",
+                    "Levarei eu também minha cruz",
+                    "‘Té por uma coroa trocar."
+                ]
+            },
+            {
+                "lines": [
+                    "Lá da glória dos céus,",
+                    "O Cordeiro de Deus",
+                    "Ao calvário humilhante baixou;",
+                    "E essa cruz tem pra mim",
+                    "Atrativos sem fim",
+                    "Porque nela Ele me resgatou."
+                ]
+            },
+            {
+                "lines": [
+                    "Eu, aqui, com Jesus",
+                    "A vergonha da cruz",
+                    "Quero sempre levar e sofrer.",
+                    "Ele vem me buscar,",
+                    "E com Ele no lar",
+                    "Sua glória pra sempre vou ter."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 6,
+        "hinarioName": "O MELHOR AMIGO (찬: 86)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Sei que o amigo melhor é Cristo;",
+                    "Se a tormenta vem provar-me a fé,",
+                    "Pronto estende a Sua mão,",
+                    "Tranquiliza o coração.",
+                    "Sim, o amigo melhor é Cristo.",
+                    "",
+                    "Jesus é o melhor amigo,",
+                    "Jesus é o melhor amigo,",
+                    "Sim, repreende com dulçor,",
+                    "E me anima com vigor.",
+                    "Sim, o amigo melhor é Cristo."
+                ]
+            },
+            {
+                "lines": [
+                    "Oh! Que amigo precioso é Cristo!",
+                    "Nele encontro amor, consolo e paz.",
+                    "Em Seu braço esperarei,",
+                    "Nenhum golpe temerei.",
+                    "Sim, o amigo melhor é Cristo."
+                ]
+            },
+            {
+                "lines": [
+                    "Se eu passar pelo vale escuro,",
+                    "E chegar às águas do Jordão,",
+                    "Não receio, pois Jesus,",
+                    "Salvo, à pátria me conduz.",
+                    "Sim, o amigo melhor é Cristo."
+                ]
+            },
+            {
+                "lines": [
+                    "Na mansão eternal, eu, junto",
+                    "Com os santos transformados já,",
+                    "Este canto de louvor",
+                    "Entoaremos ao Senhor:",
+                    "Sim, o amigo melhor é Cristo."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 7,
+        "hinarioName": "PRECIOSA GRAÇA DE JESUS (찬: 405)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Preciosa a graça de Jesus",
+                    "Que um dia me salvou.",
+                    "Perdido andei sem ver a luz,",
+                    "Mas Cristo me encontrou."
+                ]
+            },
+            {
+                "lines": [
+                    "A graça, então, meu coração",
+                    "Do medo libertou.",
+                    "Oh! quão preciosa salvação",
+                    "A graça me outorgou!"
+                ]
+            },
+            {
+                "lines": [
+                    "Promessas deu-me o Salvador",
+                    "E Nele eu posso crer.",
+                    "É meu refúgio e protetor",
+                    "Em todo o meu viver."
+                ]
+            },
+            {
+                "lines": [
+                    "Perigos mil atravessei",
+                    "E a graça me valeu.",
+                    "Eu são e salvo agora irei",
+                    "Ao santo lar do céu."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 8,
+        "hinarioName": "GLÓRIA A DEUS NAS ALTURAS (찬: 125)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Surgem anjos proclamando",
+                    "Paz na Terra, e a Deus, louvor.",
+                    "Vão seus hinos ecoando",
+                    "Nas montanhas ao redor.",
+                    "",
+                    "Glória, glória a Deus nas alturas!",
+                    "Glória, glória a Deus nas alturas!"
+                ]
+            },
+            {
+                "lines": [
+                    "Vão-se alegres os pastores",
+                    "Ver o Infante celestial,",
+                    "E acrescentam seus louvores",
+                    "Ao louvor angelical."
+                ]
+            },
+            {
+                "lines": [
+                    "Berço rude Lhe foi dado,",
+                    "Mas do Céu Lhe vem louvor.",
+                    "Ele é o Salvador amado,",
+                    "Bem merece o nosso amor."
+                ]
+            },
+            {
+                "lines": [
+                    "Povos, tribos, celebrai-O!",
+                    "“Glória a Deus”, também dizei",
+                    "De joelhos adorai-O;",
+                    "Ele é o Cristo, o grande Rei!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 9,
+        "hinarioName": "“SEGUIREIS?”, PERGUNTA O MESTRE (찬: 519)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "“Seguireis”, pergunta o Mestre,",
+                    "“O caminho desta cruz?”",
+                    "Respondemos, com firmeza:",
+                    "“Seguiremos, sim, Jesus.”",
+                    "",
+                    "Sim, seguiremos Teus passos, Senhor,",
+                    "Na vida ou morte, por onde for.",
+                    "O compromisso Contigo, ó Jesus,",
+                    "É sermos fiéis, andando em Tua luz."
+                ]
+            },
+            {
+                "lines": [
+                    "“Seguireis?”, ainda o Mestre",
+                    "Nos pergunta com dulçor.",
+                    "Novamente, asseguramos:",
+                    "“Seguiremos, ó Senhor!”"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 10,
+        "hinarioName": "TU ÉS FIEL, SENHOR (찬: 447)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Tu és fiel, Senhor, meu Pai celeste",
+                    "Pleno poder aos Teus filhos darás",
+                    "Nunca mudaste: Tu nunca faltaste",
+                    "Tal como eras, Tu sempre serás.",
+                    "",
+                    "Tu és fiel, Senhor! Tu és fiel, Senhor!",
+                    "Dia após dia, com bênçãos sem fim.",
+                    "Tua mercê me sustenta e me guarda",
+                    "Tu és fiel, Senhor, fiel a mim."
+                ]
+            },
+            {
+                "lines": [
+                    "Flores e frutos, montanhas e mares,",
+                    "Sol, lua, estrelas no céu a brilhar:",
+                    "Tudo criaste, na terra e nos ares.",
+                    "Todo o universo vem, pois, Te louvar!"
+                ]
+            },
+            {
+                "lines": [
+                    "Pleno perdão Tu dás: paz, segurança",
+                    "Cada momento me guias, Senhor.",
+                    "E, no porvir, oh! que doce esperança",
+                    "Desfrutarei do Teu rico favor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 11,
+        "hinarioName": "DEUS É TÃO BOM (내영: 55)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Deus é tão bom,",
+                    "Deus é tão bom,",
+                    "Deus é tão bom,",
+                    "Deus é bom pra mim!"
+                ]
+            },
+            {
+                "lines": [
+                    "Deus me quer bem,",
+                    "Deus me quer bem,",
+                    "Deus me quer bem,",
+                    "Deus é bom pra mim!"
+                ]
+            },
+            {
+                "lines": [
+                    "Deus me salvou,",
+                    "Deus me salvou,",
+                    "Deus me salvou,",
+                    "Deus é bom pra mim!"
+                ]
+            },
+            {
+                "lines": [
+                    "Deus me sustém,",
+                    "Deus me sustém,",
+                    "Deus me sustém,",
+                    "Deus é bom pra mim!"
+                ]
+            },
+            {
+                "lines": [
+                    "Deus é amor,",
+                    "Deus é amor,",
+                    "Deus é amor,",
+                    "Deus é bom pra mim!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 12,
+        "hinarioName": "HÁ UMA HISTÓRIA AGRADÁVEL (내영: 88)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Há uma história agradável",
+                    "O amor do nosso Salvador",
+                    "Homem que partiu da glória do céu",
+                    "Pra salvar a nós, os pecadores.",
+                    "",
+                    "O amor de Deus é tão fantástico,",
+                    "Fantástico, fantástico, fantástico.",
+                    "Oh! o amor de Deus é tão fantástico",
+                    "Esse amor que foi por mim."
+                ]
+            },
+            {
+                "lines": [
+                    "Dentro desse grande Universo",
+                    "Dentre essa grande multidão",
+                    "Corpo que foi salvo e protegido",
+                    "Vivo recebendo o amor de Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Essa grande multidão não entende",
+                    "O amor de Deus mandou Jesus",
+                    "E esse amor faz com que eu viva;",
+                    "O amor que salva no calvário."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 13,
+        "hinarioName": "PORQUE ELE VIVE (내영: 135)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Deus enviou Seu filho amado",
+                    "Para sofrer em meu lugar;",
+                    "Na cruz morreu, mas vivo agora está,",
+                    "Pois ressurgiu e para sempre viverá.",
+                    "",
+                    "Porque Ele vive, posso crer no amanhã;",
+                    "Porque Ele vive, temor não há",
+                    "Eu sei que minha vida não será mais vã,",
+                    "Pois meu futuro em Suas mãos agora está."
+                ]
+            },
+            {
+                "lines": [
+                    "Quão grato é viver com Cristo,",
+                    "E desfrutar Seu doce amor,",
+                    "E certo estar de Sua proteção,",
+                    "Nos dias calmos ou nas horas de aflição."
+                ]
+            },
+            {
+                "lines": [
+                    "E quando, enfim, chegar a hora",
+                    "De aqui cessar o meu viver,",
+                    "Não temerei, pois Cristo vivo está,",
+                    "E eu viverei, pois, vida nova me dará."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 14,
+        "hinarioName": "JESUS ESTÁ ESPERANDO (내영: 206)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Jesus quer entrar hoje em teu coração,",
+                    "Por que não abres, então?",
+                    "Não deixes que nada lhe ocupe o lugar;",
+                    "Oh! que resposta vais dar?",
+                    "",
+                    "Vezes sem conta esperado Ele tem,",
+                    "E agora, eis que espera também,",
+                    "A ver se Lhe queres a porta franquear.",
+                    "Oh! quanto almeja Ele entrar!"
+                ]
+            },
+            {
+                "lines": [
+                    "Se um passo tu deres pra teu Salvador,",
+                    "Ele te espera co’amor;",
+                    "Unido a Jesus toda treva se esvai,",
+                    "E Ele morar em ti vai."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 15,
+        "hinarioName": "NA CRUZ (찬: 138)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ferido, triste, a Jesus,",
+                    "mostrei a minha dor;",
+                    "Perdido, fraco, na Sua luz,",
+                    "me alegro em Seu amor.",
+                    "Lá na cruz, lá na cruz,",
+                    "",
+                    "em primeiro vi a cruz",
+                    "E as manchas da minh’alma lavei;",
+                    "Foi ali, com fé, que vi a Jesus,",
+                    "E sempre com Ele estarei."
+                ]
+            },
+            {
+                "lines": [
+                    "Sobre a cruz, meu bom Jesus,",
+                    "Seu sangue derramou",
+                    "Por este pobre pecador,",
+                    "A quem, assim, salvou."
+                ]
+            },
+            {
+                "lines": [
+                    "Venceu a morte com poder",
+                    "E o Pai O exaltou;",
+                    "Confio nEle com prazer,",
+                    "Morrer não temo eu."
+                ]
+            },
+            {
+                "lines": [
+                    "Consolador que é Jesus,",
+                    "O qual se foi por mim.",
+                    "Por Ele já posso entrar",
+                    "No reino do Senhor."
+                ]
+            },
+            {
+                "lines": [
+                    "Viver em Cristo me dá paz,",
+                    "Com Ele habitarei.",
+                    "Já Dele sou, e agora sei",
+                    "Que nada temerei."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 16,
+        "hinarioName": "BELA MANHÃ (내영: 277)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Bela manhã, manhã de alegria!",
+                    "Vem desfazer da noite a escuridão!",
+                    "Foi-se o clamor, tristeza e agonia!",
+                    "Irrompe o dia da salvação!",
+                    "Rejubilai, cantai aleluias!",
+                    "Cantai, cantai aleluias!"
+                ]
+            },
+            {
+                "lines": [
+                    "Não mais temor, não mais tribulações!",
+                    "Louvores enchem hoje os corações!",
+                    "Oh! festejai do dia a nova luz!",
+                    "Saudai o Rei, saudai o Rei Jesus!",
+                    "Rejubilai, rompei em aleluias!",
+                    "Cantai, cantai aleluias!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 17,
+        "hinarioName": "A VERDADEIRA PAZ (내영: 123)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Essa paz que está dentro do coração",
+                    "Ninguém poderá jamais tirar",
+                    "E no meu coração entrou o Salvador",
+                    "Oh! Sem Jesus não viverei.",
+                    "",
+                    "Oh! Sem Jesus não viverei",
+                    "O Senhor me libertou",
+                    "Sem Jesus esse mundo não tem paz",
+                    "Oh! Sem Jesus não viverei."
+                ]
+            },
+            {
+                "lines": [
+                    "O mundo sem paz só traz tristeza, dor",
+                    "As pessoas têm medo e pavor",
+                    "Até Jesus da paz novamente chegar",
+                    "O pecado não findará."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 18,
+        "hinarioName": "DIA A DIA (내영: 346)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Dia a dia, em todos os momentos,",
+                    "Força encontro em lutas ou labor,",
+                    "Pois de Deus recebo sempre alento;",
+                    "Que razão terei eu pra temor?",
+                    "Deus, que é bom, sábio e compassivo",
+                    "Cada dia dá-me o que é melhor.",
+                    "Uma dor e logo um lenitivo;",
+                    "Luta e paz eu sinto em derredor."
+                ]
+            },
+            {
+                "lines": [
+                    "Cada dia, Deus está bem perto,",
+                    "E conselhos dEle posso obter;",
+                    "Segurança e auxílio em tempo certo",
+                    "Me concede pelo Seu poder.",
+                    "Com carinho, Deus protege e guia",
+                    "Qual zeloso pai, os filhos Seus;",
+                    "“Dar-te-ei poder a cada dia“,",
+                    "É a certeza que Ele ofereceu."
+                ]
+            },
+            {
+                "lines": [
+                    "Quero, ó Deus, em cada sofrimento",
+                    "Confiar em Teu cuidado e amor.",
+                    "E com fé, eu permaneça atento",
+                    "Às promessas Tuas, meu Senhor.",
+                    "E que eu possa, em lutas, dores, trevas,",
+                    "Aceitar, ó Deus, de Tua mão,",
+                    "Um a um, os dias que me entregas,",
+                    "Nesta minha peregrinação."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 19,
+        "hinarioName": "CRISTO TOCOU-ME (내영: 247)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Preso por imenso fardo",
+                    "De pecado e de temor,",
+                    "Foi que Cristo, então, tocou-me,",
+                    "E assim não sou mais tal pecador.",
+                    "",
+                    "Tocou-me, sim, tocou-me.",
+                    "Oh! Quanta paz no coração!",
+                    "Fui transformado e novo sou,",
+                    "E hoje eu tenho salvação."
+                ]
+            },
+            {
+                "lines": [
+                    "Desde que encontrei meu Mestre,",
+                    "Sinto paz, prazer sem par;",
+                    "Meus louvores ergo a Cristo,",
+                    "Seu nome a todos vou proclamar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 20,
+        "hinarioName": "AQUELE QUE DESEJA O AMOR DE DEUS (내영: 402)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Aquele que deseja o amor de Deus,",
+                    "Aquele que observa a paz de Deus",
+                    "O Senhor que criou todo o universo",
+                    "O quanto Ele deve te amar",
+                    "Aquele que louva e glorifica,",
+                    "Aquele que observa o bem de Deus",
+                    "O Senhor que criou todo o universo",
+                    "Te aceitou como um filho",
+                    "Com os olhos amorosos",
+                    "Ele nunca cessa de te observar",
+                    "O Senhor nunca cessa",
+                    "De abrir os Seus ouvidos para nós",
+                    "Nas trevas, Ele nos deu a Sua luz",
+                    "E nos responde de qualquer clamor",
+                    "Onde quer que seja, somente olhemos para Deus,",
+                    "Somente pro Senhor."
+                ]
+            },
+            {
+                "lines": [
+                    "Aquele que obedece a Palavra,",
+                    "Que ilumina o mundo pelo Evangelho",
+                    "O Senhor que se responsabiliza por você,",
+                    "O quanto Ele deve se alegrar",
+                    "O filho que foi escolhido por Deus",
+                    "Aquele que percebe o Cristo, o Salvador",
+                    "O Senhor que nos preenche da Sua graça",
+                    "Te aceitou como discípulo",
+                    "O Senhor é Jesus Cristo,",
+                    "O Filho unigênito de Deus",
+                    "Nós que recebemos o espírito",
+                    "Seremos testemunha até o fim",
+                    "O poder da escuridão não nos machucará",
+                    "Pois o anjo do Senhor sempre nos protegerá",
+                    "Onde quer que seja, somente olhemos para Deus,",
+                    "Somente pro Senhor.",
+                    "Somente pro Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 21,
+        "hinarioName": "COM FÉ DO MEU SENHOR (내영: 345)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Com fé do meu Senhor caminharei só",
+                    "Com fé do meu Senhor eu O louvarei",
+                    "Mesmo que a tempestade escureça o céu,",
+                    "Com fé do meu Senhor não há decepção",
+                    "Ele é meu Senhor,",
+                    "O Senhor Jesus",
+                    "Até os confins",
+                    "Eu O seguirei",
+                    "Mesmo que a tempestade escureça o céu",
+                    "Com fé do meu Senhor não há decepção."
+                ]
+            },
+            {
+                "lines": [
+                    "Meu Deus é bom pastor, sempre me conduz",
+                    "Mesmo que eu ande pelo vale da morte",
+                    "Meu Deus sempre conduzirá o meu caminho",
+                    "Eu seguirei o meu Deus até os confins",
+                    "Ele é meu pastor,",
+                    "É um bom pastor",
+                    "Onde eu estiver,",
+                    "Ele junto está",
+                    "Meu Deus sempre conduzirá o meu caminho",
+                    "Eu seguirei o meu Deus até os confins."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 22,
+        "hinarioName": "BUSCAI PRIMEIRO O REINO DE DEUS (내영: 41)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Buscai primeiro o reino de Deus",
+                    "E a Sua justiça,",
+                    "E as demais vos serão acrescentadas;",
+                    "Alelu, aleluia.",
+                    "",
+                    "Aleluia, aleluia, aleluia,",
+                    "Alelu, aleluia"
+                ]
+            },
+            {
+                "lines": [
+                    "Não só de pão o homem viverá,",
+                    "Mas de toda palavra",
+                    "Que proceda da boca de Deus;",
+                    "Alelu, aleluia."
+                ]
+            },
+            {
+                "lines": [
+                    "Pedi, pedi e dar-se-vos-á,",
+                    "Buscai e achareis;",
+                    "Batei, batei e abrir-se-vos-á;",
+                    "Alelu, aleluia."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 23,
+        "hinarioName": "POR QUE ME AMOU ASSIM? (내영: 227)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Morte cruel padeceu meu Jesus;",
+                    "Por que me amou assim?",
+                    "Eu merecera sofrer nessa cruz;",
+                    "Por que me amou assim?",
+                    "",
+                    "Por que me amou assim?",
+                    "Por que me amou assim?",
+                    "Por que sofreu meu Jesus por mim?",
+                    "Por que me amou assim?!"
+                ]
+            },
+            {
+                "lines": [
+                    "Foi meu pecado que O crucificou;",
+                    "Por que me amou assim?",
+                    "Para salvar-me, que dor suportou!",
+                    "Por que me amou assim?"
+                ]
+            },
+            {
+                "lines": [
+                    "Oh! Que agonia, que grande aflição!",
+                    "Por que me amou assim?",
+                    "Hei de aceitar tão imenso perdão!",
+                    "Por que me amou assim?"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 24,
+        "hinarioName": "MEU CÁLICE TRANSBORDA (내영: 202)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Tão sedento, pelo mundo, eu procurava",
+                    "Minh' alma, em vão, satisfazer;",
+                    "Então o Salvador falou-me:",
+                    "“Desta fonte eterna vem beber.“",
+                    "",
+                    "O meu cálice eu ergo a Ti, Senhor,",
+                    "Vem minh'alma sedenta saciar.",
+                    "Minha vida anseia pelo Teu amor,",
+                    "Faz meu ser dessa água transbordar."
+                ]
+            },
+            {
+                "lines": [
+                    "Quanta gente está em busca dos prazeres",
+                    "Que o mundo pode oferecer;",
+                    "Ignoram a felicidade",
+                    "Que em Cristo, de graça, podem ter."
+                ]
+            },
+            {
+                "lines": [
+                    "Ó amigo, se as coisas desta Terra",
+                    "Só trazem dor, desilusão",
+                    "Em Cristo há paz e alegria,",
+                    "Ele é fonte de vida e salvação."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 25,
+        "hinarioName": "O SENHOR É AQUELE QUE TE PROTEGE (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "O Senhor é Aquele que te protege",
+                    "É a sombra da sua direita",
+                    "Nemosolenemalua",
+                    "Poderão prejudicar",
+                    "",
+                    "O Senhor é Aquele que te protege",
+                    "Te faz desviar das dificuldades",
+                    "Ele que te protegerá",
+                    "A sua entrada e saída",
+                    "",
+                    "Ergue os olhos para o monte",
+                    "Seu socorro de onde virá?",
+                    "Do criador, aquele que te fez;",
+                    "Vem do Senhor Jeová."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 26,
+        "hinarioName": "MEU DEUS E EU (내영: 106)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Meu Deus e eu andamos pelos prados,",
+                    "Quais bons amigos, juntos a passear;",
+                    "Dadas as mãos, alegres conversamos",
+                    "Sem nada, nada a nos atrapalhar;",
+                    "Dadas as mãos, alegres conversamos,",
+                    "Sem nada, nada a nos atrapalhar."
+                ]
+            },
+            {
+                "lines": [
+                    "Meu Deus me conta de outros tempos, quando",
+                    "Eternos planos Ele fez por mim;",
+                    "Quando o que vejo era apenas sonho,",
+                    "Quando Ele o mundo fez tão belo assim;",
+                    "Quando o que vejo era apenas sonho,",
+                    "Quando Ele o mundo fez tão belo assim."
+                ]
+            },
+            {
+                "lines": [
+                    "Meu Deus e eu, eternamente juntos,",
+                    "Quais bons amigos, vamos sempre andar;",
+                    "Inda que o Céu e a própria Terra passem,",
+                    "Nada de Deus me pode separar;",
+                    "Inda que o Céu e a própria Terra passem,",
+                    "Nada de Deus me pode separar;"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 27,
+        "hinarioName": "JESUS ME REMIU (내영: 21)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Jesus me remiu por Seu sangue!",
+                    "Eu hei de pra sempre cantar.",
+                    "Remiu-me sem que o merecesse.",
+                    "Oh! Graça suprema, sem par!",
+                    "",
+                    "Remiu, remiu,",
+                    "Na cruz me remiu meu Jesus.",
+                    "Remiu-me, remiu-me,",
+                    "Por isso ando agora na luz."
+                ]
+            },
+            {
+                "lines": [
+                    "Remido em Jesus por Sua graça,",
+                    "Não posso exprimir o prazer!",
+                    "A luz da divina presença",
+                    "Inunda constante meu ser."
+                ]
+            },
+            {
+                "lines": [
+                    "Em meu Redentor eu medito,",
+                    "De dia e de noite ao deitar;",
+                    "Da graça tão maravilhosa",
+                    "Eu quero pra sempre cantar."
+                ]
+            },
+            {
+                "lines": [
+                    "Eu sei que hei de ver, em Sua glória,",
+                    "O Rei cuja lei é de amor,",
+                    "Pois sempre Ele guia meus passos,",
+                    "E põe-me na boca o louvor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 28,
+        "hinarioName": "QUE DEVES COMPARTIR (내영: 328)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Com uma só faísca se acende um fogo",
+                    "Aqueles ao redor logo podem se aquecer",
+                    "Assim é o amor de Deus,",
+                    "Que estou a experimentar",
+                    "E esse amor vai se espalhar,",
+                    "Que deves compartir."
+                ]
+            },
+            {
+                "lines": [
+                    "As gramas ao brotar na bela primavera",
+                    "As aves ao cantar, as flores ao se abrirem",
+                    "Nos falam do amor de Deus,",
+                    "Que estou a experimentar",
+                    "A todos há de repetir",
+                    "Que deves compartir"
+                ]
+            },
+            {
+                "lines": [
+                    "Desejo para ti, meu amigo, este gozo",
+                    "Confia em Deus assim, e haverá repouso",
+                    "Das montanhas clamarei a Ti,",
+                    "A grande mensagem de amor",
+                    "Que a todos há de repetir",
+                    "Que deves compartir",
+                    "Das montanhas clamarei a Ti,",
+                    "A grande mensagem de amor",
+                    "Que a todos há de repetir",
+                    "Que deves compartir."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 29,
+        "hinarioName": "CHUVAS DE BENÇÃOS (내영: 287)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Chuvas de bênçãos teremos,",
+                    "É a promessa de Deus.",
+                    "Tempos benditos veremos,",
+                    "Chuvas de bênçãos dos céus.",
+                    "",
+                    "Chuvas de bênçãos,",
+                    "Chuvas de bênçãos dos céus;",
+                    "Gotas somente nós temos;",
+                    "Chuvas rogamos a Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Chuvas de bênçãos teremos,",
+                    "Vida de paz e perdão.",
+                    "Os pecadores indignos,",
+                    "Graça dos céus obterão."
+                ]
+            },
+            {
+                "lines": [
+                    "Chuvas de bênçãos teremos,",
+                    "Manda-nos já, ó Senhor!",
+                    "Dá-nos agora o bom fruto",
+                    "Desta palavra de amor."
+                ]
+            },
+            {
+                "lines": [
+                    "Chuvas de bênçãos teremos,",
+                    "Chuvas mandadas dos céus;",
+                    "Bênçãos a todos os crentes;",
+                    "Bênçãos do nosso bom Deus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 30,
+        "hinarioName": "AQUELA FORTALEZA DE SIÃO (내영: 388)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Aquela fortaleza de Sião",
+                    "A casa do meu Santo Pai",
+                    "Desejo muito com Ele estar",
+                    "À noite vigiei",
+                    "Ainda que eu não viva",
+                    "Na imensidão do mar",
+                    "Por todos os lugares eu pregarei,",
+                    "O evangelho de Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Após esta longa vida",
+                    "Eu descansarei no jardim",
+                    "E todo temor que eu encontrar",
+                    "O Senhor já resolveu",
+                    "Ainda que no deserto",
+                    "Meu corpo cansado ficar",
+                    "O meu Jesus, o qual me ama,",
+                    "Sempre protegerá."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 31,
+        "hinarioName": "IMPORTA RENASCER (내영: 203)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Um rico, de noite, chegou a Jesus",
+                    "A fim de saber o caminho da luz.",
+                    "O Mestre, bem claro lhe fez entender:",
+                    "Importa renascer!",
+                    "",
+                    "Importa renascer!",
+                    "Importa renascer!",
+                    "Com voz infalível o disse Jesus:",
+                    "Importa renascer!"
+                ]
+            },
+            {
+                "lines": [
+                    "Vós, filhos do mundo, escutai ao Senhor,",
+                    "Que sempre vos chama com mui terno amor.",
+                    "Ouvi que o Senhor nunca cessa em dizer:",
+                    "Importa renascer!"
+                ]
+            },
+            {
+                "lines": [
+                    "Ó vós, que no santo descanso de Deus,",
+                    "Quereis ter entrada e viver com os Seus;",
+                    "Deveis à palavra de Cristo atender:",
+                    "Importa renascer!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 32,
+        "hinarioName": "EU PERTENÇO AO MEU REI (내영: 43)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Eu pertenço ao meu Rei, filho sou do Senhor,",
+                    "Nas eternas mansões morarei.",
+                    "Já das glórias ouvi, lá da pátria de amor;",
+                    "Com Seus filhos as desfrutarei.",
+                    "",
+                    "Eu pertenço ao meu Rei, filho sou do Senhor;",
+                    "Ele nunca me esquece, eu o sei.",
+                    "Dar-me-á salvação por Seu grande favor,",
+                    "E na glória perene estarei."
+                ]
+            },
+            {
+                "lines": [
+                    "Eu pertenço ao meu Rei, é por mim Seu amor;",
+                    "Sua paz e descanso terei.",
+                    "Seu conforto me vem mitigar qualquer dor;",
+                    "Com amor guardará Sua grei."
+                ]
+            },
+            {
+                "lines": [
+                    "Eu pertenço ao meu Rei, a promessa é real;",
+                    "Salvará os que amarem Sua lei.",
+                    "Junto ao trono de Deus, na cidade eternal,",
+                    "Com os salvos um dia estarei."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 33,
+        "hinarioName": "DO SANTO AMOR DE CRISTO (내영: 417)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Do santo amor de Cristo",
+                    "Que não há igual",
+                    "Da Sua grande graça,",
+                    "Sublime e eternal",
+                    "Da Sua bondade",
+                    "Imensa como o mar",
+                    "E como o alto céu",
+                    "Com gozo hei de cantar.",
+                    "",
+                    "O amor do meu Senhor",
+                    "Grande e doce e mais",
+                    "Rico e infalível, nada comparável",
+                    "Com o amor de meu Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "Nos olhos do cego Ele",
+                    "Pôs uma nova luz",
+                    "A eterna luz da vida",
+                    "Que brilha na cruz",
+                    "Ao repartir Sua graça",
+                    "E Seu espírito",
+                    "Salvou todas as almas",
+                    "Na glória do Seu Ser."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 34,
+        "hinarioName": "SATISFAÇÃO (내영: 90)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Senhor Jesus, eu te amo mais",
+                    "Que o mundo e seu prazer,",
+                    "Pois deste-me perfeita paz,",
+                    "Que nunca irei perder.",
+                    "",
+                    "Metade nunca se contou,",
+                    "Do amor do Deus Jeová.",
+                    "Metade nunca se contou,",
+                    "Da paz que aos salvos dá."
+                ]
+            },
+            {
+                "lines": [
+                    "Senhor, de mim mais perto estás",
+                    "Que amigos meus aqui.",
+                    "Oh! Quanto a alma satisfaz",
+                    "O só pensar em Ti!"
+                ]
+            },
+            {
+                "lines": [
+                    "E de prazer meu coração",
+                    "Eu sinto transbordar;",
+                    "Sem Ti comigo, os dias são",
+                    "Quais noites sem luar."
+                ]
+            },
+            {
+                "lines": [
+                    "Ó meu Precioso Salvador,",
+                    "Que gozo é caminhar",
+                    "Aqui, Contigo, e sem temor",
+                    "Teu rosto contemplar!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 35,
+        "hinarioName": "ÁGUAS VIVAS (내영: 305)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Águas vivas que fluem frescamente nos pastos",
+                    "Na qual o Senhor Jesus está",
+                    "As ovelhas que se divertem junto com Deus",
+                    "Têm imensa paz",
+                    "",
+                    "Eu irei com Jesus",
+                    "Caminhando pelos pastos",
+                    "O Senhor Jesus sempre está",
+                    "Nos dando a paz."
+                ]
+            },
+            {
+                "lines": [
+                    "Águas vivas que fluem frescamente nos pastos",
+                    "No qual o Senhor Jesus está",
+                    "As ovelhas que se divertem junto com Deus",
+                    "Têm imensa paz."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 36,
+        "hinarioName": "ALÉM DO CÉU AZUL (내영: 393)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Além do céu azul,",
+                    "Foi Jesus preparar",
+                    "Um lar pra dar a quem",
+                    "A vitória alcançar,",
+                    "Anelo conseguir",
+                    "A vida no porvir,",
+                    "Com fé no meu Senhor Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "Bem sei que eu, de mim, nada tenho pra dar,",
+                    "Mas sei que meu Jesus",
+                    "Já me veio salvar.",
+                    "Agora quero eu",
+                    "Ter fé no coração,",
+                    "Até Seu rosto ver além."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 37,
+        "hinarioName": "NÃO EXISTE OUTRO AMIGO (내영: 111)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Jesus sofreu na cruz por todos nós",
+                    "Aquela grande dor que suportou",
+                    "Desse imenso amor ao me lembrar",
+                    "Somente há uma palavra a dizer",
+                    "",
+                    "Não existe outro amigo",
+                    "O qual me amou, outro amigo",
+                    "Nesse mundo não existe",
+                    "Um outro amigo que nos dê a vida."
+                ]
+            },
+            {
+                "lines": [
+                    "Todos os dias o meu Senhor",
+                    "Sempre me consola, ao meu redor.",
+                    "Quando a tristeza me faz sofrer",
+                    "O meu Senhor ouve as minhas orações."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 38,
+        "hinarioName": "O CALVÁRIO ME LIBERTOU (내영: 333)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Jesus libertou",
+                    "Pelo sangue na cruz",
+                    "Transbordante estou",
+                    "Pelo sangue na cruz",
+                    "Sangue do Senhor",
+                    "Do pecado libertou",
+                    "A esperança que tenho",
+                    "Em reencontrar",
+                    "Com o Salvador da cruz"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 39,
+        "hinarioName": "MARAVILHOSO É O NOME DE JESUS (내영: 77)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Maravilhoso é o nome de Jesus",
+                    "Maravilhoso é Cristo, o Senhor",
+                    "Rei poderoso é dono de tudo",
+                    "Maravilhoso é Cristo, o Senhor.",
+                    "Pastor divino, Rocha eterna",
+                    "Deus poderoso é",
+                    "Meu Salvador, meu Rei,",
+                    "E sempre assim será",
+                    "Pra todo o sempre, amém, amém, amém"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 40,
+        "hinarioName": "SEM CRISTO NÃO TENHO NADA (내영: 142)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Sem Cristo não tenho nada",
+                    "Sem Cristo não há salvação",
+                    "Sem Cristo vou pela vida",
+                    "Como um barco sem timão.",
+                    "",
+                    "Cristo, ó Cristo!",
+                    "Se ao ouvir Sua voz",
+                    "Vem aceitá-lo hoje.",
+                    "Ó Cristo, ó Cristo!",
+                    "Sem Ti, sem Ti,",
+                    "Nada sou."
+                ]
+            },
+            {
+                "lines": [
+                    "Sem Cristo minha alma está morta",
+                    "Sem Cristo escravo eu sou",
+                    "Sem Cristo não há esperança",
+                    "Mas com Ele eu salvo estou."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 41,
+        "hinarioName": "MEU BENDITO REDENTOR (내영: 245)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Para o calvário, meu Salvador,",
+                    "Numa manhã triste subiu;",
+                    "E morte amarga, cheia de horror,",
+                    "Sobre uma cruz, que por mim sofreu",
+                    "",
+                    "Oh! que divino!",
+                    "Oh! que precioso!",
+                    "Olho Seu corpo",
+                    "Sangrando por mim;",
+                    "E hoje canto alegre, feliz;",
+                    "Desde esse dia que nEle cri"
+                ]
+            },
+            {
+                "lines": [
+                    "“Pai me perdoa,",
+                    "Tem compaixão",
+                    "Eles não sabem o quão é mau.",
+                    "Eu dei por todos meu coração",
+                    "Para que tenham paz celestial”."
+                ]
+            },
+            {
+                "lines": [
+                    "Quanto Te amo, bondoso amigo",
+                    "Servir-Te eu quero e Te honrar",
+                    "A minha vida, darei a Ti",
+                    "Glória a Seu nome eu louvarei"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 42,
+        "hinarioName": "O BANQUETE DO SENHOR (내영: 184)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "O Senhor dá um banquete",
+                    "Com o alimento do céu",
+                    "E convida o Seu povo escolhido",
+                    "Nos mandando o maná",
+                    "Preenchendo o vazio",
+                    "Tudo que comemos com o Senhor é bom",
+                    "",
+                    "Venha logo para a festa do Senhor",
+                    "O Senhor sempre nos receberá",
+                    "Sustentou a multidão",
+                    "Preparou até o vinho",
+                    "O Senhor nos chama para a festa."
+                ]
+            },
+            {
+                "lines": [
+                    "Vem a hora do Cordeiro",
+                    "Para a noiva o seguir",
+                    "Reunindo todos anjos do Senhor",
+                    "E na perfeição do céu",
+                    "Todos iremos viver",
+                    "No banquete, o qual Deus ofereceu."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 43,
+        "hinarioName": "ELE É TUDO PARA MIM (내영: 266)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Lá no firmamento vejo a Deus",
+                    "Lá no vento Ele tem poder?",
+                    "O qual reina sobre terra e mar",
+                    "Ele é meu Senhor",
+                    "Acredito no Senhor Jesus",
+                    "Sua história verdadeira é",
+                    "O qual veio para libertar",
+                    "Ele é meu Jesus",
+                    "",
+                    "Até que por fé",
+                    "O conheci",
+                    "E Seu poder eu pude sentir",
+                    "Não sabia que era Deus do amor",
+                    "Que veio desde Lá para poder salvar-me",
+                    "Eu agora posso pertencer",
+                    "Me ajuda pelo Seu poder",
+                    "Pro caminho Dele me conduz",
+                    "É tudo para mim."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 44,
+        "hinarioName": "CRISTO, DÁ-NOS A TUA PAZ (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Oh! deixa Cristo, o grande Mestre,",
+                    "Envolver-te com amor;",
+                    "Abre o coração e escuta a Sua voz.",
+                    "Muitos problemas que te trazem",
+                    "A tristeza e a dor,",
+                    "Não terão lugar se Cristo em ti morar.",
+                    "",
+                    "Cristo, ó Cristo,",
+                    "Dá-nos tua paz!",
+                    "Cristo, ó Cristo,",
+                    "Dá-nos tua paz!"
+                ]
+            },
+            {
+                "lines": [
+                    "Oh! canta agora a melodia",
+                    "Que enternece o coração,",
+                    "Com louvor suave e doce ao Senhor",
+                    "Sim, toda lágrima e tristeza",
+                    "Hão de desaparecer;",
+                    "Hás de ter mais vida em Cristo,",
+                    "O Salvador."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 45,
+        "hinarioName": "POR JESUS DESPREZO O MUNDO (내영: 81)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Por Jesus desprezo o mundo,",
+                    "Pois o seu prazer é vão;",
+                    "Mas de Cristo, o amor profundo",
+                    "Nunca sofre alteração.",
+                    "",
+                    "Que amplidão, que profundeza",
+                    "Tem o amor de meu Jesus!",
+                    "Este amor nos dá certeza",
+                    "De habitar na eterna luz."
+                ]
+            },
+            {
+                "lines": [
+                    "Por Jesus desprezo o mundo,",
+                    "Cristo é o amparo meu;",
+                    "Mesmo quando em rude luta,",
+                    "Tenho paz ao lado Seu."
+                ]
+            },
+            {
+                "lines": [
+                    "Por Jesus desprezo o mundo,",
+                    "Pois por mim morreu na cruz;",
+                    "Muito em breve eu hei de vê-lo",
+                    "Face a face, em Sua luz."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 46,
+        "hinarioName": "FIXA TEUS OLHOS NO MESTRE (내영: 343)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Se amargas tristezas da vida",
+                    "Curvarem-te a fronte em dor,",
+                    "E vendo a esperança perdida,",
+                    "Caíres nas mãos do temor",
+                    "",
+                    "Fixa teus olhos no Mestre,",
+                    "Confia no bom Salvador;",
+                    "Fruirás, na luta terrestre,",
+                    "Maravilhas do Seu doce amor."
+                ]
+            },
+            {
+                "lines": [
+                    "Se as ondas cruéis do oceano",
+                    "Quiserem a nave tragar,",
+                    "E as vagas do mal tão insano",
+                    "Fizerem-te a fé vacilar,"
+                ]
+            },
+            {
+                "lines": [
+                    "Se aflito, sem fé, sem coragem,",
+                    "Vagando nas sendas do mal,",
+                    "Do mundo seguindo a miragem,",
+                    "Não ouves a voz divinal."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 47,
+        "hinarioName": "EU ACHEI (내영: 257)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Eu achei, sim, eu achei",
+                    "Uma fonte em que me satisfiz,",
+                    "Quando aceitei a Jesus, meu Rei;",
+                    "Foi meu dia mais feliz!",
+                    "Recebi, sim, eu recebi",
+                    "Plenitude de vida em Jesus,",
+                    "Que me trouxe a luz que provém da cruz;",
+                    "Seu amor então senti."
+                ]
+            },
+            {
+                "lines": [
+                    "A vida era triste, só dor e aflição,",
+                    "Mas hoje é diferente",
+                    "Com Jesus em meu coração.",
+                    "Seu perdão, Ele trouxe a mim,",
+                    "Esperança em Jesus eu ganhei,",
+                    "Desde que busquei, desde que encontrei,",
+                    "Esse amor que não tem fim."
+                ]
+            },
+            {
+                "lines": [
+                    "A vida era triste, só dor e aflição,",
+                    "Mas hoje é diferente",
+                    "Com Jesus em meu coração.",
+                    "Quero, sim, a Jesus amar,",
+                    "Pois Seu sangue por mim derramou;",
+                    "Ao Seu lado estou, para o céu eu vou;",
+                    "Quero a vida Lhe entregar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 48,
+        "hinarioName": "ELE É A VIDA DA MINHA ALMA (내영: 108)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Jesus é a minha vida",
+                    "Meu Cristo, Meu Cristo",
+                    "Ele é a minha vida",
+                    "Jesus é meu Salvador",
+                    "Cristo, Cristo, Cristo, Cristo",
+                    "Ele é a minha vida",
+                    "Jesus é meu Salvador"
+                ]
+            },
+            {
+                "lines": [
+                    "O Senhor, meu Salvador",
+                    "Meu Mestre, Meu Mestre",
+                    "Salvador da minha alma",
+                    "Ele é meu Salvador",
+                    "Cristo, Cristo, Cristo, Cristo",
+                    "Salvador da minha alma",
+                    "Ele é meu Salvador"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 49,
+        "hinarioName": "HÁ UM RIO CRISTALINO (내영: 391)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Junto ao rio cristalino,",
+                    "No país do bom Senhor,",
+                    "Reunidos estaremos",
+                    "Com os salvos, em louvor.",
+                    "",
+                    "Sim, às margens desse rio,",
+                    "Na mansão de glória e luz,",
+                    "Com os santos cantaremos",
+                    "Em louvor ao Rei Jesus!"
+                ]
+            },
+            {
+                "lines": [
+                    "Antes que daquele rio",
+                    "Nós possamos abeirar,",
+                    "A justiça e santidade",
+                    "Cristo vai nos outorgar."
+                ]
+            },
+            {
+                "lines": [
+                    "Nós veremos breve o rio,",
+                    "Finda a peregrinação,",
+                    "E louvores sempiternos",
+                    "Nossos lábios cantarão."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 50,
+        "hinarioName": "O AMOR DE CRISTO (내영: 152)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "O amor de Cristo é assustador",
+                    "O qual transborda no meu coração",
+                    "A minha boca dará louvores",
+                    "Ao amor de Cristo Jesus"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 51,
+        "hinarioName": "MINHA PAZ EU DAREI A VOCÊ (내영: 152)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Minha paz eu darei a você",
+                    "É uma paz que o mundo desconhece",
+                    "É uma paz que o mundo não pode entender",
+                    "Paz pra saber,",
+                    "Paz pra viver",
+                    "Minha paz eu darei a você"
+                ]
+            },
+            {
+                "lines": [
+                    "Minha fé eu darei a você",
+                    "É uma fé que o mundo desconhece",
+                    "É uma fé que o mundo não pode entender",
+                    "Fé pra saber,",
+                    "Fé pra viver",
+                    "Minha fé eu darei a você"
+                ]
+            },
+            {
+                "lines": [
+                    "Meu amor eu darei a você",
+                    "É um amor que o mundo desconhece",
+                    "É um amor que o mundo não pode entender",
+                    "Amor pra saber,",
+                    "Amor pra viver",
+                    "Meu amor eu darei a você"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 52,
+        "hinarioName": "O SENHOR PROVERÁ POR MIM (내영: 313)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "O meu Senhor proverá por mim",
+                    "O meu Senhor proverá por mim",
+                    "Cada dia viverei pelo meu Senhor Jesus",
+                    "O meu Senhor proverá por mim"
+                ]
+            },
+            {
+                "lines": [
+                    "Eu seguirei o caminho de Deus",
+                    "Eu seguirei o caminho de Deus",
+                    "Esse mundo deixarei, seguirei a Jesus",
+                    "Eu seguirei o caminho de Deus"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 53,
+        "hinarioName": "MINHA ORAÇÃO (내영: 296)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Orarei ao Senhor esta vez mais",
+                    "Ao Senhor que me deu a vida eterna",
+                    "Ele se tornou o amor, naquela sequidão",
+                    "Naquele frio lugar, Ele deu esperança",
+                    "Orarei ao Senhor esta vez mais",
+                    "",
+                    "Orarei ao Senhor em verdade",
+                    "Ao Senhor que me deu sincero amor",
+                    "Ele se tornou o amor, naquela sequidão",
+                    "Naquele frio lugar, Ele deu esperança",
+                    "Orarei ao Senhor em verdade"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 54,
+        "hinarioName": "RECEBI UM NOVO CORAÇÃO (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Recebi um novo coração do Pai",
+                    "Coração regenerado, coração transformado,",
+                    "Coração que é inspirado por Jesus!",
+                    "Como fruto deste novo coração",
+                    "Eu declaro a paz de Cristo",
+                    "Te abençoo, meu irmão,",
+                    "Preciosa é a nossa comunhão",
+                    "",
+                    "Somos corpo, e assim bem ajustado",
+                    "Totalmente ligado, unido, vivendo em amor.",
+                    "Uma família sem qualquer falsidade.",
+                    "Vivendo a verdade, expressando a glória do Senhor!",
+                    "Uma família, vivendo o compromisso",
+                    "Do grande amor de Cristo.",
+                    "Eu preciso de ti, querido irmão,",
+                    "Precioso és para mim, querido irmão!",
+                    "Eu preciso de ti, querido irmão,",
+                    "Precioso és para mim, querido irmão!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 55,
+        "hinarioName": "RENOVA-ME (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Renova-me, Senhor Jesus,",
+                    "Já não quero ser igual.",
+                    "Renova-me, Senhor Jesus,",
+                    "Põe em mim Teu coração.",
+                    "Porque tudo o que há dentro de mim",
+                    "Necessita ser mudado, Senhor",
+                    "Porque tudo o que há dentro do meu coração",
+                    "Necessita mais de Ti."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 56,
+        "hinarioName": "DENTRO DO SENHOR (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Dentro do Senhor nos tornamos num só coração",
+                    "Como o Senhor desejou com amor",
+                    "A grande glória de Deus que se tornou num cântico",
+                    "Que irá fazer esse mundo se iluminar",
+                    "Todos nós vamos louvar ao Senhor",
+                    "Nos tornando em um só coração em Deus",
+                    "Este lugar será agradável",
+                    "Maravilhoso será!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 57,
+        "hinarioName": "Ó PAI CELESTE (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ó Pai Celeste, nós Te amamos!",
+                    "Teu nome é exaltado aqui.",
+                    "Que Teu reino se estabeleça nos louvores.",
+                    "Enquanto o povo declara o Seu poder,",
+                    "Bendito seja Deus poderoso;",
+                    "Que foi, que É e que será,",
+                    "Bendito seja Deus poderoso,",
+                    "Que eternamente reinará."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 58,
+        "hinarioName": "CAIAM POR TERRA! (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Caiam por terra agora, os inimigos de Deus.",
+                    "Seja estabelecida a casa do Senhor.",
+                    "",
+                    "Caiam por terra agora, os inimigos de Deus.",
+                    "Seja estabelecida a casa do Senhor.",
+                    "",
+                    "O Senhor é o Deus que salva, que cura e santifica.",
+                    "Ele tem nos dado nova vida.",
+                    "Ele tem nos dado um novo cântico",
+                    "E um novo espírito.",
+                    "Com nossos lábios vamos proclamar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 59,
+        "hinarioName": "MARAVILHOSO ÉS",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Quão formoso És, Rei do Universo.",
+                    "Sua glória enche a terra e enche o céu.",
+                    "Sua glória enche a terra,",
+                    "Sua glória enche o céu,",
+                    "Sua glória enche a minha vida, Senhor.",
+                    "Maravilhoso é estar em Tua presença.",
+                    "Maravilhoso é poder Te adorar.",
+                    "Maravilhoso é tocar em Tuas vestes.",
+                    "Maravilhoso é Te contemplar, Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 60,
+        "hinarioName": "A ALEGRIA ESTÁ NO CORAÇÃO (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "A alegria está no coração",
+                    "De quem já conhece a Jesus.",
+                    "A verdadeira paz só tem aquele",
+                    "Que já conhece a Jesus.",
+                    "O sentimento mais precioso,",
+                    "Que vem do nosso Senhor,",
+                    "É o amor que só tem",
+                    "Quem já conhece a Jesus.",
+                    "Aleluia, aleluia, aleluia, aleluia!",
+                    "",
+                    "O sentimento mais precioso,",
+                    "Que vem do nosso Senhor,",
+                    "É o amor que só tem",
+                    "Quem já conhece a Jesus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 61,
+        "hinarioName": "A GRAÇA (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "A graça do reino de Deus",
+                    "É pra mim e pra você.",
+                    "Minha vida foi gerada em Deus",
+                    "Pra abençoar você.",
+                    "E Jesus nos edificará,",
+                    "Nossas vidas frutificarão.",
+                    "Sou um vaso pra te amar e abençoar."
+                ]
+            },
+            {
+                "lines": [
+                    "A glória do reino de Deus",
+                    "É pra mim e pra você.",
+                    "Minha vida foi gerada em Deus",
+                    "Pra abençoar você.",
+                    "E Jesus nos edificará,",
+                    "Nossas vidas frutificarão.",
+                    "Sou um vaso pra te amar e abençoar."
+                ]
+            },
+            {
+                "lines": [
+                    "O amor do reino de Deus",
+                    "É pra mim e pra você.",
+                    "Minha vida foi gerada em Deus",
+                    "Pra abençoar você.",
+                    "E Jesus nos edificará,",
+                    "Nossas vidas frutificarão.",
+                    "Sou um vaso pra te amar e abençoar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 62,
+        "hinarioName": "JESUS, TU ÉS MEU BOM PASTOR (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Perto de Ti eu quero estar,",
+                    "Para escutar Tua voz e aprender de Ti.",
+                    "Quero ser um reflexo do Teu amor.",
+                    "Quero viver conforme o Teu querer.",
+                    "Jesus, Tu És meu bom Pastor,",
+                    "Tu conheces meu caminho.",
+                    "Jesus posso confiar em Ti;",
+                    "Ó meu Deus, me rendo a Ti."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 63,
+        "hinarioName": "EIS-ME AQUI, SENHOR (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Eis-me aqui, Senhor, livre pra Te adorar.",
+                    "Eis-me aqui Senhor, pronto pra Te servir.",
+                    "Pois Tu És a minha rocha, a minha fortaleza.",
+                    "Só Tu és o meu Deus forte, sempre te seguirei."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 64,
+        "hinarioName": "CONSAGRAÇÃO (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ao Rei dos reis consagro, tudo o que sou.",
+                    "De gratos louvores transborda o meu coração.",
+                    "A minha vida eu entrego nas Tuas mãos,",
+                    "Meu Senhor, pra Te exaltar com todo meu amor.",
+                    "Eu Te louvarei conforme a Tua justiça",
+                    "E cantarei louvores, pois Tu és altíssimo.",
+                    "Celebrarei a Ti, ó Deus, com meu viver.",
+                    "Cantarei e contarei as Tuas obras.",
+                    "Pois com Tuas mãos foram criadas",
+                    "Terra, céu e mar e todo ser que nele há",
+                    "Toda terra celebra a Ti com cânticos e júbilo,",
+                    "Pois Tu és o Deus criador.",
+                    "Toda terra celebra a Ti com cânticos e júbilo,",
+                    "Pois Tu és o Deus criador.",
+                    "",
+                    "A honra, a glória, a força;",
+                    "E o poder e ao Rei Jesus,",
+                    "E o louvor ao Rei Jesus.",
+                    "Senhor.",
+                    "A honra, a glória, a força;",
+                    "E o poder e ao Rei Jesus,",
+                    "E o louvor ao Rei Jesus.",
+                    "Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 65,
+        "hinarioName": "GRANDE É O SENHOR (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Grande é o Senhor, mui digno de louvor.",
+                    "Na cidade do nosso Deus, seu Santo Monte.",
+                    "A alegria de toda terra.",
+                    "Grande é o Senhor em quem nós temos a vitória,",
+                    "Que nos ajuda contra o inimigo.",
+                    "Por isso, diante dEle, nos prostramos.",
+                    "Queremos o Teu nome engrandecer",
+                    "E agradecer a Ti",
+                    "Por Tua obra em nossas vidas.",
+                    "Confiamos em Teu infinito amor,",
+                    "Pois só Tu És o Deus Eterno",
+                    "Sobre toda terra e céu."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 66,
+        "hinarioName": "MEU PRAZER (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Em espírito, em verdade,",
+                    "Te adoramos, Te adoramos.",
+                    "Em espírito, em verdade,",
+                    "Te adoramos, Te adoramos.",
+                    "",
+                    "Rei dos reis e Senhor,",
+                    "Te entregamos o nosso viver.",
+                    "Rei dos reis e Senhor,",
+                    "Te entregamos o nosso viver.",
+                    "",
+                    "Pra Te adorar, ó Rei dos reis,",
+                    "Foi que eu nasci, ó Rei Jesus.",
+                    "Meu prazer é Te louvar,",
+                    "meu prazer é estar",
+                    "Nos átrios do Senhor.",
+                    "Meu prazer é viver",
+                    "Na Casa de Deus,",
+                    "Onde flui o amor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 67,
+        "hinarioName": "NÃO HÁ DEUS MAIOR (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Não há Deus maior,",
+                    "Não há Deus melhor,",
+                    "Não há Deus tão grande",
+                    "Como nosso Deus.",
+                    "",
+                    "Criou os céus e criou a terra,",
+                    "Criou o sol e as estrelas.",
+                    "Tudo Ele fez, tudo criou,",
+                    "Tudo formou",
+                    "Para o Seu louvor,",
+                    "Para o Seu louvor.",
+                    "Para o Seu, para o Seu,",
+                    "Para o Seu louvor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 68,
+        "hinarioName": "ROMANOS 8:35-39 (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Quem nos separará do amor de Cristo,",
+                    "Quem não se alegrará",
+                    "Com amor do nosso Deus.",
+                    "Nem tribulação, angústia,",
+                    "Perigo, fome ou nudez",
+                    "Poderá separar-nos do amor de Deus.",
+                    "",
+                    "Em Cristo somos mais que vencedores",
+                    "Em Cristo somos mais que ganhadores",
+                    "Nem a vida, nem a morte,",
+                    "Poderá separar-nos",
+                    "Do amor de Deus, em Cristo Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "Quem nos separará do amor de Cristo,",
+                    "Quem não se alegrará",
+                    "Com amor do nosso Deus.",
+                    "Nem altura, nem profundidade,",
+                    "Nem qualquer outra criatura",
+                    "Poderá separar-nos do amor de Deus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 69,
+        "hinarioName": "CANTA AO SENHOR (CORINHO)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Meu Cristo, Meu Mestre,",
+                    "Nada é como Tu.",
+                    "Todos os dias quero adorar",
+                    "As maravilhas do Teu amor.",
+                    "",
+                    "Conforto, refúgio, torre de força e poder.",
+                    "Todo o meu ser, tudo o que sou",
+                    "Nunca cesse de adorar.",
+                    "",
+                    "Canta ao Senhor toda a criação.",
+                    "Honra e poder, majestade ao Rei.",
+                    "Montes cairão e o mar rugirá",
+                    "Ao soar o Teu nome.",
+                    "",
+                    "Canto com gozo ao olhar Teu poder.",
+                    "Pra sempre eu Te amarei e direi,",
+                    "Incomparáveis promessas eu tenho em Ti."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 70,
+        "hinarioName": "QUÃO GLORIOSA SERÁ A MANHÃ (ESP. 492)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Quão gloriosa será a manhã,",
+                    "Quando chegar Jesus, o Salvador.",
+                    "As nações unidas como irmãs,",
+                    "Boas vindas daremos ao Senhor.",
+                    "",
+                    "Não terá necessidade da luz resplandecer,",
+                    "Nem o sol dará sua luz,",
+                    "Nem tampouco seu calor.",
+                    "Lá não existirá nem tristeza, nem dor.",
+                    "Porque então, Jesus, o Rei do Céu,",
+                    "Para sempre será consolador."
+                ]
+            },
+            {
+                "lines": [
+                    "Esperamos a manhã gloriosa,",
+                    "Para dar as boas-vindas ao Deus do amor.",
+                    "Onde tudo será cor de rosa,",
+                    "Na santa fragrância do Senhor."
+                ]
+            },
+            {
+                "lines": [
+                    "O cristão fiel e verdadeiro,",
+                    "E também o servo de valor;",
+                    "E a igreja, esposa do Cordeiro,",
+                    "Estarão nos braços do Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 71,
+        "hinarioName": "DEUS ESTÁ AQUI (ESP.)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Deus está aqui, (aleluia!)",
+                    "Tão certo como o ar que eu respiro,",
+                    "Tão certo como a manhã",
+                    "Em que nascerá o Sol,",
+                    "Tão certo como Deus me chama",
+                    "E eu posso ouvir."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 72,
+        "hinarioName": "O CAMINHO PARA O CÉU",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "O caminho para entrar no Céu?",
+                    "Somente Jesus!",
+                    "Para ir à casa de ouro, também,",
+                    "Somente Jesus!",
+                    "Outro caminho, outro caminho",
+                    "",
+                    "Não há outro caminho. Aleluia, amém!",
+                    "O caminho para entrar no Céu?",
+                    "Somente Jesus!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 73,
+        "hinarioName": "DENTRO DO NINHO",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Dentro do ninho não podemos aprender a voar",
+                    "A águia mãe guia seus filhotinhos.",
+                    "Dentro do pensamento não podemos aprender a fé",
+                    "Pela Palavra, Ele sempre nos guiará.",
+                    "Abrindo as asas da fé, voaremos para o Reino",
+                    "O Senhor quer nos tornar em um príncipe."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 74,
+        "hinarioName": "ME CHAMOU",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Me chamou, Jesus Cristo: “Venha após mim",
+                    "Desde agora os farei pescadores de homens!”",
+                    "Sim! Amém! Eu O seguirei!",
+                    "Lá, lá, lá, lá;",
+                    "Lá, lá, lá, lá; Lá, lá, lá."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 75,
+        "hinarioName": "CINCO VIRGENS PRUDENTES",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Cinco virgens prudentes, cinco virgens insensatas.",
+                    "Todas tomaram as lâmpadas e esperaram o noivo.",
+                    "Cinco virgens prudentes haviam preparado",
+                    "O azeite nas suas lâmpadas;",
+                    "Cinco virgens insensatas",
+                    "Sem azeite nas suas lâmpadas."
+                ]
+            },
+            {
+                "lines": [
+                    "Olha aqui o noivo, venha para o seu encontro!",
+                    "As cinco virgens prudentes acenderam a luz.",
+                    "Se apagaram as luzes das insensatas.",
+                    "Está fechada a porta, elas sobraram.",
+                    "Tem azeite para receber o Senhor Jesus?"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 76,
+        "hinarioName": "O GRANDE AMOR",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Que maravilhoso, o amor de Jesus",
+                    "Que surpresa, o amor de Jesus",
+                    "Que maravilhoso, o amor de Jesus",
+                    "Oh! Grande amor!",
+                    "",
+                    "Mais alto do que o Céu",
+                    "Mais profundo do que o mar",
+                    "Maior do que o universo",
+                    "Oh! Oh! Oh! Grande amor!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 77,
+        "hinarioName": "TOC-TOC-TOC",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Toc-toc-toc, abre a porta,",
+                    "Alguém me chama",
+                    "À porta do meu coração alguém me chama.",
+                    "Ouça a voz de Jesus Cristo",
+                    "Que te chama em silêncio.",
+                    "Alguém me chama",
+                    "Na porta do meu coração."
+                ]
+            },
+            {
+                "lines": [
+                    "Toc-toc-toc, abre a porta",
+                    "Á voz de Jesus.",
+                    "Jesus Cristo bate à porta do meu coração.",
+                    "Ouça a voz de Jesus Cristo",
+                    "Que te chama em silêncio.",
+                    "Entre, entre no meu coração",
+                    "Jesus Salvador."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 78,
+        "hinarioName": "COM A FORÇA",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Com a força não sei vai ao reino de Deus.",
+                    "Com a astúcia não se vai ao reino de Deus.",
+                    "",
+                    "Ao nascer de novo,",
+                    "Sim, se vai ao reino de Deus!",
+                    "Pela fé sim se vai ao reino de Deus!"
+                ]
+            },
+            {
+                "lines": [
+                    "Com o dinheiro não se vai ao reino de Deus.",
+                    "Com o poder não se vai ao reino de Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Com beleza não se vai ao reino de Deus.",
+                    "Com bom coração não se vai ao reino de Deus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 79,
+        "hinarioName": "VAI-TE VAI-TE",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Vai-te, vai-te pelo mundo,",
+                    "Vai-te, vai-te com palavras,",
+                    "Vai-te, vai-te a toda Terra,",
+                    "Vai-te, vai-te, é a ordem de Jesus.",
+                    "",
+                    "Todos juntos, juntos iremos,",
+                    "Para todas crianças da Terra",
+                    "O amor de Jesus Cristo pregaremos.",
+                    "Todos juntos, juntos iremos,",
+                    "Para todas crianças da Terra",
+                    "O amor de Jesus Cristo pregaremos."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 80,
+        "hinarioName": "DISCÍPULO DE JESUS",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Eu sou pequenino, sou discípulo",
+                    "Sou especial para meu Deus,",
+                    "O qual me ama.",
+                    "Ao que fala mal de mim,",
+                    "Meu caminho é diferente.",
+                    "Eu sou, de Jesus maravilhoso,",
+                    "Seu discípulo."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 81,
+        "hinarioName": "LESTE-OESTE",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Leste, oeste, norte, sul",
+                    "Se Deus me mandar ir",
+                    "Eu, eu, eu irei",
+                    "Pregando o Evangelho!",
+                    "",
+                    "Eu irei, eu irei",
+                    "Para os pecadores!",
+                    "Eu irei, eu irei",
+                    "Levando o Evangelho!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 82,
+        "hinarioName": "NO PRIMEIRO DIA",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "No primeiro dia, Deus fez a luz nas trevas.",
+                    "No segundo dia, Deus fez o alto céu azul.",
+                    "No terceiro dia, Deus fez as frutas gostosas.",
+                    "No quarto dia, Deus fez sol, lua e estrelas.",
+                    "No quinto dia, Deus fez os peixes e as aves.",
+                    "No sexto dia, Deus fez o homem.",
+                    "Vendo todas essas coisas, Deus ficou feliz: HÁ, HÁ, HÁ!",
+                    "No sétimo dia, Deus descansou em paz."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 83,
+        "hinarioName": "CINCO PÃES E DOIS PEIXINHOS",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Cinco pães de cevada e dois peixinhos",
+                    "É a comida de um menino.",
+                    "Mesmo pouca comida, ofertou a Jesus",
+                    "Ofertou a Jesus.",
+                    "Bendisse Jesus,",
+                    "Cinco pães e dois peixinhos",
+                    "E repartiu para cinco mil.",
+                    "E se fartaram, e sobrou, sobrou",
+                    "Doze cestos cheios."
+                ]
+            },
+            {
+                "lines": [
+                    "Eu sou menino, me falta sabedoria",
+                    "Eu não tenho nada! Não sou nada",
+                    "Mas ofertarei a Jesus,",
+                    "Ofertarei a Jesus.",
+                    "Eu sou pão de cevada,",
+                    "Se Jesus me bendisser",
+                    "Eu serei um servo do Senhor",
+                    "O que prega o Evangelho",
+                    "A muitas almas."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 84,
+        "hinarioName": "NOME PRECIOSO (찬: 91)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Leva tu contigo o nome",
+                    "De Jesus, o Salvador;",
+                    "Este nome dá consolo,",
+                    "Seja no lugar que for.",
+                    "",
+                    "Nome bom, doce a fé,",
+                    "A esperança do porvir.",
+                    "Nome bom, doce a fé,",
+                    "A esperança do porvir."
+                ]
+            },
+            {
+                "lines": [
+                    "Este nome leva sempre,",
+                    "Para bem te defender;",
+                    "Ele é arma ao teu alcance,",
+                    "Quando o mal te aparecer."
+                ]
+            },
+            {
+                "lines": [
+                    "Oh! que nome tão precioso!",
+                    "Gozo traz ao coração;",
+                    "Sendo por Jesus aceito,",
+                    "Tu terás o Seu perdão."
+                ]
+            },
+            {
+                "lines": [
+                    "Nome Santo e venerável",
+                    "Cristo, príncipe da paz!",
+                    "Rei dos reis, Senhor eterno!",
+                    "Lá no Céu o aclamarás!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 85,
+        "hinarioName": "DITOSO DIA (찬: 209)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ditoso o dia em que aceitei",
+                    "Do meu Senhor a salvação;",
+                    "A grande paz que eu alcancei",
+                    "Perdura no meu coração.",
+                    "",
+                    "Que prazer eu senti",
+                    "No dia em que me converti!",
+                    "Agora sinto o Seu amor,",
+                    "E segurança, paz, fervor.",
+                    "Sou feliz! Tão feliz!",
+                    "Pois em Jesus me satisfiz!"
+                ]
+            },
+            {
+                "lines": [
+                    "Aquilo que eu então votei",
+                    "Minha alma, sim, o cumprirá.",
+                    "Em cada dia renderei",
+                    "Louvor a Deus, que me ouvirá."
+                ]
+            },
+            {
+                "lines": [
+                    "Exulta, pois, meu coração,",
+                    "No Filho do supremo Deus;",
+                    "Porque te deu a redenção",
+                    "E trouxe-te perdão dos céus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 86,
+        "hinarioName": "REI EXCELSO (찬: 115)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Cantai, que o Salvador chegou!",
+                    "Acolha a terra o Rei!",
+                    "Leais nações, a Ele só.",
+                    "Contentes vos rendei,",
+                    "Contentes vos rendei,",
+                    "Oh! sim, contentes vos rendei!"
+                ]
+            },
+            {
+                "lines": [
+                    "Ao mundo o gozo proclamai",
+                    "Do reino de Jesus!",
+                    "Ó terra e mar e céus, cantai",
+                    "A resplendente luz,",
+                    "A resplendente luz,",
+                    "A grande e resplendente luz!"
+                ]
+            },
+            {
+                "lines": [
+                    "Pecados, dores, morte já,",
+                    "Vencidos Dele são;",
+                    "A paz Jesus concederá",
+                    "Em régia profusão,",
+                    "Em régia profusão,",
+                    "Oh! sim, em régia profusão!"
+                ]
+            },
+            {
+                "lines": [
+                    "Verdade e amor são sua lei;",
+                    "Os povos acharão",
+                    "Que é justo e bom o excelso Rei,",
+                    "E lhe obedecerão,",
+                    "E lhe obedecerão,",
+                    "Sim, todos lhe obedecerão."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 87,
+        "hinarioName": "MAIS PERTO (찬: 364)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Mais perto quero estar, meu Deus, de Ti,",
+                    "Inda que seja a dor que me una a Ti!",
+                    "",
+                    "Sempre hei de suplicar:",
+                    "Mais perto quero estar,",
+                    "Mais perto quero estar,",
+                    "Meu Deus, de Ti!"
+                ]
+            },
+            {
+                "lines": [
+                    "Andando triste aqui, na solidão,",
+                    "Paz e descanso a mim Teus braços dão.",
+                    "Sempre hei de suplicar:"
+                ]
+            },
+            {
+                "lines": [
+                    "Minha alma cantará a Ti, Senhor,",
+                    "Cheia de gratidão por Teu amor.",
+                    "Sempre hei de suplicar:"
+                ]
+            },
+            {
+                "lines": [
+                    "E quando a morte, enfim, me vier chamar,",
+                    "Com serafins nos céus irei morar.",
+                    "Então me alegrarei,",
+                    "Perto de Ti, meu Rei,",
+                    "Meu Deus, de Ti!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 88,
+        "hinarioName": "DÁ TEU CORAÇÃO A JESUS (찬: 327)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Queres o teu vil pecado vencer?",
+                    "Dá teu coração a Jesus.",
+                    "Queres também Seu favor receber?",
+                    "Dá teu coração a Jesus.",
+                    "",
+                    "Vem logo, sem hesitar",
+                    "Vem a Jesus te entregar!",
+                    "Oh, busca em Cristo o perdão,",
+                    "E dá-Lhe teu coração."
+                ]
+            },
+            {
+                "lines": [
+                    "Em santidade desejas viver?",
+                    "Dá teu coração a Jesus.",
+                    "Queres do Espírito Santo o poder?",
+                    "Dá teu coração a Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "A tempestade não quer acalmar?",
+                    "Dá teu coração a Jesus.",
+                    "Queres as tuas paixões dominar?",
+                    "Dá teu coração a Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "Dentre os amigos alguém te traiu?",
+                    "Dá teu coração a Jesus.",
+                    "Busca a amizade de quem te remiu;",
+                    "Dá teu coração a Jesus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 89,
+        "hinarioName": "CASTELO FORTE (찬: 384)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Castelo forte é nosso Deus,",
+                    "Espada e bom escudo;",
+                    "Com Seu poder defende os Seus",
+                    "Em todo transe agudo.",
+                    "Com fúria pertinaz",
+                    "Persegue Satanás,",
+                    "Com artimanhas tais,",
+                    "E astúcias tão cruéis,",
+                    "Que iguais não há na terra."
+                ]
+            },
+            {
+                "lines": [
+                    "A nossa força nada faz;",
+                    "Estamos, sim, perdidos;",
+                    "Mas nosso Deus socorro traz",
+                    "E somos protegidos,",
+                    "Defende-nos Jesus,",
+                    "O que venceu na cruz,",
+                    "Senhor dos altos céus;",
+                    "E, sendo o próprio Deus,",
+                    "Triunfa na batalha."
+                ]
+            },
+            {
+                "lines": [
+                    "Se nos quisessem devorar",
+                    "Demônios não contados,",
+                    "Não nos podiam assustar,",
+                    "Nem somos derrotados.",
+                    "O grande acusador",
+                    "Dos servos do Senhor",
+                    "Já condenado está;",
+                    "Vencido cairá",
+                    "Por uma só palavra."
+                ]
+            },
+            {
+                "lines": [
+                    "Sim, que a palavra ficará,",
+                    "Sabemos com certeza,",
+                    "E nada nos assustará",
+                    "Com Cristo por defesa.",
+                    "Se temos de perder",
+                    "Os filhos, bens, mulher,",
+                    "Embora a vida vá,",
+                    "Por nós Jesus está,",
+                    "E dar-nos-á Seu reino."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 90,
+        "hinarioName": "JESUS COMO GUIA (찬: 434)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Meu Jesus me guia sempre",
+                    "Que mais posso desejar?",
+                    "Duvidar do meu Amado?",
+                    "Do meu Deus desconfiar?",
+                    "Paz perfeita, gozo infindo",
+                    "Tenho, e Sua proteção;",
+                    "Pois eu sei que por mim vela",
+                    "Seu bondoso coração.",
+                    "Pois eu sei que por mim vela",
+                    "Seu bondoso coração."
+                ]
+            },
+            {
+                "lines": [
+                    "Meu Jesus me guia sempre,",
+                    "Ensinando-me a viver,",
+                    "Concedendo graça e força",
+                    "Para me desenvolver.",
+                    "Perecer jamais eu posso,",
+                    "Pois quem pode resistir",
+                    "Ao Deus forte, Pai eterno,",
+                    "Que minha alma quis remir?",
+                    "Ao Deus forte, Pai eterno,",
+                    "Que minha alma quis remir?"
+                ]
+            },
+            {
+                "lines": [
+                    "Meu Jesus me guia sempre,",
+                    "Pelo Seu tão terno amor!",
+                    "Vida santa, glória eterna",
+                    "Me garante o Salvador.",
+                    "Oh, mui breve vem o dia,",
+                    "O da grande redenção,",
+                    "Quando salva, transformada,",
+                    "Há de ser a criação!",
+                    "Quando salva, transformada,",
+                    "Há de ser a criação!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 91,
+        "hinarioName": "FIRME NAS MÃOS DE CRISTO (찬: 476)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Firme nas mãos de Cristo, firme no Salvador,",
+                    "Minh’alma já descansa, abrigada em Seu amor;",
+                    "Sinto a voz divina de Cristo, o Rei da glória;",
+                    "Em todas as batalhas, alcançarei vitória.",
+                    "",
+                    "Firme nas mãos de Cristo, em paz minh’alma está;",
+                    "Sobre o inimigo, pela fé triunfará,",
+                    "Forte serei na luta, na dor e na tormenta,",
+                    "Prossigo avante, em glória, pois Cristo me sustenta."
+                ]
+            },
+            {
+                "lines": [
+                    "Firme nas mãos de Cristo, que padeceu por mim,",
+                    "Sigo, por fé, Seus passos, glória eu terei ao fim;",
+                    "Espero com paciência, pois não é tempo ainda;",
+                    "Breve verei, nas nuvens, Cristo, em Sua vinda."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 92,
+        "hinarioName": "A MINHA ALMA DESEJA VER-TE (내영: 336)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "A minha alma quer contemplar-Te,",
+                    "Ó meu fiel e amado Jesus;",
+                    "Quero servir-Te, quero seguir-Te,",
+                    "E caminhar Contigo na luz.",
+                    "",
+                    "A minha alma deseja ver-Te,",
+                    "Sinto por Ti imenso amor",
+                    "Eu Te adoro, eu Te imploro:",
+                    "Faz-me viver Contigo, Senhor."
+                ]
+            },
+            {
+                "lines": [
+                    "És Torre forte à minha alma,",
+                    "Alto Refúgio em tempos de dor;",
+                    "Tu me alegras, Tu me preservas",
+                    "De todo o mal,",
+                    "Ó meu Redentor."
+                ]
+            },
+            {
+                "lines": [
+                    "Vivo aguardando a Tua volta,",
+                    "Para subir Contigo, ó Deus;",
+                    "A todo instante vivo anelante",
+                    "Em contemplar a glória dos Céus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 93,
+        "hinarioName": "MORTE DO CRENTE (찬: 214)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Para o crente, o morrer é cessar.",
+                    "Do trabalho cessar de gemer;",
+                    "É com Cristo Jesus repousar,",
+                    "Sim, é principiar a viver.",
+                    "",
+                    "Pra gozar com Jesus,",
+                    "À morada de Deus eu irei;",
+                    "Vou viver com Jesus,",
+                    "E a coroa de vida terei."
+                ]
+            },
+            {
+                "lines": [
+                    "O morrer é do mundo voar;",
+                    "O morrer é pra Cristo subir;",
+                    "O morrer é com Cristo habitar;",
+                    "O morrer é pra glória partir."
+                ]
+            },
+            {
+                "lines": [
+                    "É sentir uma dita sem par;",
+                    "É ter parte na bênção dos céus;",
+                    "É prazeres celestes gozar;",
+                    "É chegar à morada de Deus."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 94,
+        "hinarioName": "CONFIANÇA (찬: 389)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Salvador bendito, terno e bom Senhor",
+                    "Só em Ti confio, grande Salvador!",
+                    "Sobre a cruz morreste para me salvar;",
+                    "Tudo padeceste para me livrar.",
+                    "",
+                    "Ó Jesus bendito, terno e bom Senhor,",
+                    "Só em Ti confio, grande Salvador!"
+                ]
+            },
+            {
+                "lines": [
+                    "Só em Ti confio, grande é Teu amor;",
+                    "Nunca desprezaste nenhum pecador;",
+                    "Todo o que contrito já Te procurou",
+                    "Pela Tua graça salvação achou."
+                ]
+            },
+            {
+                "lines": [
+                    "Sim, em Ti confio, Salvador fiel,",
+                    "Nunca abandonaste, pois, Teu Israel;",
+                    "Tua excelsa graça nunca faltará,",
+                    "O que em Ti confia não perecerá."
+                ]
+            },
+            {
+                "lines": [
+                    "Sempre em Ti confio, grande é Teu poder,",
+                    "Tu os inimigos podes bem vencer;",
+                    "Salvo e bem seguro leva-me, Senhor,",
+                    "Sempre protegido pelo Teu amor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 95,
+        "hinarioName": "VAI BUSCAR (내영: 173)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ouço o clamor do bom Pastor",
+                    "Pelo deserto abrasador,",
+                    "Seus cordeirinhos a chamar,",
+                    "Mui desejoso de os salvar.",
+                    "",
+                    "Vai buscar! Vai buscar!",
+                    "Meus cordeirinhos, vai buscar!",
+                    "Vai buscar! Vai buscar!",
+                    "Para que os possa abençoar."
+                ]
+            },
+            {
+                "lines": [
+                    "Quem não deseja auxiliar",
+                    "Seus cordeirinhos a guardar",
+                    "E encaminhá-los a Jesus.",
+                    "Fonte de vida, amor e luz?"
+                ]
+            },
+            {
+                "lines": [
+                    "Pelo deserto a padecer,",
+                    "Pelas estradas a morrer.",
+                    "Seus cordeirinhos vai buscar,",
+                    "Para que os possa abençoar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 96,
+        "hinarioName": "NADA FALTA (찬: 186)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "De Jesus a doce voz",
+                    "Ouvi eu, pecador;",
+                    "Aceitei, de coração,",
+                    "Jesus, meu Salvador.",
+                    "",
+                    "Meu pecado, sim,",
+                    "Expiou na cruz",
+                    "E por graças sem igual",
+                    "Salvou-me meu Jesus."
+                ]
+            },
+            {
+                "lines": [
+                    "Retidão em mim não há;",
+                    "Por graça salvo sou.",
+                    "Devo tudo a meu Senhor,",
+                    "Pois já me resgatou."
+                ]
+            },
+            {
+                "lines": [
+                    "Por Jesus eu tenho paz,",
+                    "E gozo o Seu favor;",
+                    "Nada aqui me faltará,",
+                    "Com Cristo, meu Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 97,
+        "hinarioName": "SUBLIME AMOR (찬: 404)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Sublime amor, o amor de Deus,",
+                    "Que lira não traduzirá!",
+                    "Maior que o mar, maior que o céu,",
+                    "Jamais alguém compreenderá!",
+                    "Ao pecador em aflição,",
+                    "Seu Filho, Deus entregou;",
+                    "Ao sofredor deu Ele a mão,",
+                    "E as culpas lhe perdoou.",
+                    "",
+                    "Sublime amor, o amor de Deus!",
+                    "Oh! Maravilha sem-par!",
+                    "Pôr esse amor, eternamente,",
+                    "A Deus iremos louvar."
+                ]
+            },
+            {
+                "lines": [
+                    "Se em tinta o mar se transformasse,",
+                    "E em papel o céu também,",
+                    "E a pena ágil deslizasse,",
+                    "Dizendo o que esse amor contém,",
+                    "Daria fim ao grande mar,",
+                    "Ao esse amor descrever,",
+                    "E o céu seria mui pequeno",
+                    "Pra tal relato conter."
+                ]
+            },
+            {
+                "lines": [
+                    "Excelso amor; o amor de Deus,",
+                    "Que nos remiu da perdição!",
+                    "Em gratidão proclamaremos",
+                    "Tão grande amor e salvação.",
+                    "E quando enfim no lar dos Céus,",
+                    "Em gozo e glória eternal,",
+                    "Pra sempre ali desfrutaremos",
+                    "Do grande amor divinal."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 98,
+        "hinarioName": "O PODER DO SANGUE (찬: 202)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Do teu pecado te queres livrar?",
+                    "Seu sangue tem poder, sim tem poder.",
+                    "Almejas tu do maligno escapar?",
+                    "Seu sangue tem este poder.",
+                    "",
+                    "Há poder, sim, força sem igual,",
+                    "Só no sangue de Jesus;",
+                    "Há poder, sim, prova-o, pecador,",
+                    "Oh, aceita o dom de Jesus!"
+                ]
+            },
+            {
+                "lines": [
+                    "Queres com tua vaidade acabar?",
+                    "Seu sangue tem poder, sim, tem poder.",
+                    "Vícios, paixões, queres tu dominar?",
+                    "Seu sangue tem este poder."
+                ]
+            },
+            {
+                "lines": [
+                    "Teu coração queres purificar?",
+                    "Seu sangue tem poder, sim, tem poder.",
+                    "Todas as manchas te pode tirar;",
+                    "Seu sangue tem este poder"
+                ]
+            },
+            {
+                "lines": [
+                    "Queres entrar no serviço real?",
+                    "Seu sangue tem poder, sim, tem poder.",
+                    "Queres também ser um servo leal?",
+                    "Terás no seu sangue o poder."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 99,
+        "hinarioName": "BENDITA LUZ (찬: 488)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Que bendita, que gloriosa luz!",
+                    "É mais bela que a do dia!",
+                    "Ilumina as almas a seguir",
+                    "Cristo, o Mestre, o eterno Guia.",
+                    "",
+                    "Luz bendita, luz gloriosa,",
+                    "Concedida lá dos altos céus",
+                    "Só ao crente em Cristo, o Redentor.",
+                    "Ó bendita luz de Deus!"
+                ]
+            },
+            {
+                "lines": [
+                    "Sempre canta, alegre, Seu louvor,",
+                    "Quem possui a luz dos céus;",
+                    "Goza afável e celeste paz,",
+                    "Dom gracioso só de Deus."
+                ]
+            },
+            {
+                "lines": [
+                    "Vida nova em santa retidão",
+                    "Têm os crentes em Jesus;",
+                    "Quem de perto ao Salvador seguir",
+                    "Dele alcança graça e luz."
+                ]
+            },
+            {
+                "lines": [
+                    "Esperança, vida e salvação",
+                    "Hás de ter, ó pecador,",
+                    "Aceitando Cristo, nossa luz,",
+                    "Este dom do Deus de amor!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 100,
+        "hinarioName": "CRISTO SALVA (찬: 328)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Cristo salva o pecador,",
+                    "Lava o negro coração;",
+                    "Ao contrito, com amor,",
+                    "Oferece salvação.",
+                    "",
+                    "Confiai em Seu poder;",
+                    "Confiai em Seu amor;",
+                    "Crede, pois, que Cristo quer",
+                    "Libertar o pecador."
+                ]
+            },
+            {
+                "lines": [
+                    "Cristo salva o pecador",
+                    "E concede-lhe perdão.",
+                    "Aceitai o bom Senhor,",
+                    "Aceitai de coração."
+                ]
+            },
+            {
+                "lines": [
+                    "Vinde todos, e achareis",
+                    "Paz e luz no Redentor;",
+                    "Vinde, e então recebereis",
+                    "Vida eterna do Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 101,
+        "hinarioName": "TEUS PECADOS (찬: 187)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Pecador, teus pecados",
+                    "Brancos, brancos se farão;",
+                    "Pecador, teus pecados",
+                    "Brancos, brancos se farão;",
+                    "Inda que sejam vermelhos,",
+                    "Como lã serão;",
+                    "Inda que seus pecados",
+                    "Sejam como a escarlata,",
+                    "Brancos, brancos se farão,",
+                    "Como lã se tornarão!"
+                ]
+            },
+            {
+                "lines": [
+                    "Pecador, Deus te chama:",
+                    "Ouve já a voz dos céus!",
+                    "Pecador, Deus te chama:",
+                    "Ouve já a voz dos céus!",
+                    "Ele é tão bom quão amável,",
+                    "Compassível é,",
+                    "Com ardor te convida,",
+                    "Com amor, sim, te abriga!",
+                    "Chega, pois, ao Salvador;",
+                    "Ouve já a voz de amor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Desfará tuas culpas;",
+                    "Delas não se lembra mais!",
+                    "”Oh, vinde a mim, vós cansados!”",
+                    "Diz Jesus, Senhor.",
+                    "Mau embora tu sejas,",
+                    "Mau embora tu sejas",
+                    "Seu descanso te dará",
+                    "E feliz te tornará!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 102,
+        "hinarioName": "CALVÁRIO (찬: 142)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Oh! como foi que meu Jesus",
+                    "Assim sofreu na triste cruz?",
+                    "Não só na cruz, mas no jardim",
+                    "Agonizou, e foi por mim!"
+                ]
+            },
+            {
+                "lines": [
+                    "Ali na cruz, ali na cruz,",
+                    "Oh!, sim Jesus por mim sofreu!",
+                    "Ali na cruz, ali na cruz,",
+                    "Oh!, sim Jesus por mim morreu!"
+                ]
+            },
+            {
+                "lines": [
+                    "O grande horror da escuridão",
+                    "Apavorou a multidão;",
+                    "Rasgado o véu lhes fez saber",
+                    "Que terminou o Seu sofrer."
+                ]
+            },
+            {
+                "lines": [
+                    "Que dor cruel na cruz sofreu,",
+                    "Seu sangue ali Jesus verteu;",
+                    "Sim, foi por mim, pra me salvar,",
+                    "Para eu, enfim, no céu morar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 102,
+        "hinarioName": "CALVÁRIO (찬: 142)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Oh! como foi que meu Jesus",
+                    "Assim sofreu na triste cruz?",
+                    "Não só na cruz, mas no jardim",
+                    "Agonizou, e foi por mim!",
+                    "",
+                    "Ali na cruz, ali na cruz,",
+                    "Oh!, sim Jesus por mim sofreu!",
+                    "Ali na cruz, ali na cruz,",
+                    "Oh!, sim Jesus por mim morreu!"
+                ]
+            },
+            {
+                "lines": [
+                    "O grande horror da escuridão",
+                    "Apavorou a multidão;",
+                    "Rasgado o véu lhes fez saber",
+                    "Que terminou o Seu sofrer."
+                ]
+            },
+            {
+                "lines": [
+                    "Que dor cruel na cruz sofreu,",
+                    "Seu sangue ali Jesus verteu;",
+                    "Sim, foi por mim, pra me salvar,",
+                    "Para eu, enfim, no céu morar."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 103,
+        "hinarioName": "FIRME NAS PROMESSAS (찬: 399)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Firme nas promessas do meu Salvador,",
+              "Cantarei louvores ao meu Criador",
+              "Fico pelos séculos no Seu amor,",
+              "Firme nas promessas de Jesus!",
+              "",
+              "Firme, firme,",
+              "Firme nas promessas de Jesus",
+              "Meu Mestre,",
+              "Firme, firme,",
+              "Sim, firme nas promessas de Jesus!"
+            ]
+          },
+          {
+            "lines": [
+              "Firme nas promessas não irei falhar,",
+              "Vindo as tempestades a me consternar.",
+              "Pelo Verbo Eterno eu hei de trabalhar,",
+              "Firme nas promessas de Jesus!"
+            ]
+          },
+          {
+            "lines": [
+              "Firme nas promessas sempre vejo assim,",
+              "Purificação no sangue para mim.",
+              "Plena liberdade gozarei sem fim,",
+              "Firme nas promessas de Jesus!"
+            ]
+          },
+          {
+            "lines": [
+              "Firme nas promessas do Senhor Jesus,",
+              "Em amor ligado com a Sua cruz.",
+              "Cada dia mais alegro-me na Luz,",
+              "Firme nas promessas de Jesus!"
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 104,
+        "hinarioName": "PERTO DE JESUS (찬: 219)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Meu Senhor sou Teu, Tua voz ouvi",
+              "A chamar-me com amor;",
+              "Mas de Ti mais perto eu almejo estar,",
+              "Ó bendito Salvador!",
+              "",
+              "Mais perto da Tua cruz,",
+              "Quero estar, ó Salvador!",
+              "Mais perto para a Tua cruz,",
+              "Leva-me, ó meu Senhor!"
+            ]
+          },
+          {
+            "lines": [
+              "A seguir-Te só me consagro já,",
+              "Constrangido pelo amor;",
+              "E meu coração bem contente está",
+              "Em servir-te a Ti, Senhor!"
+            ]
+          },
+          {
+            "lines": [
+              "Oh! que pura e santa delícia é",
+              "Aos Teus santos pés me achar,",
+              "E com viva e mui reverente fé",
+              "Com o Salvador falar!"
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 105,
+        "hinarioName": "ALELUIA SIM É CÉU (찬: 495)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Depois que Cristo me salvou,",
+              "Em céu o mundo se tornou;",
+              "Até no meio do sofrer,",
+              "É céu a Cristo conhecer!",
+              "",
+              "Oh Aleluia sim é céu,",
+              "Fruir perdão que concedeu;",
+              "Em terra ou mar seja onde for,",
+              "É céu andar com o Senhor!"
+            ]
+          },
+          {
+            "lines": [
+              "Pra mim mui longe estava o céu,",
+              "Mas quando Cristo me valeu;",
+              "Feliz senti meu coração,",
+              "Entrar no céu da retidão!"
+            ]
+          },
+          {
+            "lines": [
+              "Bem pouco importa eu ir morar,",
+              "Em alto monte, à beira mar;",
+              "Em casa ou gruta boa ou ruim,",
+              "Com Cristo aí é céu pra mim!"
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 106,
+        "hinarioName": "DESEJO DA ALMA (찬: 337)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Vem Espírito divino,",
+              "Grande Ensinador!",
+              "Vem, descobre as nossas almas,",
+              "Cristo o Salvador",
+              "",
+              "Cristo, Mestre, ouve com favor!",
+              "Em poder e graça insigne",
+              "Obre o Teu amor"
+            ]
+          },
+          {
+            "lines": [
+              "Vem demole os alicerces,",
+              "Da enganosa paz;",
+              "Aos errados concedendo",
+              "Salvação veraz."
+            ]
+          },
+          {
+            "lines": [
+              "Vem reveste a Tua igreja,",
+              "De poder e luz;",
+              "Vem atrai os pecadores,",
+              "Ao Senhor Jesus."
+            ]
+          },
+          {
+            "lines": [
+              "Maravilhas soberanas,",
+              "Outros povos vêm;",
+              "Oh! derrama a mesma benção,",
+              "Sobre nós também."
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 107,
+        "hinarioName": "DESEJOS ESPIRITUAIS (찬: 511)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Em mim vem habitar, oh, vem, Jesus,",
+              "Em mim fazer brilhar a Tua luz!",
+              "Eis a minha ambição: ter e sentir, Senhor,",
+              "Mais gratidão e mais amor."
+            ]
+          },
+          {
+            "lines": [
+              "Os passos Teus seguir eu quero, sim;",
+              "Servir e bendizer até o fim;",
+              "Eis o meu anelar, meu ideal maior:",
+              "Contigo andar, ó Salvador!"
+            ]
+          },
+          {
+            "lines": [
+              "Em meu interior, vem Tu brilhar;",
+              "Faz-me, com mais ardor, da cruz falar.",
+              "Reveste o coração de Teu excelso amor,",
+              "De retidão e de fervor!"
+            ]
+          },
+          {
+            "lines": [
+              "Oh, que consolação a Cristo amar,",
+              "Pois que com tanto amor me quis salvar!",
+              "Nada me alegra mais, gozo não há maior",
+              "Que Tua paz, ó Salvador!"
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 108,
+        "hinarioName": "GUIA-ME (찬: 457)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Guia-me, meu Salvador;",
+              "Sempre me conduz, Senhor;",
+              "Certo, firme e forte estou,",
+              "Pois Contigo andando vou.",
+              "",
+              "Guia, guia,",
+              "Sempre guia, Salvador;",
+              "Com ternura, com amor,",
+              "Guia-me, meu Redentor."
+            ]
+          },
+          {
+            "lines": [
+              "Confiando sempre em Ti,",
+              "Bom auxílio consegui;",
+              "Oh, dirige-me, Senhor,",
+              "Neste mundo enganador!"
+            ]
+          },
+          {
+            "lines": [
+              "Tu me guiarás a mim,",
+              "‘Té chegar da vida o fim,",
+              "Para a terra do fulgor,",
+              "Na presença do Senhor."
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 109,
+        "hinarioName": "CRISTO ME AMA (찬: 411)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Sou amado por Jesus,",
+              "Pois a Bíblia assim me diz;",
+              "Ele é a minha luz",
+              "E me leva ao Seu País.",
+              "",
+              "Cristo me ama",
+              "Cristo me ama",
+              "Cristo me ama",
+              "A Bíblia assim me diz."
+            ]
+          },
+          {
+            "lines": [
+              "Sou amado por Jesus,",
+              "Pois por mim na cruz morreu;",
+              "Ele agora me conduz",
+              "Para o lar que prometeu."
+            ]
+          },
+          {
+            "lines": [
+              "Sou amado por Jesus,",
+              "Pois comigo sempre está;",
+              "Tenho em mim a Sua luz",
+              "Que do mal me livrará."
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 110,
+        "hinarioName": "TAL QUAL ESTOU (찬: 339)",
+        "hinarioLyrics": [
+          {
+            "lines": [
+              "Tal qual estou eis-me Senhor,",
+              "Pois o Teu sangue remidor",
+              "Verteste pelo pecador;",
+              "Ó Salvador me achego a Ti!"
+            ]
+          },
+          {
+            "lines": [
+              "Tal qual estou sem esperar,",
+              "Que possa a vida melhorar",
+              "Em Ti só quero confiar;",
+              "Ó Salvador me achego a Ti!"
+            ]
+          },
+          {
+            "lines": [
+              "Tal qual estou e sem poder,",
+              "As faltas podes preencher",
+              "E tudo quanto me é mister;",
+              "Ó Salvador me achego a Ti!"
+            ]
+          },
+          {
+            "lines": [
+              "Tal qual estou me aceitarás,",
+              "E Tu minha alma limparás",
+              "Com Teu amor me cobrirás;",
+              "Ó Salvador me achego a Ti!"
+            ]
+          }
+        ]
+    },
+    {
+        "hinarioId": 111,
+        "hinarioName": "DEUS CUIDADÁ DE TI (찬: 432)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Aflito e triste coração,",
+                    "Deus cuidará de ti!",
+                    "Por ti opera a Sua mão,",
+                    "Que cuidará de ti.",
+                    "",
+                    "Deus cuidará de ti,",
+                    "em cada dia proverá;",
+                    "Sim cuidará de ti,",
+                    "Deus cuidará de ti!"
+                ]
+            },
+            {
+                "lines": [
+                    "Na dor cruel na provação,",
+                    "Deus cuidará de ti!",
+                    "Socorro dá e salvação,",
+                    "Pois cuidará de ti."
+                ]
+            },
+            {
+                "lines": [
+                    "A tua fé Deus quer provar,",
+                    "mas cuidará de ti!",
+                    "O teu amor quer aumentar,",
+                    "E cuidará de ti."
+                ]
+            },
+            {
+                "lines": [
+                    "Nos seus tesouros tudo tens,",
+                    "Deus cuidará de ti!",
+                    "Terrestres e celestes bens,",
+                    "Deus cuidará de ti."
+                ]
+            },
+            {
+                "lines": [
+                    "O que é mister te pode dar,",
+                    "Quem cuidará de ti!",
+                    "Nos braços Seus te sustentar,",
+                    "Pois cuidará de ti."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 112,
+        "hinarioName": "NASCEU O REDENTOR (찬: 179)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Alerta ó terra entoa, o canto que ressoa;",
+                    "O mundo pecador, tem grande sorte e boa!",
+                    "A nova se vos dá, e quão alegre soa:",
+                    "Nasceu o Redentor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Nasceu o Redentor, nasceu o Redentor,",
+                    "O eterno Pai do céu seu Filho ao mundo deu,",
+                    "Alerta ó terra entoa, a nova alegre e boa:",
+                    "Nasceu o Redentor!",
+                    "",
+                    "A noite já passou, a aurora já raiou;",
+                    "O negro e denso véu de todo se rasgou.",
+                    "Dos montes através, o brado ressoou:",
+                    "Nasceu o Redentor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Nasceu o Rei da paz, num berço humilde jaz;",
+                    "Nas asas desse amor conforto a todos traz;",
+                    "Dizei em alta voz, que Cristo satisfaz:",
+                    "Nasceu o Redentor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Oh! gozo divinal, amor celestial;",
+                    "Quem pode te sondar ou ter um outro igual?",
+                    "Posso eu da morte réu, gozar ventura tal?",
+                    "Nasceu o Redentor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Ó povos, exultai, nações ó jubilai;",
+                    "Eis finda toda a dor jamais se dá um ai!",
+                    "A virgem deu a luz, a Deus glorificai!",
+                    "Nasceu o Redentor!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 113,
+        "hinarioName": "VEM FILHO PERDIDO (찬: 315)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Vem filho perdido, ó pródigo vem.",
+                    "Ruína te espera nas trevas de além.",
+                    "Tu de medo tremendo,",
+                    "E de fome gemendo.",
+                    "",
+                    "Ó filho perdido,",
+                    "Vem pródigo vem!",
+                    "Vem, vem,",
+                    "Pródigo vem!"
+                ]
+            },
+            {
+                "lines": [
+                    "Vem filho perdido, ó pródigo vem.",
+                    "Teu pai te convida, querendo-te bem.",
+                    "Vestes há para ornar-te,",
+                    "Ricos dons, vem fartar-te."
+                ]
+            },
+            {
+                "lines": [
+                    "Vem filho perdido, sim volta a Jesus.",
+                    "Bondade infinita se avista na cruz.",
+                    "Em miséria vagando,",
+                    "Tuas culpas chorando."
+                ]
+            },
+            {
+                "lines": [
+                    "Ó pródigo escuta as vozes de amor.",
+                    "Oh! rompe as ciladas do vil tentador.",
+                    "Pois em casa há bastante,",
+                    "E tu andas errante?"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 114,
+        "hinarioName": "JERUSALÉM",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Dormindo no meu leito em sonho encantador,",
+                    "Um dia eu vi Jerusalém, e o templo do Senhor",
+                    "Ouvi cantar crianças, e em meio a seu cantar;",
+                    "Rompeu a voz dos anjos do céu a proclamar.",
+                    "Rompeu a voz do anjos, do céu a proclamar!",
+                    "Jerusalém, Jerusalém, cantai ó santa grei;",
+                    "Hosana, hosana! hosana ao vosso Rei!"
+                ]
+            },
+            {
+                "lines": [
+                    "Então o sonho se alterou, não mais o som feliz,",
+                    "Ouvia das hosanas dos coros infantis.",
+                    "O ar em torno se esfriou, do sol faltava a luz;",
+                    "E num alto e tosco monte vi o vulto de uma cruz.",
+                    "E num alto e tosco monte vi o vulto de uma cruz!",
+                    "Jerusalém, Jerusalém, aos anjos escutei;",
+                    "Hosana, hosana! hosana ao vosso Rei!"
+                ]
+            },
+            {
+                "lines": [
+                    "Ainda a cena se mudou, surgia em resplendor,",
+                    "A divinal cidade morada do Senhor",
+                    "Da lua não brilhava a luz, nem sol nascia lá;",
+                    "Mas só fulgia a luz de Deus",
+                    "Mui pura em seu brilhar.",
+                    "E todos que queriam sim, podiam logo entrar;",
+                    "Na mui feliz Jerusalém, que nunca passará",
+                    "Na mui feliz Jerusalém, que nunca passará",
+                    "",
+                    "Jerusalém, Jerusalém, teu dia vai raiar;",
+                    "Hosana, hosana, hosana sem cessar! Hosana, hosana, hosana sem cessar!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 115,
+        "hinarioName": "COMO ESTOU (찬: 197)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ouço meu Senhor dizer:",
+                    "'Teus esforços são em vão,",
+                    "Nada podes merecer,",
+                    "Eu te dou a salvação.'",
+                    "",
+                    "A Ti, Jesus, Senhor,",
+                    "Venho como sou;",
+                    "Bem nenhum mereço eu,",
+                    "Teu sangue me salvou."
+                ]
+            },
+            {
+                "lines": [
+                    "Sim, eu venho a Ti, Jesus,",
+                    "Tua graça receber;",
+                    "Infinito é Teu amor,",
+                    "Sem limites Teu poder."
+                ]
+            },
+            {
+                "lines": [
+                    "Ai, me falta a retidão",
+                    "Sou indigno pecador,",
+                    "Mas pureza alcançarei",
+                    "No Teu sangue redentor."
+                ]
+            },
+            {
+                "lines": [
+                    "Pela fé em Ti, Senhor,",
+                    "Recebi o Teu perdão;",
+                    "De pecado e de temor",
+                    "Livre está meu coração."
+                ]
+            },
+            {
+                "lines": [
+                    "Lá no céu eu cantarei",
+                    "Tua eterna redenção;",
+                    "Sempre ali Te renderei",
+                    "Meu louvor e gratidão."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 116,
+        "hinarioName": "SÓ NO SANGUE (찬: 184)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Quem me poderá salvar?",
+                    "Cristo, que verteu Seu sangue.",
+                    "Onde as manchas vou limpar?",
+                    "Só no Seu precioso sangue.",
+                    "",
+                    "Oh! que preciosa paz,",
+                    "Que vem da Sua cruz,",
+                    "A qual me dá Jesus",
+                    "Pelo seu precioso sangue!"
+                ]
+            },
+            {
+                "lines": [
+                    "Vejo a minha salvação",
+                    "Só no Seu precioso sangue;",
+                    "Deus concede-me perdão",
+                    "Só no Seu precioso sangue."
+                ]
+            },
+            {
+                "lines": [
+                    "Dele vem perfeita paz",
+                    "Pelo Seu precioso sangue;",
+                    "Infalível e eficaz",
+                    "Esse tão precioso sangue."
+                ]
+            },
+            {
+                "lines": [
+                    "Minha justificação",
+                    "Tenho no precioso sangue. ",
+                    "Gozo traz ao coração",
+                    "Esse tão precioso sangue."
+                ]
+            },
+            {
+                "lines": [
+                    "Entrarei no céu enfim",
+                    "Pelo Seu precioso sangue;",
+                    "Louvarei então sem fim",
+                    "Esse tão precioso sangue."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 117,
+        "hinarioName": "TUDO ENTREGAREI (찬: 71)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Tudo ó Cristo a Ti entrego,",
+                    "Tudo sim por Ti darei,",
+                    "Resoluto mas submisso,",
+                    "Sempre sempre seguirei.",
+                    "",
+                    "Tudo entregarei,",
+                    "Tudo entregarei",
+                    "Sim por Ti Jesus bendito",
+                    "Tudo deixarei"
+                ]
+            },
+            {
+                "lines": [
+                    "Tudo ó Cristo a Ti entrego,",
+                    "Corpo e alma eis aqui,",
+                    "Este mundo mau renego,",
+                    "Ó Jesus me aceita a mim!"
+                ]
+            },
+            {
+                "lines": [
+                    "Tudo ó Cristo a Ti entrego,",
+                    "Quero ser somente Teu,",
+                    "Tão submisso à Tua vontade,",
+                    "Como os anjos lá no céu."
+                ]
+            },
+            {
+                "lines": [
+                    "Tudo ó Cristo a Ti entrego,",
+                    "Oh eu sinto Teu amor,",
+                    "Transformar a minha vida,",
+                    "E meu coração Senhor."
+                ]
+            },
+            {
+                "lines": [
+                    "Tudo ó Cristo a Ti entrego,",
+                    "Oh que gozo meu Senhor,",
+                    "Paz perfeita paz completa,",
+                    "Glória glória ao Salvador."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 118,
+        "hinarioName": "UM GRANDE AMIGO (찬: 88)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Achei um grande amigo, Jesus, o Salvador,",
+                    "Que com amor me guarda cada dia;",
+                    "Fiel é Seu cuidado, constante o Seu amor,",
+                    "E sem limite a Sua simpatia.",
+                    "E ainda o mais notável é que por mim morreu",
+                    "E meus pecados todos expiou;",
+                    "Assim me regozijo nas bênçãos que me deu;",
+                    "Sim, sei que Jesus Cristo me salvou.",
+                    "",
+                    "Jesus é meu amigo, meu guia, meu Senhor,",
+                    "Meu protetor, sem outro haver igual.",
+                    "Por mim sofreu a morte, por mim, um pecador,",
+                    "E agora, vivo, guarda-me do mal."
+                ]
+            },
+            {
+                "lines": [
+                    "Por este grande amigo desejo aqui viver,",
+                    "Com Ele ter constante comunhão,",
+                    "Serví-Lo fielmente, e assim lhe dar prazer,",
+                    "Ficando sempre a Ele em sujeição.",
+                    "Nos Seus caminhos santos espero aqui seguir",
+                    "E Seu amor a todos demonstrar,",
+                    "Porque Ele do pecado me veio redimir",
+                    "E por amor morreu em meu lugar."
+                ]
+            },
+            {
+                "lines": [
+                    "A hora vem chegando, a Bíblia no-lo diz,",
+                    "Em que Jesus ao mundo voltará.",
+                    "Oh! que momento alegre, que dia tão feliz,",
+                    "O dia em que voltar aqui, será!",
+                    "Então com Ele sempre, nos céus, eu ficarei,",
+                    "Já livre do pecado, mágoa e dor;",
+                    "O Seu amado rosto na glória ali verei,",
+                    "E gozarei das bênçãos do Senhor."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 119,
+        "hinarioName": "JESUS, PASTOR AMADO (찬: 390)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Jesus, Pastor amado, contempla-nos aqui;",
+                    "Concede que sejamos um corpo só em Ti.",
+                    "Intrigas e contendas queremos evitar,",
+                    "E em paz nós desejamos Teu culto celebrar."
+                ]
+            },
+            {
+                "lines": [
+                    "Pois, sendo resgatados por Ti, ó Salvador,",
+                    "Queremos ser unidos por um fraterno amor,",
+                    "Humildes perdoando as faltas de um irmão,",
+                    "Os fracos ajudando com branda compaixão."
+                ]
+            },
+            {
+                "lines": [
+                    "Jesus, querido Mestre, ensina-nos a amar,",
+                    "Seguindo o Teu exemplo, perfeito e singular.",
+                    "Oh, quanto carecemos do auxílio Teu, Senhor,",
+                    "A fim de que vivamos unidos em amor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Se Tua igreja toda andar em santa união,",
+                    "Então, será bendito o nome de “cristão”.",
+                    "Aquilo que pediste em nós se cumprirá,",
+                    "E assim o mundo inteiro a Ti conhecerá."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 120,
+        "hinarioName": "SALVO (찬: 476)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Salvo por Jesus Cristo",
+                    "Tenho perfeita paz;",
+                    "A comunhão com Ele",
+                    "Toda aflição desfaz.",
+                    "Ele me deu certeza",
+                    "Da minha salvação,",
+                    "Que de inefável graça,",
+                    "Enche meu coração.",
+                    "",
+                    "Salvo por Jesus Cristo",
+                    "Tenho perfeita paz;",
+                    "A comunhão com Ele",
+                    "Toda aflição desfaz."
+                ]
+            },
+            {
+                "lines": [
+                    "Cristo é a minha vida,",
+                    "Fonte de doce amor;",
+                    "Ele me tira a mágoa,",
+                    "Todo o pesar e a dor.",
+                    "E se sofrer a prova,",
+                    "Mui fácil me será;",
+                    "Quando verter o pranto,",
+                    "Logo Ele o enxugará."
+                ]
+            },
+            {
+                "lines": [
+                    "E passarei a noite",
+                    "Com Ele, sem temor,",
+                    "‘Té que amanheça o dia",
+                    "De perenal fulgor.",
+                    "Magnificente e santo",
+                    "Vê-lo-ei a me fitar,",
+                    "E na mansão de glória",
+                    "Vou com Jesus reinar!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 121,
+        "hinarioName": "SOSSEGAI (찬: 419)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Ó Mestre o mar se revolta, as ondas nos dão pavor,",
+                    "O céu se reveste de trevas, não temos um Salvador.",
+                    "Não se Te dá que morramos, podes assim dormir.",
+                    "Se a cada momento nos vemos, sim prestes a submergir.",
+                    "",
+                    "As ondas atendem ao meu mandar, sossegai;",
+                    "Seja o encapelado mar, a ira dos homens o gênio do mal,",
+                    "Tais águas não podem a nau tragar,",
+                    "Que leva o Senhor Rei do céu e mar!",
+                    "Pois todos ouvem o meu mandar, sossegai, sossegai,",
+                    "Convosco estou para vos salvar, sim sossegai!"
+                ]
+            },
+            {
+                "lines": [
+                    "Mestre na minha tristeza, estou quase a sucumbir,",
+                    "A dor que perturba minha alma, eu peço-Te vem banir.",
+                    "De ondas do mal que me encobrem, quem me fará sair?.",
+                    "Pereço sem Ti ó meu Mestre, vem logo vem me acudir."
+                ]
+            },
+            {
+                "lines": [
+                    "Mestre chegou a bonança, em paz eis o céu e o mar,",
+                    "O meu coração goza calma, que não poderá findar.",
+                    "Fica comigo ó meu Mestre, dono da terra e céu.",
+                    "E assim chegarei bem seguro, ao porto destino meu."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 122,
+        "hinarioName": "VENCENDO VEM JESUS (찬: 388)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Já refulge a glória eterna de Jesus o Rei dos reis,",
+                    "Breve os reinos deste mundo seguirão às Suas leis.",
+                    "Os sinais da Sua vinda mais se mostram cada vez,",
+                    "Vencendo vem Jesus!",
+                    "",
+                    "Glória, glória aleluia,",
+                    "Glória, glória aleluia,",
+                    "Glória, glória aleluia,",
+                    "Vencendo vem Jesus!"
+                ]
+            },
+            {
+                "lines": [
+                    "O clarim que chama os crentes à batalha já soou,",
+                    "Cristo, à frente do Seu povo, multidões já conquistou.",
+                    "Breve os reinos deste mundo seguirão às Suas leis,",
+                    "Vencendo vem Jesus!"
+                ]
+            },
+            {
+                "lines": [
+                    "Eis que em glória refulgente, sobre as nuvens descerá,",
+                    "E as nações e os reis da terra com poder governará.",
+                    "Sim em paz e santidade toda a terra regerá,",
+                    "Vencendo vem Jesus!"
+                ]
+            },
+            {
+                "lines": [
+                    "E por fim entronizado as nações há de julgar,",
+                    "Todos, grandes e pequenos, todos hão de se curvar.",
+                    "Os sinais da Sua vinda mais se mostram cada vez,",
+                    "Vencendo vem Jesus!",
+                    "",
+                    "Glória, glória aleluia,",
+                    "Glória, glória aleluia,",
+                    "Glória, glória aleluia,",
+                    "Vencendo vem Jesus!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 123,
+        "hinarioName": "VITÓRIA EM CRISTO (찬: 295)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Há vitória em Jesus Cristo, sim!",
+                    "A minha alma tem por Ele amor;",
+                    "Pois por mim se deu na amarga cruz",
+                    "E pagou por mim o meu Senhor."
+                ]
+            },
+            {
+                "lines": [
+                    "Vitória, vitória em Cristo;",
+                    "Vitória, vitória sempre.",
+                    "Quem por mim venceu é Jesus Cristo;",
+                    "Vitória, vitória sempre."
+                ]
+            },
+            {
+                "lines": [
+                    "Lá no céu quando a batalha findar,",
+                    "E na glória eu no céu entrar,",
+                    "Uma coroa Jesus me dará;",
+                    "Dela gozo no eterno lar."
+                ]
+            },
+            {
+                "lines": [
+                    "Vitória, vitória em Cristo;",
+                    "Vitória, vitória sempre.",
+                    "Quem por mim venceu é Jesus Cristo;",
+                    "Vitória, vitória sempre."
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 123,
+        "hinarioName": "É JESUS QUEM SALVA (찬: 343)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "O chorar não salva!",
+                    "Mesmo o lagrimar sem fim",
+                    "Jamais mancha carmesim",
+                    "Poderá lavar em mim;",
+                    "O chorar não salva!",
+                    "",
+                    "Foi Jesus que padeceu,",
+                    "Sobre a cruz por mim morreu;",
+                    "Por Seu sangue que verteu",
+                    "Pôde assim salvar-me!"
+                ]
+            },
+            {
+                "lines": [
+                    "Obras não me salvam!",
+                    "Meus esforços sem cessar",
+                    "Não me podem transformar,",
+                    "Nem meus males expiar;",
+                    "Obras não me salvam!"
+                ]
+            },
+            {
+                "lines": [
+                    "Orações não salvam!",
+                    "Apesar do seu fervor,",
+                    "Petições não têm valor",
+                    "Pra salvar o pecador;",
+                    "Orações não salvam!"
+                ]
+            },
+            {
+                "lines": [
+                    "É Jesus quem salva!",
+                    "Ele a obra consumou,",
+                    "Meus pecados expiou,",
+                    "Com Seu sangue me lavou;",
+                    "É Jesus quem salva!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 124,
+        "hinarioName": "BENDITO CORDEIRO (찬: 195)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Seja bendito o Cordeiro,",
+                    "Que na cruz por nós padeceu,",
+                    "Seja bendito o Seu sangue",
+                    "Que por nós pecadores verteu.",
+                    "Eis nesse sangue lavados,",
+                    "Com roupas que tão alvas são,",
+                    "Os pecadores remidos,",
+                    "Que perante seu Deus hoje estão!",
+                    "",
+                    "Alvo mais que a neve,",
+                    "Alvo mais que a neve,",
+                    "Sim nesse sangue lavado,",
+                    "Mais alvo que a neve serei!"
+                ]
+            },
+            {
+                "lines": [
+                    "Quão espinhosa a coroa,",
+                    "Que Jesus por nós suportou,",
+                    "Oh quão profundas as chagas,",
+                    "Que nos provam o quanto Ele amou.",
+                    "Eis nessas chagas pureza,",
+                    "Para o mais torpe pecador,",
+                    "Pois que mais alvos que a neve,",
+                    "O Teu sangue nos torna Senhor!"
+                ]
+            },
+            {
+                "lines": [
+                    "Se nós a Ti confessarmos,",
+                    "E seguirmos a Tua luz,",
+                    "Tu não somente perdoas,",
+                    "Purificas também, ó Jesus.",
+                    "Sim, e todo o pecado,",
+                    "Que maravilha desse amor,",
+                    "Pois que mais alvo que a neve",
+                    "O Teu sangue nos torna Senhor!"
+                ]
+            }
+        ]
+    },
+    {
+        "hinarioId": 125,
+        "hinarioName": "SÓ POR JESUS (찬: 235)",
+        "hinarioLyrics": [
+            {
+                "lines": [
+                    "Cristo veio dos santos céus,",
+                    "Veio do mal salvar-nos,",
+                    "Dado foi pelo amor de Deus,",
+                    "Em nossa redenção.",
+                    "Por Jesus somente,",
+                    "Salvo está o crente.",
+                    "",
+                    "Só por Jesus, só por Jesus,",
+                    "É que nós somos salvos,",
+                    "Só por Jesus, só por Jesus,",
+                    "É que nós somos salvos."
+                ]
+            },
+            {
+                "lines": [
+                    "Oh que graça nos revelou,",
+                    "Quando Ele veio ao mundo,",
+                    "Compaixão sem igual mostrou",
+                    "A todo pecador.",
+                    "Sim por Sua morte temos vera sorte."
+                ]
+            },
+            {
+                "lines": [
+                    "Nem as lágrimas nem a dor,",
+                    "Podem a paz ganhar-nos,",
+                    "Nossas obras são sem valor,",
+                    "Para o perdão comprar.",
+                    "Sem pagarmos nada,",
+                    "Vida nos é dada."
+                ]
+            },
+            {
+                "lines": [
+                    "Confiados em Cristo já,",
+                    "Pleno perdão nós temos,",
+                    "Fez-nos nosso Pai, Deus Jeová,",
+                    "Filhos por adoção.",
+                    "Salvos nEle estamos,",
+                    "Glória a Deus rendamos."
+                ]
+            }
+        ]
+    },
     {
         "hinarioId": 126,
         "hinarioName": "LÁ NO CÉU (찬: 222)",
@@ -4444,27 +8795,30 @@
         "hinarioLyrics": [
             {
                 "lines": [
-                    "Foi morto o Salvador e sepultado,",
-                    "Mas com poder, vigor, ressuscitou.",
+                    "Eu ouço um cantar divinal,",
+                    "Um coro sublime, ideal.",
+                    "Ouvi-lo é prazer sem igual:",
+                    "Ó paz! És dom de meu Deus!",
                     "",
-                    "Da sepultura saiu.",
-                    "Com triunfo e glória ressurgiu.",
-                    "Ressurgiu, vencendo a morte e Seu poder;",
-                    "Pode agora a todos vida conceder.",
-                    "Ressurgiu! Ressurgiu!",
-                    "Aleluia! Ressurgiu!"
+                    "Paz, paz, paz, paz,",
+                    "Dom precioso dos Céus! Excelsa e dulcíssima paz,",
+                    "És dom do amor de meu Deus."
                 ]
             },
             {
                 "lines": [
-                    "Tomaram precaução com Seu sepulcro,",
-                    "Mas tudo foi em vão para o reter."
+                    "Por Cristo nos veio esta paz;",
+                    "É bênção que nos satisfaz;",
+                    "Infinda alegria nos traz",
+                    "O excelso dom de meu Deus."
                 ]
             },
             {
                 "lines": [
-                    "Da morte triunfou. Oh! Que vitória!",
-                    "Vida nos outorgou, vida eternal."
+                    "Um dia, no belo porvir,",
+                    "Ao lar perenal vou subir,",
+                    "E então hei de sempre fruir",
+                    "A eterna paz de meu Deus."
                 ]
             }
         ]
@@ -4617,6 +8971,3 @@
     }
     
 ]
-
-
-

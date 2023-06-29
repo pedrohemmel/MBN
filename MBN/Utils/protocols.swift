@@ -11,3 +11,17 @@ protocol HinarioCRUDDelegate: AnyObject {
     func getHinarioData()
 }
 
+protocol ViewCode {
+    func buildViewHierarchy()
+    func setupConstraints()
+    func setupAdditionalConfiguration()
+    func setupViewConfiguration()
+}
+
+extension ViewCode {
+    func setupViewConfiguration() {
+        buildViewHierarchy()
+        setupConstraints()
+        setupAdditionalConfiguration()
+    }
+}

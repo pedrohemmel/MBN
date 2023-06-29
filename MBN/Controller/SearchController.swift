@@ -23,18 +23,34 @@ class SearchController: UIViewController {
         return label
     }()
     
+    lazy var tabBar = {
+        let tabBar = TabBarComponent(frame: .zero) {
+            self.dismiss(animated: false)
+        }
+        tabBar.currentController = "search"
+        tabBar.translatesAutoresizingMaskIntoConstraints = false
+        return tabBar
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .green
         self.hinarioDataLoader.loadData()
         self.view.addSubview(label)
+        self.view.addSubview(tabBar)
+        self.tabBar.layer.cornerRadius = self.view.frame.height * 0.05
+        
+        NSLayoutConstraint.activate([
+            self.tabBar.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            self.tabBar.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
+            self.tabBar.widthAnchor.constraint(equalToConstant: self.view.frame.width * 0.5),
+            self.tabBar.heightAnchor.constraint(equalToConstant: self.view.frame.height * 0.1)
+        ])
         NSLayoutConstraint.activate([
             self.label.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
             self.label.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
         ])
     }
-
-
 }
 
 extension SearchController: HinarioCRUDDelegate {

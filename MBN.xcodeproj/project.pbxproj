@@ -19,7 +19,9 @@
 		BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB422A4B5AD6003C91E4 /* protocols.swift */; };
 		BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB462A4C8594003C91E4 /* Paragraph.swift */; };
 		BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */; };
-		BB10BB4B2A4DCA8D003C91E4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4A2A4DCA8D003C91E4 /* TabBarView.swift */; };
+		BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */; };
+		BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */; };
+		BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		BB10BB422A4B5AD6003C91E4 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		BB10BB462A4C8594003C91E4 /* Paragraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paragraph.swift; sourceTree = "<group>"; };
 		BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		BB10BB4A2A4DCA8D003C91E4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
+		BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2Controller.swift; sourceTree = "<group>"; };
+		BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 			children = (
 				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
 				BB10BAFA2A49E198003C91E4 /* SearchController.swift */,
+				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
+				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
-				BB10BB4A2A4DCA8D003C91E4 /* TabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,10 +162,19 @@
 		BB10BB3D2A4B3FFC003C91E4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BB10BB502A4DEF39003C91E4 /* Components */,
 				BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */,
 				BB10BB422A4B5AD6003C91E4 /* protocols.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BB10BB502A4DEF39003C91E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,13 +279,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
-				BB10BB4B2A4DCA8D003C91E4 /* TabBarView.swift in Sources */,
 				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
+				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
 				BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
+				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
+				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
 				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

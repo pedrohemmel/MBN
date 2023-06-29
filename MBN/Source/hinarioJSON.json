@@ -1188,7 +1188,7 @@
                     "Cristo morreu, levando o pecado;",
                     "Eis o resgate: o pacto se fez;",
                     "Fomos remidos de uma vez!",
-                    ""
+                    "",
                     "De uma vez! Oh, sim, acredita!",
                     "Ó pecador, tens sorte bendita!",
                     "Tudo Jesus, por nós, satisfez!",
@@ -1367,7 +1367,7 @@
             },
             {
                 "lines": [
-                    "As minhas culpas grandes são;"
+                    "As minhas culpas grandes são;",
                     "Mas Tu, que não morreste em vão,",
                     "Me podes conceder perdão;",
                     "Aceita um pecador!"
@@ -2403,12 +2403,14 @@
                     "E deseja te salvar."
                 ]
             },
-            "lines":[
-                "Pelo mundo tens andado",
-                "Longe do teu Redentor;",
-                "Não mais sirvas ao pecado,",
-                "Serve a Cristo, teu Senhor."
-            ]
+            {
+                "lines":[
+                    "Pelo mundo tens andado",
+                    "Longe do teu Redentor;",
+                    "Não mais sirvas ao pecado,",
+                    "Serve a Cristo, teu Senhor."
+                ]
+            }
         ]
     },
     {
@@ -3412,7 +3414,7 @@
                     "De pão sacia a alma,",
                     "E escuta a oração."
                 ]
-            }
+            },
             {
                 "lines": [
                     "E nós, que O amamos,",

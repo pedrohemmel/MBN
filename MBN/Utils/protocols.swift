@@ -10,3 +10,4 @@ import Foundation
 protocol HinarioCRUDDelegate: AnyObject {
     func getHinarioData()
 }
+

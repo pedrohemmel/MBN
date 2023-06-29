@@ -19,6 +19,7 @@
 		BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB422A4B5AD6003C91E4 /* protocols.swift */; };
 		BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB462A4C8594003C91E4 /* Paragraph.swift */; };
 		BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */; };
+		BB10BB4B2A4DCA8D003C91E4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4A2A4DCA8D003C91E4 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB10BB422A4B5AD6003C91E4 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
 		BB10BB462A4C8594003C91E4 /* Paragraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paragraph.swift; sourceTree = "<group>"; };
 		BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BB10BB4A2A4DCA8D003C91E4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		BB10BB342A4A5BDA003C91E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
 				BB10BAFA2A49E198003C91E4 /* SearchController.swift */,
 			);
 			path = Controller;
@@ -129,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
-				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
+				BB10BB4A2A4DCA8D003C91E4 /* TabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
+				BB10BB4B2A4DCA8D003C91E4 /* TabBarView.swift in Sources */,
 				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,

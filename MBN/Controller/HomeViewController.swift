@@ -24,7 +24,6 @@ class HomeViewController: UIViewController {
         self.view = self.homeView
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background")!)
     }
-
 }
 
 extension HomeViewController: HinarioCRUDDelegate {

@@ -13,7 +13,6 @@
 		88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC272A4E0A5C00ED8A4A /* HinoTableViewCell.swift */; };
 		BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BAF62A49E198003C91E4 /* AppDelegate.swift */; };
 		BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BAF82A49E198003C91E4 /* SceneDelegate.swift */; };
-		BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BAFA2A49E198003C91E4 /* SearchController.swift */; };
 		BB10BB002A49E199003C91E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB10BAFF2A49E199003C91E4 /* Assets.xcassets */; };
 		BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */; };
 		BB10BB0E2A49E199003C91E4 /* MBNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB0D2A49E199003C91E4 /* MBNTests.swift */; };
@@ -46,7 +45,6 @@
 		BB10BAF32A49E198003C91E4 /* MBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB10BAF62A49E198003C91E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB10BAF82A49E198003C91E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB10BAFA2A49E198003C91E4 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		BB10BAFF2A49E199003C91E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB10BB022A49E199003C91E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB10BB042A49E199003C91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
-				BB10BAFA2A49E198003C91E4 /* SearchController.swift */,
 				88BEBC222A4E018200ED8A4A /* HomeViewController.swift */,
 				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
@@ -299,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */,
-				BB10BAFB2A49E198003C91E4 /* SearchController.swift in Sources */,
 				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */,

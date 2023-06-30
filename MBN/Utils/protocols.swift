@@ -11,6 +11,10 @@ protocol HinarioCRUDDelegate: AnyObject {
     func getHinarioData()
 }
 
+protocol HinoDelegate: AnyObject {
+    func showHino(hino: Hinario)
+}
+
 protocol ViewCode {
     func buildViewHierarchy()
     func setupConstraints()
@@ -25,3 +29,4 @@ extension ViewCode {
         setupAdditionalConfiguration()
     }
 }
+

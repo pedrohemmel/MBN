@@ -33,14 +33,12 @@ class SearchController: UIViewController {
             self.label.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
         ])
     }
-
-
 }
 
 extension SearchController: HinarioCRUDDelegate {
     func getHinarioData() {
         self.hinarioList = self.hinarioDataLoader.hinarioList
-        print("\(hinarioList[0].hinarioName)")
+        //test
         self.label.text = self.hinarioList[0].hinarioLyrics[0].lines[0]
     }
 }

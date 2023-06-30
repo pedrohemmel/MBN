@@ -24,15 +24,14 @@ class TabBarController: UIViewController {
         super.viewDidAppear(animated)
         self.setCurrentScreen()
     }
-    
 }
 
 extension TabBarController: TabBarControlDelegate {
     func didTapHomeScreen() {
         self.currentScreen = "search"
         let newVC = SearchController()
-        newVC.tabBar.tabBarControlDelegate = self
-        newVC.tabBar.currentController = "search"
+//        newVC.tabBar.tabBarControlDelegate = self
+//        newVC.tabBar.currentController = "search"
         newVC.modalPresentationStyle = .fullScreen
         self.present(newVC, animated: false)
     }

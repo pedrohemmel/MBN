@@ -25,6 +25,7 @@ class TabBarComponent: UIView {
         let firstItem = UIButton()
         firstItem.setImage(UIImage(named: "homeSelected"), for: .normal)
         firstItem.addTarget(self, action: #selector(firstItemAction), for: .touchUpInside)
+        firstItem.contentMode = .scaleAspectFill
         firstItem.translatesAutoresizingMaskIntoConstraints = false
         return firstItem
     }()
@@ -32,6 +33,7 @@ class TabBarComponent: UIView {
         let secondItem = UIButton()
         secondItem.setImage(UIImage(named: "star"), for: .normal)
         secondItem.addTarget(self, action: #selector(secondItemAction), for: .touchUpInside)
+        secondItem.contentMode = .scaleAspectFit
         secondItem.translatesAutoresizingMaskIntoConstraints = false
         return secondItem
     }()
@@ -55,12 +57,12 @@ extension TabBarComponent: ViewCode {
     func setupConstraints() {
         NSLayoutConstraint.activate([
             self.firstItem.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.firstItem.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15)
+            self.firstItem.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20)
         ])
         
         NSLayoutConstraint.activate([
             self.secondItem.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.secondItem.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -15)
+            self.secondItem.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20)
         ])
     }
     

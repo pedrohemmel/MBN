@@ -15,23 +15,28 @@ protocol TabBarControlDelegate: AnyObject {
 
 class TabBarController: UIViewController {
     
-    private var currentScreen = "search"
+    lazy var hinarioDataLoader = HinarioDataLoader(response: {
+        self.getHinarioData()
+    })
+    private var hinario = [Hinario]()
+    private var currentScreen = "home"
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.setCurrentScreen()
+        self.hinarioDataLoader.loadData()
     }
 }
 
 extension TabBarController: TabBarControlDelegate {
     func didTapHomeScreen() {
-        self.currentScreen = "search"
-        let newVC = SearchController()
-//        newVC.tabBar.tabBarControlDelegate = self
-//        newVC.tabBar.currentController = "search"
+        self.currentScreen = "home"
+        let newVC = HomeViewController()
+        newVC.tabBarControlDelegate = self
+        newVC.currentController = "home"
+        newVC.hin
         newVC.modalPresentationStyle = .fullScreen
         self.present(newVC, animated: false)
     }
@@ -52,11 +57,18 @@ extension TabBarController: TabBarControlDelegate {
         self.present(newVC, animated: false)
     } 
 }
+extension TabBarController: HinarioCRUDDelegate {
+    func getHinarioData() {
+        self.hinario = self.hinarioDataLoader.hinarioList
+//        self.homeView.hinario.setup(hinario, hinoDelegate)
+        self.setCurrentScreen()
+    }
+}
 
 extension TabBarController {
     func setCurrentScreen() {
         switch self.currentScreen {
-        case "search":
+        case "home":
             self.didTapHomeScreen()
         case "favorite":
             self.didTapFavoriteScreen()

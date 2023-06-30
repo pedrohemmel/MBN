@@ -9,6 +9,14 @@ import UIKit
 
 class HomeView: UIView {
     
+    lazy var search: SearchBarComponent = {
+        let view = SearchBarComponent()
+        view.placeholder = "Digite sua pesquisa"
+        view.barTintColor = .white
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
     var hinario: HinarioTableView = {
         let hinario = HinarioTableView()
         hinario.rowHeight = 90

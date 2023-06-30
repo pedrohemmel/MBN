@@ -25,6 +25,7 @@
 		BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */; };
 		BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */; };
 		BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */; };
+		BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
 		BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2Controller.swift; sourceTree = "<group>"; };
 		BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarComponent.swift; sourceTree = "<group>"; };
+		BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,15 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		88BEBC1F2A4DF05700ED8A4A /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */,
-				88BEBC272A4E0A5C00ED8A4A /* HinoTableViewCell.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		BB10BAEA2A49E198003C91E4 = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +174,6 @@
 				BB10BB502A4DEF39003C91E4 /* Components */,
 				BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */,
 				BB10BB422A4B5AD6003C91E4 /* protocols.swift */,
-				88BEBC1F2A4DF05700ED8A4A /* Components */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -189,7 +181,10 @@
 		BB10BB502A4DEF39003C91E4 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */,
+				88BEBC272A4E0A5C00ED8A4A /* HinoTableViewCell.swift */,
 				BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */,
+				BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -301,6 +296,7 @@
 				88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
+				BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
 				88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */,
 				88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */,

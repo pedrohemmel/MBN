@@ -13,12 +13,22 @@ protocol TabBarControlDelegate: AnyObject {
     func didTapInfoScreen()
 }
 
-class TabBarController: UIViewController {
+class TabBarController: UITabBarController {
+
+    weak var hinoDelegate: HinoDelegate? = nil
+    private var dataArrived = false
+    private var hinario = [Hinario]()
+
+    lazy var hinarioDataLoader = HinarioDataLoader(response: {
+        self.dataArrived = true
+        self.getHinarioData()
+    })
     
-    private var currentScreen = "search"
+    private var currentScreen = "home"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hinarioDataLoader.loadData()
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -28,12 +38,14 @@ class TabBarController: UIViewController {
 
 extension TabBarController: TabBarControlDelegate {
     func didTapHomeScreen() {
-        self.currentScreen = "search"
-        let newVC = SearchController()
+        self.currentScreen = "home"
+        let newVC = HomeViewController()
+        newVC.setup(self.hinario)
 //        newVC.tabBar.tabBarControlDelegate = self
-//        newVC.tabBar.currentController = "search"
-        newVC.modalPresentationStyle = .fullScreen
-        self.present(newVC, animated: false)
+//        newVC.tabBar.currentController = "home"
+        let navVC = UINavigationController(rootViewController: newVC)
+        navVC.modalPresentationStyle = .fullScreen
+        self.present(navVC, animated: false)
     }
     
     func didTapFavoriteScreen() {
@@ -50,13 +62,13 @@ extension TabBarController: TabBarControlDelegate {
         let newVC = Example2Controller()
         newVC.modalPresentationStyle = .fullScreen
         self.present(newVC, animated: false)
-    } 
+    }
 }
 
 extension TabBarController {
     func setCurrentScreen() {
         switch self.currentScreen {
-        case "search":
+        case "home":
             self.didTapHomeScreen()
         case "favorite":
             self.didTapFavoriteScreen()
@@ -65,5 +77,9 @@ extension TabBarController {
         default:
             self.didTapHomeScreen()
         }
+    }
+    
+    func getHinarioData() {
+        self.hinario = self.hinarioDataLoader.hinarioList
     }
 }

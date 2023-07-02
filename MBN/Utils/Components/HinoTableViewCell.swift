@@ -46,7 +46,7 @@ extension HinoTableViewCell: ViewCode{
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            self.title.topAnchor.constraint(equalTo: self.topAnchor, constant: 20),
+            self.title.topAnchor.constraint(equalTo: self.topAnchor, constant: 10),
             self.title.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
             self.title.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
             self.title.bottomAnchor.constraint(equalTo: self.subTitle.topAnchor, constant: -5)

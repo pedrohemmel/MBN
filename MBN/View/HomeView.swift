@@ -39,12 +39,18 @@ class HomeView: UIView {
 
 extension HomeView: ViewCode{
     func buildViewHierarchy() {
-        self.addSubview(hinario)
+        [self.search, self.hinario].forEach({ self.addSubview($0)})
     }
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            self.hinario.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            self.search.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            self.search.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            self.search.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            self.search.bottomAnchor.constraint(equalTo: self.hinario.topAnchor)
+        ])
+        NSLayoutConstraint.activate([
+            self.hinario.topAnchor.constraint(equalTo: self.search.bottomAnchor),
             self.hinario.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.hinario.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             self.hinario.bottomAnchor.constraint(equalTo: self.bottomAnchor)

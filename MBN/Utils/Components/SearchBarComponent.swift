@@ -9,6 +9,8 @@ import UIKit
 
 class SearchBarComponent: UISearchBar {
     
+    weak var searchBarDelegate: SearchBarDelegate? = nil
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupViewConfiguration()
@@ -30,25 +32,20 @@ extension SearchBarComponent: ViewCode {
     func setupAdditionalConfiguration() {
         self.delegate = self
         self.layer.borderWidth = 1;
-        self.layer.borderColor = UIColor(named: "Background")?.cgColor
+        self.layer.borderColor = UIColor.clear.cgColor
         self.searchBarStyle = UISearchBar.Style.minimal
         
         self.searchTextField.layer.cornerRadius = 10
-        self.searchTextField.layer.borderWidth = 3
-        self.searchTextField.layer.borderColor = UIColor.brown.cgColor
-        
-        self.searchTextField.tintColor = .brown
-        self.searchTextField.textColor = .brown
-        self.searchTextField.leftView?.tintColor = .brown
         
         self.searchTextField.background = .none
         self.searchTextField.backgroundColor = .white
     }
 }
 
-extension SearchBarComponent: UISearchBarDelegate{
+extension SearchBarComponent: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
 //        searchViewController?.filterFoods(with: searchText)
+        searchBarDelegate?.search(text: searchText)
     }
 }
 

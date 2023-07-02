@@ -23,8 +23,9 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController {
-    func setup() {
-        
+    func setup(hinario: [Hinario], searchBarDelegate: SearchBarDelegate) {
+        self.homeView.hinario.setup(hinario, hinoDelegate)
+        self.homeView.search.searchBarDelegate = searchBarDelegate
     }
 }
 

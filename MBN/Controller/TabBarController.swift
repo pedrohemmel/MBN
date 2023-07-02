@@ -21,6 +21,8 @@ class TabBarController: UIViewController {
     private var hinario = [Hinario]()
     private var currentScreen = "home"
     
+    private var homeViewController = HomeViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -33,12 +35,11 @@ class TabBarController: UIViewController {
 extension TabBarController: TabBarControlDelegate {
     func didTapHomeScreen() {
         self.currentScreen = "home"
-        let newVC = HomeViewController()
-        newVC.tabBarControlDelegate = self
-        newVC.currentController = "home"
-        newVC.hin
-        newVC.modalPresentationStyle = .fullScreen
-        self.present(newVC, animated: false)
+        self.homeViewController.tabBarControlDelegate = self
+        self.homeViewController.currentController = "home"
+        self.homeViewController.setup(hinario: self.hinario, searchBarDelegate: self)
+        self.homeViewController.modalPresentationStyle = .fullScreen
+        self.present(self.homeViewController, animated: false)
     }
     
     func didTapFavoriteScreen() {
@@ -62,6 +63,35 @@ extension TabBarController: HinarioCRUDDelegate {
         self.hinario = self.hinarioDataLoader.hinarioList
 //        self.homeView.hinario.setup(hinario, hinoDelegate)
         self.setCurrentScreen()
+    }
+}
+
+extension TabBarController: SearchBarDelegate {
+    func search(text: String) {
+        var newHinario = [Hinario]()
+        
+        for hymn in self.hinario {
+            if hymn.hinarioName.lowercased().contains(text.lowercased()) {
+                newHinario.append(hymn)
+            }
+        }
+        
+        for hymn in self.hinario {
+            for paragraph in hymn.hinarioLyrics {
+                if paragraph.lines.description.lowercased().contains(text.lowercased()) {
+                    if !newHinario.contains(where: { $0.hinarioName == hymn.hinarioName }) {
+                        newHinario.append(hymn)
+                        break
+                    }
+                }
+            }
+        }
+        
+        if text != ""{
+            self.homeViewController.setup(hinario: newHinario, searchBarDelegate: self)
+        } else {
+            self.homeViewController.setup(hinario: self.hinario, searchBarDelegate: self)
+        }
     }
 }
 

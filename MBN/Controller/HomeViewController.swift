@@ -11,21 +11,13 @@ class HomeViewController: UIViewController {
     
     private lazy var homeView = HomeView()
     
+    override func loadView() {
+        super.loadView()
+        self.view = homeView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setupViewConfiguration()
-    }
-}
-
-extension HomeViewController: ViewCode {
-    func buildViewHierarchy() {
-        self.view = self.homeView
-    }
-    
-    func setupConstraints() {
-    }
-    
-    func setupAdditionalConfiguration() {
         let titleAttributes: [NSAttributedString.Key: Any] = [
             .foregroundColor: UIColor.white,
         ]
@@ -33,8 +25,6 @@ extension HomeViewController: ViewCode {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background")!)
         self.title = "Missão boa noticia"
     }
-    
-    
 }
 
 extension HomeViewController: HinoDelegate{

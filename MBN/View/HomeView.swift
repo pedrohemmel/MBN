@@ -8,8 +8,11 @@
 import UIKit
 
 class HomeView: UIView {
+    
+    private let screenWidth = UIScreen.main.bounds.width
+    private let screenHeight = UIScreen.main.bounds.height
         
-    lazy var hinario: HinarioTableView = {
+    var hinario: HinarioTableView = {
         let hinario = HinarioTableView()
         hinario.rowHeight = 90
         hinario.backgroundColor = .clear
@@ -49,18 +52,18 @@ extension HomeView: ViewCode{
             self.hinario.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
             self.hinario.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.hinario.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            self.hinario.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor)
+            self.hinario.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
         
         NSLayoutConstraint.activate([
             self.tabBar.centerXAnchor.constraint(equalTo: self.centerXAnchor),
             self.tabBar.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
-            self.tabBar.widthAnchor.constraint(equalToConstant: self.frame.width * 0.5),
-            self.tabBar.heightAnchor.constraint(equalToConstant: self.frame.height * 0.1)
+            self.tabBar.widthAnchor.constraint(equalToConstant: (self.screenWidth * 0.5)),
+            self.tabBar.heightAnchor.constraint(equalToConstant: (self.screenHeight * 0.1))
         ])
     }
     
     func setupAdditionalConfiguration() {
-        self.tabBar.layer.cornerRadius = self.frame.height * 0.05
+        self.tabBar.layer.cornerRadius = self.screenHeight * 0.05
     }
 }

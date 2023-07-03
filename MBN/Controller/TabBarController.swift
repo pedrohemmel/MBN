@@ -29,6 +29,8 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hinarioDataLoader.loadData()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background")!)
+        self.removeTabBarDefaultBackground()
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -41,8 +43,8 @@ extension TabBarController: TabBarControlDelegate {
         self.currentScreen = "home"
         let newVC = HomeViewController()
         newVC.setup(self.hinario)
-//        newVC.tabBar.tabBarControlDelegate = self
-//        newVC.tabBar.currentController = "home"
+        newVC.homeView.tabBar.tabBarControlDelegate = self
+        newVC.homeView.tabBar.currentController = "home"
         let navVC = UINavigationController(rootViewController: newVC)
         navVC.modalPresentationStyle = .fullScreen
         self.present(navVC, animated: false)
@@ -81,5 +83,12 @@ extension TabBarController {
     
     func getHinarioData() {
         self.hinario = self.hinarioDataLoader.hinarioList
+    }
+    
+    func removeTabBarDefaultBackground() {
+        tabBar.backgroundImage = UIImage()
+        tabBar.shadowImage = UIImage()
+        tabBar.barTintColor = UIColor.clear
+        tabBar.isTranslucent = true
     }
 }

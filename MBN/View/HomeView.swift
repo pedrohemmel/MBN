@@ -11,6 +11,7 @@ class HomeView: UIView {
     
     private let screenWidth = UIScreen.main.bounds.width
     private let screenHeight = UIScreen.main.bounds.height
+    private var dismissAction: (() -> Void)?
         
     var hinario: HinarioTableView = {
         let hinario = HinarioTableView()
@@ -23,7 +24,7 @@ class HomeView: UIView {
     
     lazy var tabBar = {
         let tabBar = TabBarComponent(frame: .zero) {
-//            self.dismiss(animated: false)
+            (self.dismissAction ?? { print("Error: Can't dismiss HomeController")})()
         }
         tabBar.currentController = "home"
         tabBar.translatesAutoresizingMaskIntoConstraints = false
@@ -65,5 +66,13 @@ extension HomeView: ViewCode{
     
     func setupAdditionalConfiguration() {
         self.tabBar.layer.cornerRadius = self.screenHeight * 0.05
+        self.backgroundColor = UIColor(patternImage: UIImage(named: "Background")!)
+    }
+}
+
+//MARK: - Functions here
+extension HomeView {
+    func setupDismissAction(dismissAction: @escaping (() -> Void)) {
+        self.dismissAction = dismissAction
     }
 }

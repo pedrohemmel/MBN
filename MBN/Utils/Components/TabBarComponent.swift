@@ -74,7 +74,7 @@ extension TabBarComponent: ViewCode {
 //MARK: - Functions here
 extension TabBarComponent {
     func setSelectedItem() {
-        if self.currentController == "search" {
+        if self.currentController == "home" {
             self.firstItem.setImage(UIImage(named: "homeSelected"), for: .normal)
             self.secondItem.setImage(UIImage(named: "star"), for: .normal)
         } else if self.currentController == "favorite" {
@@ -84,7 +84,7 @@ extension TabBarComponent {
     }
     
     @objc func firstItemAction() {
-        if self.currentController != "search" {
+        if self.currentController != "home" {
             guard let dismiss = self.dismissAction else { return }
             dismiss()
             self.tabBarControlDelegate?.didTapHomeScreen()

@@ -40,6 +40,15 @@ extension HinarioTableView: UITableViewDataSource{
         cell.backgroundColor = .clear
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 90
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let view = UIView()
+        return view
+    }
 }
 
 extension HinarioTableView: UITableViewDelegate{

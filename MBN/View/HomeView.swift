@@ -9,6 +9,10 @@ import UIKit
 
 class HomeView: UIView {
     
+    private let screenWidth = UIScreen.main.bounds.width
+    private let screenHeight = UIScreen.main.bounds.height
+    private var dismissAction: (() -> Void)?
+        
     var hinario: HinarioTableView = {
         let hinario = HinarioTableView()
         hinario.rowHeight = 90
@@ -17,6 +21,16 @@ class HomeView: UIView {
         hinario.translatesAutoresizingMaskIntoConstraints = false
         return hinario
     }()
+    
+    lazy var tabBar = {
+        let tabBar = TabBarComponent(frame: .zero) {
+            (self.dismissAction ?? { print("Error: Can't dismiss HomeController")})()
+        }
+        tabBar.currentController = "home"
+        tabBar.translatesAutoresizingMaskIntoConstraints = false
+        return tabBar
+    }()
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -31,7 +45,7 @@ class HomeView: UIView {
 
 extension HomeView: ViewCode{
     func buildViewHierarchy() {
-        self.addSubview(hinario)
+        [self.hinario, self.tabBar].forEach({self.addSubview($0)})
     }
     
     func setupConstraints() {
@@ -41,11 +55,24 @@ extension HomeView: ViewCode{
             self.hinario.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             self.hinario.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
+        
+        NSLayoutConstraint.activate([
+            self.tabBar.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            self.tabBar.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
+            self.tabBar.widthAnchor.constraint(equalToConstant: (self.screenWidth * 0.5)),
+            self.tabBar.heightAnchor.constraint(equalToConstant: (self.screenHeight * 0.1))
+        ])
     }
     
     func setupAdditionalConfiguration() {
-    
+        self.tabBar.layer.cornerRadius = self.screenHeight * 0.05
+        self.backgroundColor = UIColor(patternImage: UIImage(named: "Background")!)
     }
-    
-    
+}
+
+//MARK: - Functions here
+extension HomeView {
+    func setupDismissAction(dismissAction: @escaping (() -> Void)) {
+        self.dismissAction = dismissAction
+    }
 }

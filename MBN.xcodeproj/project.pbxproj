@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */; };
+		885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */; };
 		88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */; };
 		88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC222A4E018200ED8A4A /* HomeViewController.swift */; };
 		88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC242A4E09D500ED8A4A /* HomeView.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHinoViewController.swift; sourceTree = "<group>"; };
+		885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHinoView.swift; sourceTree = "<group>"; };
 		88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinarioTableView.swift; sourceTree = "<group>"; };
 		88BEBC222A4E018200ED8A4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88BEBC242A4E09D500ED8A4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		885C52FD2A4FAE7200899CF9 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
 		88BEBC1F2A4DF05700ED8A4A /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,7 @@
 			children = (
 				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
 				88BEBC222A4E018200ED8A4A /* HomeViewController.swift */,
+				885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */,
 				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
 			);
@@ -154,6 +167,7 @@
 			children = (
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
 				88BEBC242A4E09D500ED8A4A /* HomeView.swift */,
+				885C52FD2A4FAE7200899CF9 /* DetailView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,9 +316,11 @@
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
+				885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */,
 				88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */,
 				88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */,
 				BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */,
+				885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,

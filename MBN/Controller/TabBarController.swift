@@ -27,6 +27,7 @@ class TabBarController: UITabBarController {
     private var currentScreen = String()
     
     private var homeViewController = HomeViewController()
+    private var favoriteViewController = FavoriteViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,13 +54,15 @@ extension TabBarController: TabBarControlDelegate {
     }
     
     func didTapFavoriteScreen() {
-        self.freeControllers()
         self.currentScreen = "favorite"
-        let newVC = ExampleController()
-        newVC.tabBar.tabBarControlDelegate = self
-        newVC.tabBar.currentController = "favorite"
-        newVC.modalPresentationStyle = .fullScreen
-        self.present(newVC, animated: false)
+        let newVC = FavoriteViewController()
+        newVC.favoriteView.tabBar.tabBarControlDelegate = self
+        newVC.favoriteView.tabBar.currentController = "favorite"
+        newVC.setup(self.hinario, searchBarDelegate: self)
+        self.favoriteViewController = newVC
+        let navVC = UINavigationController(rootViewController: self.favoriteViewController)
+        navVC.modalPresentationStyle = .fullScreen
+        self.present(navVC, animated: false)
     }
     
     func didTapInfoScreen() {
@@ -101,8 +104,10 @@ extension TabBarController: SearchBarDelegate {
         
         if text != "" {
             self.homeViewController.setup(newHinario, searchBarDelegate: self)
+            self.favoriteViewController.setup(newHinario, searchBarDelegate: self)
         } else {
             self.homeViewController.setup(self.hinario, searchBarDelegate: self)
+            self.favoriteViewController.setup(self.hinario, searchBarDelegate: self)
         }
     }
 }
@@ -128,7 +133,4 @@ extension TabBarController {
         tabBar.isTranslucent = true
     }
     
-    func freeControllers() {
-        self.homeViewController = HomeViewController()
-    }
 }

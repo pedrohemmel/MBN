@@ -26,6 +26,8 @@ class TabBarController: UITabBarController {
     
     private var currentScreen = "home"
     
+    private var homeViewController = HomeViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hinarioDataLoader.loadData()
@@ -34,18 +36,17 @@ class TabBarController: UITabBarController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.setCurrentScreen()
+        self.hinarioDataLoader.loadData()
     }
 }
 
 extension TabBarController: TabBarControlDelegate {
     func didTapHomeScreen() {
         self.currentScreen = "home"
-        let newVC = HomeViewController()
-        newVC.setup(self.hinario)
-        newVC.homeView.tabBar.tabBarControlDelegate = self
-        newVC.homeView.tabBar.currentController = "home"
-        let navVC = UINavigationController(rootViewController: newVC)
+        self.homeViewController.homeView.tabBar.tabBarControlDelegate = self
+        self.homeViewController.homeView.tabBar.currentController = "home"
+        self.homeViewController.setup(self.hinario, searchBarDelegate: self)
+        let navVC = UINavigationController(rootViewController: self.homeViewController)
         navVC.modalPresentationStyle = .fullScreen
         self.present(navVC, animated: false)
     }
@@ -66,6 +67,41 @@ extension TabBarController: TabBarControlDelegate {
         self.present(newVC, animated: false)
     }
 }
+extension TabBarController: HinarioCRUDDelegate {
+    func getHinarioData() {
+        self.hinario = self.hinarioDataLoader.hinarioList
+        self.setCurrentScreen()
+    }
+}
+
+extension TabBarController: SearchBarDelegate {
+    func search(text: String) {
+        var newHinario = [Hinario]()
+        
+        for hymn in self.hinario {
+            if hymn.hinarioName.lowercased().contains(text.lowercased()) {
+                newHinario.append(hymn)
+            }
+        }
+        
+        for hymn in self.hinario {
+            for paragraph in hymn.hinarioLyrics {
+                if paragraph.lines.description.lowercased().contains(text.lowercased()) {
+                    if !newHinario.contains(where: { $0.hinarioName == hymn.hinarioName }) {
+                        newHinario.append(hymn)
+                        break
+                    }
+                }
+            }
+        }
+        
+        if text != ""{
+            self.homeViewController.setup(newHinario, searchBarDelegate: self)
+        } else {
+            self.homeViewController.setup(self.hinario, searchBarDelegate: self)
+        }
+    }
+}
 
 extension TabBarController {
     func setCurrentScreen() {
@@ -79,10 +115,6 @@ extension TabBarController {
         default:
             self.didTapHomeScreen()
         }
-    }
-    
-    func getHinarioData() {
-        self.hinario = self.hinarioDataLoader.hinarioList
     }
     
     func removeTabBarDefaultBackground() {

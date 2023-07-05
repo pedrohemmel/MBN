@@ -12,7 +12,13 @@ class HomeView: UIView {
     private let screenWidth = UIScreen.main.bounds.width
     private let screenHeight = UIScreen.main.bounds.height
     private var dismissAction: (() -> Void)?
-        
+    lazy var search: SearchBarComponent = {
+        let view = SearchBarComponent()
+        view.placeholder = "Digite sua pesquisa"
+        view.barTintColor = .white
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
     var hinario: HinarioTableView = {
         let hinario = HinarioTableView()
         hinario.rowHeight = 90
@@ -45,12 +51,18 @@ class HomeView: UIView {
 
 extension HomeView: ViewCode{
     func buildViewHierarchy() {
-        [self.hinario, self.tabBar].forEach({self.addSubview($0)})
+        [self.hinario, self.search, self.tabBar].forEach({self.addSubview($0)})
     }
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            self.hinario.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            self.search.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            self.search.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            self.search.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            self.search.bottomAnchor.constraint(equalTo: self.hinario.topAnchor)
+        ])
+        NSLayoutConstraint.activate([
+            self.hinario.topAnchor.constraint(equalTo: self.search.bottomAnchor),
             self.hinario.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.hinario.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             self.hinario.bottomAnchor.constraint(equalTo: self.bottomAnchor)

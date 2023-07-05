@@ -15,6 +15,10 @@ protocol HinoDelegate: AnyObject {
     func showHino(hino: Hinario)
 }
 
+protocol SearchBarDelegate: AnyObject {
+    func search(text: String)
+}
+
 protocol ViewCode {
     func buildViewHierarchy()
     func setupConstraints()

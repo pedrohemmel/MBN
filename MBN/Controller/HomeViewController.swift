@@ -8,7 +8,6 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    
     lazy var homeView = HomeView()
     
     override func loadView() {
@@ -49,8 +48,9 @@ extension HomeViewController: HinoDelegate{
 }
 
 extension HomeViewController {
-    func setup(_ list: [Hinario]){
+    func setup(_ list: [Hinario], searchBarDelegate: SearchBarDelegate){
         self.homeView.hinario.setup(list, self)
+        self.homeView.search.searchBarDelegate = searchBarDelegate
     }
     
     @objc func back() {

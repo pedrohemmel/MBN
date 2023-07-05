@@ -9,6 +9,8 @@ import UIKit
 
 class DetailHinoView: UIView {
     
+    weak var hinoDelegate: HinoDelegate? = nil
+    
     lazy var title: UILabel = {
         let label = UILabel()
         label.numberOfLines = 2

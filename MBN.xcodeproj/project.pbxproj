@@ -85,14 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		885C52FD2A4FAE7200899CF9 /* DetailView */ = {
-			isa = PBXGroup;
-			children = (
-				885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */,
-			);
-			path = DetailView;
-			sourceTree = "<group>";
-		};
 		BB10BAEA2A49E198003C91E4 = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +152,7 @@
 			children = (
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
 				88BEBC242A4E09D500ED8A4A /* HomeView.swift */,
-				885C52FD2A4FAE7200899CF9 /* DetailView */,
+				885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

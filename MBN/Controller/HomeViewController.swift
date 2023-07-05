@@ -31,18 +31,17 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: HinoDelegate{
+    
     func showHino(hino: Hinario) {
         let hinoVC = DetailHinoViewController()
         hinoVC.setup(hino)
         hinoVC.title = "Hino"
+        hinoVC.hymn = hino
         
         let backBtn = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(back))
         backBtn.tintColor = .white
         hinoVC.navigationItem.leftBarButtonItem = backBtn
         
-        let favoriteBtn = UIBarButtonItem(image: UIImage(systemName: "star"), style: .plain, target: self, action: #selector(favoriteHino))
-        favoriteBtn.tintColor = .white
-        hinoVC.navigationItem.rightBarButtonItem = favoriteBtn
         self.navigationController?.pushViewController(hinoVC, animated: true)
     }
 }
@@ -56,10 +55,8 @@ extension HomeViewController {
     @objc func back() {
         self.navigationController?.popViewController(animated: true)
     }
-
-    @objc func favoriteHino() {
-
-    }
+    
+    
 }
 
 

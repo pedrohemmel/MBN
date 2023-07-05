@@ -31,6 +31,10 @@
 		BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */; };
 		BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD052A55199400F41DDE /* FavoriteView.swift */; };
 		BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */; };
+		BBD2CD0B2A55BF2A00F41DDE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD0A2A55BF2A00F41DDE /* InfoViewController.swift */; };
+		BBD2CD0E2A55BFF800F41DDE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */; };
+		BBD2CD132A55C5A600F41DDE /* InfoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */; };
+		BBD2CD162A55C68B00F41DDE /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		BBD2CD052A55199400F41DDE /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFavoriteView.swift; sourceTree = "<group>"; };
+		BBD2CD0A2A55BF2A00F41DDE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableView.swift; sourceTree = "<group>"; };
+		BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +158,7 @@
 				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
 				BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */,
+				BBD2CD0A2A55BF2A00F41DDE /* InfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,8 +169,8 @@
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
 				88BEBC242A4E09D500ED8A4A /* HomeView.swift */,
 				885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */,
-				BBD2CD052A55199400F41DDE /* FavoriteView.swift */,
-				BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */,
+				BBD2CD0C2A55BFB500F41DDE /* Favorite */,
+				BBD2CD102A55C58D00F41DDE /* Info */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +211,41 @@
 				BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		BBD2CD0C2A55BFB500F41DDE /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD052A55199400F41DDE /* FavoriteView.swift */,
+				BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		BBD2CD102A55C58D00F41DDE /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */,
+				BBD2CD112A55C59800F41DDE /* Views */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		BBD2CD112A55C59800F41DDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */,
+				BBD2CD142A55C5AC00F41DDE /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBD2CD142A55C5AC00F41DDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,8 +358,12 @@
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
 				BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
+				BBD2CD162A55C68B00F41DDE /* InfoTableViewCell.swift in Sources */,
+				BBD2CD132A55C5A600F41DDE /* InfoTableView.swift in Sources */,
 				885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */,
+				BBD2CD0B2A55BF2A00F41DDE /* InfoViewController.swift in Sources */,
 				88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */,
+				BBD2CD0E2A55BFF800F41DDE /* InfoView.swift in Sources */,
 				88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */,
 				BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */,
 				885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */,

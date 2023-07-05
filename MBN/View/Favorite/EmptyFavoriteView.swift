@@ -1,30 +1,31 @@
 //
-//  HomeView.swift
+//  EmptyFavoriteView.swift
 //  MBN
 //
-//  Created by Bruno Lafayette on 29/06/23.
+//  Created by Pedro henrique Dias hemmel de oliveira souza on 05/07/23.
 //
 
 import UIKit
 
-class HomeView: UIView {
+class EmptyFavoriteView: UIView {
     
     private let screenHeight = UIScreen.main.bounds.height
     private var dismissAction: (() -> Void)?
-    lazy var search: SearchBarComponent = {
-        let view = SearchBarComponent()
-        view.placeholder = "Digite sua pesquisa"
-        view.barTintColor = .white
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
+    private var image: UIImageView = {
+        let image = UIImageView()
+        image.image = UIImage(named: "bookEmptyFavorite")
+        image.contentMode = .scaleAspectFit
+        image.translatesAutoresizingMaskIntoConstraints = false
+        return image
     }()
-    var hinario: HinarioTableView = {
-        let hinario = HinarioTableView()
-        hinario.rowHeight = 90
-        hinario.backgroundColor = .clear
-        hinario.separatorColor = .white
-        hinario.translatesAutoresizingMaskIntoConstraints = false
-        return hinario
+    
+    private var label: UILabel = {
+        let label = UILabel()
+        label.text = "Sem hinários favoritados até o momento."
+        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 12, weight: .light)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
     }()
     
     lazy var tabBar = {
@@ -35,8 +36,6 @@ class HomeView: UIView {
         tabBar.translatesAutoresizingMaskIntoConstraints = false
         return tabBar
     }()
-    
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupViewConfiguration()
@@ -45,28 +44,23 @@ class HomeView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
 
-extension HomeView: ViewCode{
+extension EmptyFavoriteView: ViewCode {
     func buildViewHierarchy() {
-        [self.hinario, self.search, self.tabBar].forEach({self.addSubview($0)})
+        [self.image, self.label, self.tabBar].forEach({self.addSubview($0)})
     }
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            self.search.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
-            self.search.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            self.search.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            self.search.bottomAnchor.constraint(equalTo: self.hinario.topAnchor)
-        ])
-        NSLayoutConstraint.activate([
-            self.hinario.topAnchor.constraint(equalTo: self.search.bottomAnchor),
-            self.hinario.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            self.hinario.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            self.hinario.bottomAnchor.constraint(equalTo: self.bottomAnchor)
+            self.image.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            self.image.centerXAnchor.constraint(equalTo: self.centerXAnchor)
         ])
         
+        NSLayoutConstraint.activate([
+            self.label.topAnchor.constraint(equalTo: self.image.bottomAnchor),
+            self.label.centerXAnchor.constraint(equalTo: self.centerXAnchor)
+        ])
         NSLayoutConstraint.activate([
             self.tabBar.centerXAnchor.constraint(equalTo: self.centerXAnchor),
             self.tabBar.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
@@ -80,8 +74,7 @@ extension HomeView: ViewCode{
     }
 }
 
-//MARK: - Functions here
-extension HomeView {
+extension EmptyFavoriteView {
     func setupDismissAction(dismissAction: @escaping (() -> Void)) {
         self.dismissAction = dismissAction
     }

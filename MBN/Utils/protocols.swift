@@ -19,6 +19,17 @@ protocol SearchBarDelegate: AnyObject {
     func search(text: String)
 }
 
+protocol FavoriteDataDelegate: AnyObject {
+    func didSelectFavoriteButton()
+}
+
+protocol InfoDelegate: AnyObject {
+    func didSelectAboutSection()
+    func didSelectPlacesSection()
+    func didSelectContactSection()
+    func didSelectPrivacyPolicySection()
+}
+
 protocol ViewCode {
     func buildViewHierarchy()
     func setupConstraints()

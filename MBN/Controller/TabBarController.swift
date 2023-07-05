@@ -43,9 +43,11 @@ class TabBarController: UITabBarController {
 extension TabBarController: TabBarControlDelegate {
     func didTapHomeScreen() {
         self.currentScreen = "home"
-        self.homeViewController.homeView.tabBar.tabBarControlDelegate = self
-        self.homeViewController.homeView.tabBar.currentController = "home"
-        self.homeViewController.setup(self.hinario, searchBarDelegate: self)
+        let newVC = HomeViewController()
+        newVC.homeView.tabBar.tabBarControlDelegate = self
+        newVC.homeView.tabBar.currentController = "home"
+        newVC.setup(self.hinario, searchBarDelegate: self)
+        self.homeViewController = newVC
         let navVC = UINavigationController(rootViewController: self.homeViewController)
         navVC.modalPresentationStyle = .fullScreen
         self.present(navVC, animated: false)
@@ -95,7 +97,7 @@ extension TabBarController: SearchBarDelegate {
             }
         }
         
-        if text != ""{
+        if text != "" {
             self.homeViewController.setup(newHinario, searchBarDelegate: self)
         } else {
             self.homeViewController.setup(self.hinario, searchBarDelegate: self)

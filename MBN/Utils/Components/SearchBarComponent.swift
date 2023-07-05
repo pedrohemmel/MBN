@@ -44,7 +44,6 @@ extension SearchBarComponent: ViewCode {
 
 extension SearchBarComponent: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//        searchViewController?.filterFoods(with: searchText)
         searchBarDelegate?.search(text: searchText)
     }
 }

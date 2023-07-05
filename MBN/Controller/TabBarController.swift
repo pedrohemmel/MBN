@@ -24,13 +24,12 @@ class TabBarController: UITabBarController {
         self.getHinarioData()
     })
     
-    private var currentScreen = "home"
+    private var currentScreen = String()
     
     private var homeViewController = HomeViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hinarioDataLoader.loadData()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Background")!)
         self.removeTabBarDefaultBackground()
     }
@@ -54,6 +53,7 @@ extension TabBarController: TabBarControlDelegate {
     }
     
     func didTapFavoriteScreen() {
+        self.freeControllers()
         self.currentScreen = "favorite"
         let newVC = ExampleController()
         newVC.tabBar.tabBarControlDelegate = self
@@ -72,7 +72,9 @@ extension TabBarController: TabBarControlDelegate {
 extension TabBarController: HinarioCRUDDelegate {
     func getHinarioData() {
         self.hinario = self.hinarioDataLoader.hinarioList
-        self.setCurrentScreen()
+        if self.currentScreen == String() {
+            self.setCurrentScreen()
+        }
     }
 }
 
@@ -124,5 +126,9 @@ extension TabBarController {
         tabBar.shadowImage = UIImage()
         tabBar.barTintColor = UIColor.clear
         tabBar.isTranslucent = true
+    }
+    
+    func freeControllers() {
+        self.homeViewController = HomeViewController()
     }
 }

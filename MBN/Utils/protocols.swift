@@ -30,6 +30,10 @@ protocol InfoDelegate: AnyObject {
     func didSelectPrivacyPolicySection()
 }
 
+protocol PlacesDelegate: AnyObject {
+    func showPlace(place: PlaceMBN)
+}
+
 protocol ViewCode {
     func buildViewHierarchy()
     func setupConstraints()

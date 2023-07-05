@@ -35,6 +35,13 @@
 		BBD2CD0E2A55BFF800F41DDE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */; };
 		BBD2CD132A55C5A600F41DDE /* InfoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */; };
 		BBD2CD162A55C68B00F41DDE /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */; };
+		BBD2CD192A55ED8600F41DDE /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD182A55ED8600F41DDE /* PlacesViewController.swift */; };
+		BBD2CD1C2A55EDCB00F41DDE /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD1B2A55EDCB00F41DDE /* PlacesView.swift */; };
+		BBD2CD202A55EE3800F41DDE /* PlacesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD1F2A55EE3800F41DDE /* PlacesTableView.swift */; };
+		BBD2CD232A55EE4600F41DDE /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD222A55EE4600F41DDE /* PlacesTableViewCell.swift */; };
+		BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */; };
+		BBD2CD282A55FA7100F41DDE /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD272A55FA7100F41DDE /* PlaceView.swift */; };
+		BBD2CD2A2A55FF1200F41DDE /* PlaceMBN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +86,13 @@
 		BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableView.swift; sourceTree = "<group>"; };
 		BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		BBD2CD182A55ED8600F41DDE /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		BBD2CD1B2A55EDCB00F41DDE /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		BBD2CD1F2A55EE3800F41DDE /* PlacesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableView.swift; sourceTree = "<group>"; };
+		BBD2CD222A55EE4600F41DDE /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		BBD2CD272A55FA7100F41DDE /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMBN.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +173,7 @@
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
 				BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */,
 				BBD2CD0A2A55BF2A00F41DDE /* InfoViewController.swift */,
+				BBD2CD242A55F9EB00F41DDE /* Places */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +195,7 @@
 			children = (
 				BB10BB392A4B3C5E003C91E4 /* Hinario.swift */,
 				BB10BB462A4C8594003C91E4 /* Paragraph.swift */,
+				BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */,
+				BBD2CD1A2A55EDB500F41DDE /* Sections */,
 				BBD2CD112A55C59800F41DDE /* Views */,
 			);
 			path = Info;
@@ -246,6 +263,50 @@
 				BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBD2CD1A2A55EDB500F41DDE /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD1D2A55EE1900F41DDE /* Places */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		BBD2CD1D2A55EE1900F41DDE /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD1B2A55EDCB00F41DDE /* PlacesView.swift */,
+				BBD2CD272A55FA7100F41DDE /* PlaceView.swift */,
+				BBD2CD1E2A55EE2A00F41DDE /* Views */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		BBD2CD1E2A55EE2A00F41DDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD1F2A55EE3800F41DDE /* PlacesTableView.swift */,
+				BBD2CD212A55EE3B00F41DDE /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBD2CD212A55EE3B00F41DDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD222A55EE4600F41DDE /* PlacesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBD2CD242A55F9EB00F41DDE /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD182A55ED8600F41DDE /* PlacesViewController.swift */,
+				BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */,
+			);
+			path = Places;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,22 +417,29 @@
 				BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
+				BBD2CD192A55ED8600F41DDE /* PlacesViewController.swift in Sources */,
 				BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
 				BBD2CD162A55C68B00F41DDE /* InfoTableViewCell.swift in Sources */,
 				BBD2CD132A55C5A600F41DDE /* InfoTableView.swift in Sources */,
+				BBD2CD282A55FA7100F41DDE /* PlaceView.swift in Sources */,
 				885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */,
+				BBD2CD202A55EE3800F41DDE /* PlacesTableView.swift in Sources */,
 				BBD2CD0B2A55BF2A00F41DDE /* InfoViewController.swift in Sources */,
 				88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */,
 				BBD2CD0E2A55BFF800F41DDE /* InfoView.swift in Sources */,
+				BBD2CD2A2A55FF1200F41DDE /* PlaceMBN.swift in Sources */,
 				88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */,
 				BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */,
 				885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
 				BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */,
+				BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */,
+				BBD2CD232A55EE4600F41DDE /* PlacesTableViewCell.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
 				BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */,
+				BBD2CD1C2A55EDCB00F41DDE /* PlacesView.swift in Sources */,
 				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

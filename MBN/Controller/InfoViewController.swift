@@ -35,7 +35,12 @@ extension InfoViewController: InfoDelegate {
     }
     
     func didSelectPlacesSection() {
+        let newVC = PlacesViewController()
+        let backBtn = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(back))
+        backBtn.tintColor = .white
+        newVC.navigationItem.leftBarButtonItem = backBtn
         
+        self.navigationController?.pushViewController(newVC, animated: true)
     }
     
     func didSelectContactSection() {
@@ -44,5 +49,11 @@ extension InfoViewController: InfoDelegate {
     
     func didSelectPrivacyPolicySection() {
         
+    }
+}
+
+extension InfoViewController {
+    @objc func back() {
+        self.navigationController?.popViewController(animated: true)
     }
 }

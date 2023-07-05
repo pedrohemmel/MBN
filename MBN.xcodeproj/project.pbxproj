@@ -28,6 +28,8 @@
 		BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */; };
 		BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */; };
 		BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */; };
+		BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */; };
+		BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD052A55199400F41DDE /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2Controller.swift; sourceTree = "<group>"; };
 		BB10BB512A4DF2E2003C91E4 /* TabBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarComponent.swift; sourceTree = "<group>"; };
 		BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarComponent.swift; sourceTree = "<group>"; };
+		BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		BBD2CD052A55199400F41DDE /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */,
 				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
+				BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */,
 				88BEBC242A4E09D500ED8A4A /* HomeView.swift */,
 				885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */,
+				BBD2CD052A55199400F41DDE /* FavoriteView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */,
+				BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
 				BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */,
@@ -312,6 +319,7 @@
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
+				BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */,
 				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

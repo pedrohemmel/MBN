@@ -53,6 +53,7 @@ extension HinarioTableView: UITableViewDataSource{
 
 extension HinarioTableView: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.deselectRow(at: indexPath, animated: true)
         self.hinoDelegate?.showHino(hino: hinario[indexPath.row])
     }
 }

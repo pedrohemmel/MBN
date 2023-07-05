@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol FavoriteDataDelegate: AnyObject {
-    func didSelectFavoriteButton()
-}
-
 class FavoriteViewController: UIViewController {
     private var hinario = [Hinario]()
     var favoriteView = FavoriteView()
@@ -28,7 +24,7 @@ class FavoriteViewController: UIViewController {
         ]
         self.navigationController?.navigationBar.titleTextAttributes = titleAttributes
         
-        self.title = "Missão boa noticia"
+        self.title = "Seus hinos favoritos"
         
         self.favoriteView.setupDismissAction {
             self.dismiss(animated: false)

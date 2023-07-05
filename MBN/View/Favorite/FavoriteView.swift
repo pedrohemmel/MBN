@@ -9,7 +9,6 @@ import UIKit
 
 class FavoriteView: UIView {
     
-    private let screenWidth = UIScreen.main.bounds.width
     private let screenHeight = UIScreen.main.bounds.height
     private var dismissAction: (() -> Void)?
     lazy var search: SearchBarComponent = {
@@ -70,7 +69,6 @@ extension FavoriteView: ViewCode{
         NSLayoutConstraint.activate([
             self.tabBar.centerXAnchor.constraint(equalTo: self.centerXAnchor),
             self.tabBar.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
-            self.tabBar.widthAnchor.constraint(equalToConstant: (self.screenWidth * 0.5)),
             self.tabBar.heightAnchor.constraint(equalToConstant: (self.screenHeight * 0.1))
         ])
     }
@@ -84,6 +82,7 @@ extension FavoriteView: ViewCode{
 //MARK: - Functions here
 extension FavoriteView {
     func setupDismissAction(dismissAction: @escaping (() -> Void)) {
+        self.tabBar.layer.cornerRadius = self.screenHeight * 0.05
         self.dismissAction = dismissAction
     }
 }

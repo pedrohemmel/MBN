@@ -69,9 +69,12 @@ extension TabBarController: TabBarControlDelegate {
     
     func didTapInfoScreen() {
         self.currentScreen = "info"
-        let newVC = Example2Controller()
-        newVC.modalPresentationStyle = .fullScreen
-        self.present(newVC, animated: false)
+        let newVC = InfoViewController()
+        newVC.infoView.tabBar.tabBarControlDelegate = self
+        newVC.infoView.tabBar.currentController = "info"
+        let navVC = UINavigationController(rootViewController: newVC)
+        navVC.modalPresentationStyle = .fullScreen
+        self.present(navVC, animated: false)
     }
 }
 extension TabBarController: HinarioCRUDDelegate {

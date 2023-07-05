@@ -37,6 +37,14 @@ class TabBarComponent: UIView {
         secondItem.translatesAutoresizingMaskIntoConstraints = false
         return secondItem
     }()
+    private lazy var tertiaryItem: UIButton = {
+        let tertiaryItem = UIButton()
+        tertiaryItem.setImage(UIImage(named: "info"), for: .normal)
+        tertiaryItem.addTarget(self, action: #selector(tertiaryItemAction), for: .touchUpInside)
+        tertiaryItem.contentMode = .scaleAspectFit
+        tertiaryItem.translatesAutoresizingMaskIntoConstraints = false
+        return tertiaryItem
+    }()
     
     init(frame: CGRect, dismissAction: @escaping (() -> Void)) {
         self.dismissAction = dismissAction
@@ -51,18 +59,27 @@ class TabBarComponent: UIView {
 //MARK: - ViewCode extension
 extension TabBarComponent: ViewCode {
     func buildViewHierarchy() {
-        [self.firstItem, self.secondItem].forEach({ self.addSubview($0) })
+        [self.firstItem, self.secondItem, self.tertiaryItem].forEach({ self.addSubview($0) })
     }
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
             self.firstItem.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.firstItem.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20)
+            self.firstItem.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
+            self.firstItem.trailingAnchor.constraint(equalTo: self.secondItem.leadingAnchor, constant: -20)
         ])
         
         NSLayoutConstraint.activate([
             self.secondItem.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.secondItem.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20)
+            self.secondItem.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            self.secondItem.leadingAnchor.constraint(equalTo: self.firstItem.trailingAnchor, constant: 20),
+            self.secondItem.trailingAnchor.constraint(equalTo: self.tertiaryItem.leadingAnchor, constant: -20)
+        ])
+        
+        NSLayoutConstraint.activate([
+            self.tertiaryItem.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            self.tertiaryItem.leadingAnchor.constraint(equalTo: self.secondItem.trailingAnchor, constant: 20),
+            self.tertiaryItem.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20)
         ])
     }
     
@@ -77,9 +94,15 @@ extension TabBarComponent {
         if self.currentController == "home" {
             self.firstItem.setImage(UIImage(named: "homeSelected"), for: .normal)
             self.secondItem.setImage(UIImage(named: "star"), for: .normal)
+            self.tertiaryItem.setImage(UIImage(named: "info"), for: .normal)
         } else if self.currentController == "favorite" {
             self.firstItem.setImage(UIImage(named: "home"), for: .normal)
             self.secondItem.setImage(UIImage(named: "starSelected"), for: .normal)
+            self.tertiaryItem.setImage(UIImage(named: "info"), for: .normal)
+        } else if self.currentController == "info" {
+            self.firstItem.setImage(UIImage(named: "home"), for: .normal)
+            self.secondItem.setImage(UIImage(named: "star"), for: .normal)
+            self.tertiaryItem.setImage(UIImage(named: "infoSelected"), for: .normal)
         }
     }
     
@@ -96,6 +119,15 @@ extension TabBarComponent {
             guard let dismiss = self.dismissAction else { return }
             dismiss()
             self.tabBarControlDelegate?.didTapFavoriteScreen()
+        }
+    }
+    
+    
+    @objc func tertiaryItemAction() {
+        if self.currentController != "info" {
+            guard let dismiss = self.dismissAction else { return }
+            dismiss()
+            self.tabBarControlDelegate?.didTapInfoScreen()
         }
     }
 }

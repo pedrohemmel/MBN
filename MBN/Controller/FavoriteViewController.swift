@@ -13,11 +13,12 @@ protocol FavoriteDataDelegate: AnyObject {
 
 class FavoriteViewController: UIViewController {
     private var hinario = [Hinario]()
-    lazy var favoriteView = FavoriteView()
+    var favoriteView = FavoriteView()
+    var emptyFavoriteView = EmptyFavoriteView()
     
     override func loadView() {
         super.loadView()
-        self.view = favoriteView
+        self.setCurrentFavoriteView()
     }
     
     override func viewDidLoad() {
@@ -32,12 +33,16 @@ class FavoriteViewController: UIViewController {
         self.favoriteView.setupDismissAction {
             self.dismiss(animated: false)
         }
+        self.emptyFavoriteView.setupDismissAction {
+            self.dismiss(animated: false)
+        }
     }
 }
 
 extension FavoriteViewController: FavoriteDataDelegate {
     func didSelectFavoriteButton() {
         self.favoriteView.hinario.setup(filterFavoriteHinario(hinario: self.hinario), self)
+        self.setCurrentFavoriteView()
     }
 }
 
@@ -67,6 +72,22 @@ extension FavoriteViewController {
         self.favoriteView.search.searchBarDelegate = searchBarDelegate
     }
     
+    func setCurrentFavoriteView() {
+        if self.verifyItHasFavoriteHinario() {
+            self.view = self.favoriteView
+        } else {
+            self.view = self.emptyFavoriteView
+        }
+    }
+    
+    func verifyItHasFavoriteHinario() -> Bool {
+        if let favoriteHinario = UserDefaults.standard.array(forKey: "hinario") as? [Int] {
+            if favoriteHinario.count != .zero {
+                return true
+            }
+        }
+        return false
+    }
     func filterFavoriteHinario(hinario: [Hinario]) -> [Hinario] {
         if let favoriteHinario = UserDefaults.standard.array(forKey: "hinario") as? [Int] {
             var filteredHinario = [Hinario]()

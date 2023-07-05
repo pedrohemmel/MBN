@@ -58,6 +58,8 @@ extension TabBarController: TabBarControlDelegate {
         let newVC = FavoriteViewController()
         newVC.favoriteView.tabBar.tabBarControlDelegate = self
         newVC.favoriteView.tabBar.currentController = "favorite"
+        newVC.emptyFavoriteView.tabBar.tabBarControlDelegate = self
+        newVC.emptyFavoriteView.tabBar.currentController = "favorite"
         newVC.setup(self.hinario, searchBarDelegate: self)
         self.favoriteViewController = newVC
         let navVC = UINavigationController(rootViewController: self.favoriteViewController)

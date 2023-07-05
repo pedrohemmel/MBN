@@ -30,6 +30,7 @@
 		BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */; };
 		BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */; };
 		BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD052A55199400F41DDE /* FavoriteView.swift */; };
+		BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		BB19C3E32A4E919E006C6AE7 /* SearchBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarComponent.swift; sourceTree = "<group>"; };
 		BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		BBD2CD052A55199400F41DDE /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				88BEBC242A4E09D500ED8A4A /* HomeView.swift */,
 				885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */,
 				BBD2CD052A55199400F41DDE /* FavoriteView.swift */,
+				BBD2CD082A55B64E00F41DDE /* EmptyFavoriteView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
+				BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
 				BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */,
 				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,

@@ -9,6 +9,8 @@ import UIKit
 
 class DetailHinoViewController: UIViewController {
     
+    weak var favoriteDataDelegate: FavoriteDataDelegate? = nil
+    
     var hymn: Hinario? = nil
     let detailView = DetailHinoView()
 
@@ -62,6 +64,7 @@ extension DetailHinoViewController{
             self.navigationItem.rightBarButtonItem?.image = UIImage(systemName: "star.fill")
             self.navigationItem.rightBarButtonItem?.action = #selector(self.deselectFavoriteHino)
         }
+        self.favoriteDataDelegate?.didSelectFavoriteButton()
     }
     
     @objc func deselectFavoriteHino(button: UIButton) {
@@ -74,5 +77,6 @@ extension DetailHinoViewController{
                 self.navigationItem.rightBarButtonItem?.action = #selector(self.selectFavoriteHino)
             }
         }
+        self.favoriteDataDelegate?.didSelectFavoriteButton()
     }
 }

@@ -7,7 +7,12 @@
 
 import UIKit
 
+protocol FavoriteDataDelegate: AnyObject {
+    func didSelectFavoriteButton()
+}
+
 class FavoriteViewController: UIViewController {
+    private var hinario = [Hinario]()
     lazy var favoriteView = FavoriteView()
     
     override func loadView() {
@@ -30,11 +35,19 @@ class FavoriteViewController: UIViewController {
     }
 }
 
+extension FavoriteViewController: FavoriteDataDelegate {
+    func didSelectFavoriteButton() {
+        self.favoriteView.hinario.setup(filterFavoriteHinario(hinario: self.hinario), self)
+    }
+}
+
 extension FavoriteViewController: HinoDelegate{
     func showHino(hino: Hinario) {
         let hinoVC = DetailHinoViewController()
         hinoVC.setup(hino)
         hinoVC.title = "Hino"
+        hinoVC.hymn = hino
+        hinoVC.favoriteDataDelegate = self
         
         let backBtn = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(back))
         backBtn.tintColor = .white
@@ -49,6 +62,7 @@ extension FavoriteViewController: HinoDelegate{
 
 extension FavoriteViewController {
     func setup(_ list: [Hinario], searchBarDelegate: SearchBarDelegate) {
+        self.hinario = list
         self.favoriteView.hinario.setup(filterFavoriteHinario(hinario: list), self)
         self.favoriteView.search.searchBarDelegate = searchBarDelegate
     }

@@ -11,6 +11,10 @@ protocol HinarioCRUDDelegate: AnyObject {
     func getHinarioData()
 }
 
+protocol PlacesMBNCRUDDelegate: AnyObject {
+    func getPlacesMBNData()
+}
+
 protocol HinoDelegate: AnyObject {
     func showHino(hino: Hinario)
 }
@@ -28,6 +32,10 @@ protocol InfoDelegate: AnyObject {
     func didSelectPlacesSection()
     func didSelectContactSection()
     func didSelectPrivacyPolicySection()
+}
+
+protocol PlacesDelegate: AnyObject {
+    func showPlace(place: PlaceMBN)
 }
 
 protocol ViewCode {

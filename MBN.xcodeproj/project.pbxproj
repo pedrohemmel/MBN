@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */; };
 		885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */; };
+		88930C662A56FE8300283536 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C652A56FE8300283536 /* AboutViewController.swift */; };
+		88930C682A56FF1700283536 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C672A56FF1700283536 /* AboutView.swift */; };
+		88930C6B2A57072000283536 /* MBNInfo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88930C6D2A57072000283536 /* MBNInfo.strings */; };
+		88930C6F2A571D0300283536 /* PrivacyPoliciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */; };
+		88930C712A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C702A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift */; };
 		88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */; };
 		88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC222A4E018200ED8A4A /* HomeViewController.swift */; };
 		88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC242A4E09D500ED8A4A /* HomeView.swift */; };
@@ -35,6 +40,15 @@
 		BBD2CD0E2A55BFF800F41DDE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */; };
 		BBD2CD132A55C5A600F41DDE /* InfoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */; };
 		BBD2CD162A55C68B00F41DDE /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */; };
+		BBD2CD192A55ED8600F41DDE /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD182A55ED8600F41DDE /* PlacesViewController.swift */; };
+		BBD2CD1C2A55EDCB00F41DDE /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD1B2A55EDCB00F41DDE /* PlacesView.swift */; };
+		BBD2CD202A55EE3800F41DDE /* PlacesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD1F2A55EE3800F41DDE /* PlacesTableView.swift */; };
+		BBD2CD232A55EE4600F41DDE /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD222A55EE4600F41DDE /* PlacesTableViewCell.swift */; };
+		BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */; };
+		BBD2CD282A55FA7100F41DDE /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD272A55FA7100F41DDE /* PlaceView.swift */; };
+		BBD2CD2A2A55FF1200F41DDE /* PlaceMBN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */; };
+		BBD2CD2C2A56399A00F41DDE /* placesMBN.json in Resources */ = {isa = PBXBuildFile; fileRef = BBD2CD2B2A56399A00F41DDE /* placesMBN.json */; };
+		BBD2CD2E2A563C4900F41DDE /* PlacesMBNDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD2D2A563C4900F41DDE /* PlacesMBNDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +64,11 @@
 /* Begin PBXFileReference section */
 		885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHinoViewController.swift; sourceTree = "<group>"; };
 		885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHinoView.swift; sourceTree = "<group>"; };
+		88930C652A56FE8300283536 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		88930C672A56FF1700283536 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		88930C6C2A57072000283536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MBNInfo.strings; sourceTree = "<group>"; };
+		88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPoliciesView.swift; sourceTree = "<group>"; };
+		88930C702A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPoliciesControllerViewController.swift; sourceTree = "<group>"; };
 		88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinarioTableView.swift; sourceTree = "<group>"; };
 		88BEBC222A4E018200ED8A4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88BEBC242A4E09D500ED8A4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -79,6 +98,15 @@
 		BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		BBD2CD122A55C5A600F41DDE /* InfoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableView.swift; sourceTree = "<group>"; };
 		BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		BBD2CD182A55ED8600F41DDE /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		BBD2CD1B2A55EDCB00F41DDE /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		BBD2CD1F2A55EE3800F41DDE /* PlacesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableView.swift; sourceTree = "<group>"; };
+		BBD2CD222A55EE4600F41DDE /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		BBD2CD272A55FA7100F41DDE /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMBN.swift; sourceTree = "<group>"; };
+		BBD2CD2B2A56399A00F41DDE /* placesMBN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = placesMBN.json; sourceTree = "<group>"; };
+		BBD2CD2D2A563C4900F41DDE /* PlacesMBNDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesMBNDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,11 +182,14 @@
 			children = (
 				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
 				88BEBC222A4E018200ED8A4A /* HomeViewController.swift */,
+				88930C702A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift */,
+				88930C652A56FE8300283536 /* AboutViewController.swift */,
 				885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */,
 				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
 				BBD2CD032A5517E500F41DDE /* FavoriteViewController.swift */,
 				BBD2CD0A2A55BF2A00F41DDE /* InfoViewController.swift */,
+				BBD2CD242A55F9EB00F41DDE /* Places */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +211,7 @@
 			children = (
 				BB10BB392A4B3C5E003C91E4 /* Hinario.swift */,
 				BB10BB462A4C8594003C91E4 /* Paragraph.swift */,
+				BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +219,8 @@
 		BB10BB3B2A4B3CDD003C91E4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BBD2CD2B2A56399A00F41DDE /* placesMBN.json */,
+				88930C6D2A57072000283536 /* MBNInfo.strings */,
 				BB10BB402A4B470A003C91E4 /* hinarioJSON.json */,
 			);
 			path = Source;
@@ -197,6 +231,7 @@
 			children = (
 				BB10BB502A4DEF39003C91E4 /* Components */,
 				BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */,
+				BBD2CD2D2A563C4900F41DDE /* PlacesMBNDataLoader.swift */,
 				BB10BB422A4B5AD6003C91E4 /* protocols.swift */,
 			);
 			path = Utils;
@@ -226,6 +261,9 @@
 			isa = PBXGroup;
 			children = (
 				BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */,
+				88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */,
+				88930C672A56FF1700283536 /* AboutView.swift */,
+				BBD2CD1A2A55EDB500F41DDE /* Sections */,
 				BBD2CD112A55C59800F41DDE /* Views */,
 			);
 			path = Info;
@@ -246,6 +284,50 @@
 				BBD2CD152A55C68B00F41DDE /* InfoTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBD2CD1A2A55EDB500F41DDE /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD1D2A55EE1900F41DDE /* Places */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		BBD2CD1D2A55EE1900F41DDE /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD1B2A55EDCB00F41DDE /* PlacesView.swift */,
+				BBD2CD272A55FA7100F41DDE /* PlaceView.swift */,
+				BBD2CD1E2A55EE2A00F41DDE /* Views */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		BBD2CD1E2A55EE2A00F41DDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD1F2A55EE3800F41DDE /* PlacesTableView.swift */,
+				BBD2CD212A55EE3B00F41DDE /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBD2CD212A55EE3B00F41DDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD222A55EE4600F41DDE /* PlacesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBD2CD242A55F9EB00F41DDE /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CD182A55ED8600F41DDE /* PlacesViewController.swift */,
+				BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */,
+			);
+			path = Places;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,8 +412,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */,
+				88930C6B2A57072000283536 /* MBNInfo.strings in Resources */,
 				BB10BB412A4B470A003C91E4 /* hinarioJSON.json in Resources */,
 				BB10BB002A49E199003C91E4 /* Assets.xcassets in Resources */,
+				BBD2CD2C2A56399A00F41DDE /* placesMBN.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,27 +435,39 @@
 			files = (
 				88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */,
 				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
+				88930C682A56FF1700283536 /* AboutView.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */,
+				88930C712A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift in Sources */,
 				BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
+				BBD2CD192A55ED8600F41DDE /* PlacesViewController.swift in Sources */,
 				BB19C3E42A4E919E006C6AE7 /* SearchBarComponent.swift in Sources */,
 				BB10BB432A4B5AD6003C91E4 /* protocols.swift in Sources */,
 				BBD2CD162A55C68B00F41DDE /* InfoTableViewCell.swift in Sources */,
 				BBD2CD132A55C5A600F41DDE /* InfoTableView.swift in Sources */,
+				BBD2CD282A55FA7100F41DDE /* PlaceView.swift in Sources */,
 				885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */,
+				BBD2CD202A55EE3800F41DDE /* PlacesTableView.swift in Sources */,
 				BBD2CD0B2A55BF2A00F41DDE /* InfoViewController.swift in Sources */,
 				88BEBC282A4E0A5C00ED8A4A /* HinoTableViewCell.swift in Sources */,
 				BBD2CD0E2A55BFF800F41DDE /* InfoView.swift in Sources */,
+				BBD2CD2A2A55FF1200F41DDE /* PlaceMBN.swift in Sources */,
 				88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */,
 				BB10BB472A4C8594003C91E4 /* Paragraph.swift in Sources */,
 				885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
+				88930C662A56FE8300283536 /* AboutViewController.swift in Sources */,
 				BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */,
+				BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */,
+				BBD2CD2E2A563C4900F41DDE /* PlacesMBNDataLoader.swift in Sources */,
+				88930C6F2A571D0300283536 /* PrivacyPoliciesView.swift in Sources */,
+				BBD2CD232A55EE4600F41DDE /* PlacesTableViewCell.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
 				BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */,
+				BBD2CD1C2A55EDCB00F41DDE /* PlacesView.swift in Sources */,
 				BB10BB3F2A4B4013003C91E4 /* HinarioDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +491,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		88930C6D2A57072000283536 /* MBNInfo.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88930C6C2A57072000283536 /* en */,
+			);
+			name = MBNInfo.strings;
+			sourceTree = "<group>";
+		};
 		BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -527,7 +631,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MBN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -554,7 +658,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MBN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

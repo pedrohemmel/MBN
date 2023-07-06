@@ -46,5 +46,23 @@ extension InfoTableView: UITableViewDataSource {
 extension InfoTableView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.deselectRow(at: indexPath, animated: true)
+        self.setSelectedInfoOption(index: indexPath.row)
+    }
+}
+
+extension InfoTableView {
+    func setSelectedInfoOption(index: Int) {
+        switch index {
+        case 0:
+            self.infoDelegate?.didSelectAboutSection()
+        case 1:
+            self.infoDelegate?.didSelectPlacesSection()
+        case 2:
+            self.infoDelegate?.didSelectContactSection()
+        case 3:
+            self.infoDelegate?.didSelectPrivacyPolicySection()
+        default:
+            print("Could not find info option.")
+        }
     }
 }

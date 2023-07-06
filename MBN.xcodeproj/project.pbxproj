@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		885C52FC2A4FAE5200899CF9 /* DetailHinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */; };
 		885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */; };
+		88930C662A56FE8300283536 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C652A56FE8300283536 /* AboutViewController.swift */; };
+		88930C682A56FF1700283536 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C672A56FF1700283536 /* AboutView.swift */; };
+		88930C6B2A57072000283536 /* MBNInfo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88930C6D2A57072000283536 /* MBNInfo.strings */; };
+		88930C6F2A571D0300283536 /* PrivacyPoliciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */; };
+		88930C712A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88930C702A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift */; };
 		88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */; };
 		88BEBC232A4E018200ED8A4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC222A4E018200ED8A4A /* HomeViewController.swift */; };
 		88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BEBC242A4E09D500ED8A4A /* HomeView.swift */; };
@@ -59,6 +64,11 @@
 /* Begin PBXFileReference section */
 		885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHinoViewController.swift; sourceTree = "<group>"; };
 		885C52FE2A4FAE9D00899CF9 /* DetailHinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHinoView.swift; sourceTree = "<group>"; };
+		88930C652A56FE8300283536 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		88930C672A56FF1700283536 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		88930C6C2A57072000283536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MBNInfo.strings; sourceTree = "<group>"; };
+		88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPoliciesView.swift; sourceTree = "<group>"; };
+		88930C702A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPoliciesControllerViewController.swift; sourceTree = "<group>"; };
 		88BEBC202A4DF09800ED8A4A /* HinarioTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinarioTableView.swift; sourceTree = "<group>"; };
 		88BEBC222A4E018200ED8A4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88BEBC242A4E09D500ED8A4A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -172,6 +182,8 @@
 			children = (
 				BB10BB482A4DC2DB003C91E4 /* TabBarController.swift */,
 				88BEBC222A4E018200ED8A4A /* HomeViewController.swift */,
+				88930C702A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift */,
+				88930C652A56FE8300283536 /* AboutViewController.swift */,
 				885C52FB2A4FAE5200899CF9 /* DetailHinoViewController.swift */,
 				BB10BB4C2A4DD0F9003C91E4 /* ExampleController.swift */,
 				BB10BB4E2A4DD107003C91E4 /* Example2Controller.swift */,
@@ -208,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				BBD2CD2B2A56399A00F41DDE /* placesMBN.json */,
+				88930C6D2A57072000283536 /* MBNInfo.strings */,
 				BB10BB402A4B470A003C91E4 /* hinarioJSON.json */,
 			);
 			path = Source;
@@ -248,6 +261,8 @@
 			isa = PBXGroup;
 			children = (
 				BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */,
+				88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */,
+				88930C672A56FF1700283536 /* AboutView.swift */,
 				BBD2CD1A2A55EDB500F41DDE /* Sections */,
 				BBD2CD112A55C59800F41DDE /* Views */,
 			);
@@ -397,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */,
+				88930C6B2A57072000283536 /* MBNInfo.strings in Resources */,
 				BB10BB412A4B470A003C91E4 /* hinarioJSON.json in Resources */,
 				BB10BB002A49E199003C91E4 /* Assets.xcassets in Resources */,
 				BBD2CD2C2A56399A00F41DDE /* placesMBN.json in Resources */,
@@ -419,8 +435,10 @@
 			files = (
 				88BEBC212A4DF09800ED8A4A /* HinarioTableView.swift in Sources */,
 				BB10BB492A4DC2DB003C91E4 /* TabBarController.swift in Sources */,
+				88930C682A56FF1700283536 /* AboutView.swift in Sources */,
 				BB10BAF72A49E198003C91E4 /* AppDelegate.swift in Sources */,
 				88BEBC252A4E09D500ED8A4A /* HomeView.swift in Sources */,
+				88930C712A571D6F00283536 /* PrivacyPoliciesControllerViewController.swift in Sources */,
 				BBD2CD042A5517E500F41DDE /* FavoriteViewController.swift in Sources */,
 				BB10BB3A2A4B3C5E003C91E4 /* Hinario.swift in Sources */,
 				BB10BB4F2A4DD107003C91E4 /* Example2Controller.swift in Sources */,
@@ -441,9 +459,11 @@
 				885C52FF2A4FAE9D00899CF9 /* DetailHinoView.swift in Sources */,
 				BB10BAF92A49E198003C91E4 /* SceneDelegate.swift in Sources */,
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
+				88930C662A56FE8300283536 /* AboutViewController.swift in Sources */,
 				BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */,
 				BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */,
 				BBD2CD2E2A563C4900F41DDE /* PlacesMBNDataLoader.swift in Sources */,
+				88930C6F2A571D0300283536 /* PrivacyPoliciesView.swift in Sources */,
 				BBD2CD232A55EE4600F41DDE /* PlacesTableViewCell.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
 				BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */,
@@ -471,6 +491,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		88930C6D2A57072000283536 /* MBNInfo.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88930C6C2A57072000283536 /* en */,
+			);
+			name = MBNInfo.strings;
+			sourceTree = "<group>";
+		};
 		BB10BB012A49E199003C91E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -603,7 +631,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MBN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -630,7 +658,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MBN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

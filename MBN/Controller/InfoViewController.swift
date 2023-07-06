@@ -31,7 +31,13 @@ class InfoViewController: UIViewController {
 
 extension InfoViewController: InfoDelegate {
     func didSelectAboutSection() {
+        let newVC = AboutViewController()
+        let backBtn = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(back))
+        backBtn.tintColor = .white
+        newVC.navigationItem.leftBarButtonItem = backBtn
         
+        self.navigationController?.pushViewController(newVC, animated: true)
+
     }
     
     func didSelectPlacesSection() {
@@ -48,7 +54,12 @@ extension InfoViewController: InfoDelegate {
     }
     
     func didSelectPrivacyPolicySection() {
+        let newVC = PrivacyPoliciesControllerViewController()
+        let backBtn = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(back))
+        backBtn.tintColor = .white
+        newVC.navigationItem.leftBarButtonItem = backBtn
         
+        self.navigationController?.pushViewController(newVC, animated: true)
     }
 }
 

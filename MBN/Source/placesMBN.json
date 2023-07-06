@@ -1,0 +1,72 @@
+[
+    {
+        "title": "SEDE Missão Boa Notícia do Brasil",
+        "street": "Av. Imirim, 2496 - Imirim - São Paulo / SP",
+        "neighborhood": "Pr. José Kim (Beom Seop Kim)",
+        "zipCode": "02464-400",
+        "phoneNumber": "(WhatsApp) (11) 2256-0914"
+    },
+    {
+        "title": "Igreja Boa Notícia de São Paulo",
+        "street": "Rua Fritz Johansen, 280",
+        "neighborhood": "Ermelindo Matarazzo - São Paulo / SP",
+        "zipCode": "03805-110",
+        "phoneNumber": "Pr. Davi Lee (WhatsApp) (11) 97055-4160"
+    },
+    {
+        "title": "Igreja Boa Notícia do Rio Grande do Sul",
+        "street": "Av. Antônio de Carvalho, 2059, Porto Alegre - RS",
+        "neighborhood": "Jardim Carvalho",
+        "zipCode": "91430-001",
+        "phoneNumber": "Pr. Marcos Kim (WhatsApp) (51) 98205-6702"
+    },
+    {
+        "title": "Igreja Boa Notícia de Brasília",
+        "street": "QND20 casa 20 / DF",
+        "neighborhood": "Taguatinga Norte",
+        "zipCode": "72120-200",
+        "phoneNumber": "Pr. Daniel Jo (WhatsApp) (61) 99833-3478"
+    },
+    {
+        "title": "Igreja Boa Notícia do Rio de Janeiro",
+        "street": "Rio São Paulo, 421, Rio de Janeiro / RJ",
+        "neighborhood": "Campo Grande",
+        "zipCode": "23087-005",
+        "phoneNumber": "Ev. Paulo Jung (WhatsApp) (11) 99320-5621"
+    },
+    {
+        "title": "Igreja Boa Notícia do Piauí",
+        "street": "Rua Dr.Area Leão número 2080 A - Teresina",
+        "neighborhood": "Bairro Monte Castelo",
+        "zipCode": "64016-700",
+        "phoneNumber": "Pr. Jair Belém. WhatsApp (86) 99929-4233 ou (86) 3229-5153"
+    },
+    {
+        "title": "Igreja Boa Notícia de Minas Gerais",
+        "street": "Rua Central 1155 - Belo Horizonte / MG",
+        "neighborhood": "Jardim Leblon",
+        "zipCode": "31540-500",
+        "phoneNumber": "Missionário Simeão Kim (WhatsApp) (31) 98316-0545"
+    },
+    {
+        "title": "Igreja Boa Notícia de Caraguatatuba",
+        "street": "Av.Antonio francisco pascoal peliciari, 957, Caraguatatuba / SP",
+        "neighborhood": "bairro Canta Galo",
+        "zipCode": "N/A",
+        "phoneNumber": "Pr. Willy (WhatsApp) (11) 96183-8520"
+    },
+    {
+        "title": "Igreja Boa Notícia de Goias",
+        "street": "Rua Recife, casa 01 - / Quadra 01, Lote 19 - Goiânia / GO",
+        "neighborhood": "Urias Magalhães",
+        "zipCode": "74565-090",
+        "phoneNumber": "Pr. Isaque Kwon (11) 99197-5177"
+    },
+    {
+        "title": "Igreja Boa Notícia de Mato Grosso",
+        "street": "Aldeia: Terra indígena São Marcos",
+        "neighborhood": "N/A",
+        "zipCode": "78600-000",
+        "phoneNumber": "Ev. Evilázio (66) 9639-9345"
+    }
+]

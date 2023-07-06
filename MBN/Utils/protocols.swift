@@ -11,6 +11,10 @@ protocol HinarioCRUDDelegate: AnyObject {
     func getHinarioData()
 }
 
+protocol PlacesMBNCRUDDelegate: AnyObject {
+    func getPlacesMBNData()
+}
+
 protocol HinoDelegate: AnyObject {
     func showHino(hino: Hinario)
 }

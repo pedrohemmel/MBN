@@ -8,6 +8,11 @@
 import UIKit
 
 class PlacesViewController: UIViewController {
+    
+    lazy var placesMBNDataLoader = PlacesMBNDataLoader(response: {
+        self.getPlacesMBNData()
+    })
+    
     var placesView = PlacesView()
     
     override func loadView() {
@@ -19,6 +24,10 @@ class PlacesViewController: UIViewController {
         self.title = "Locais"
         self.placesView.placesTableView.placesDelegate = self
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.placesMBNDataLoader.loadData()
+    }
 }
 
 extension PlacesViewController: PlacesDelegate {
@@ -27,6 +36,12 @@ extension PlacesViewController: PlacesDelegate {
         newVC.placeView.setupInformation(place: place)
         newVC.sheetPresentationController?.detents = [.medium()]
         present(newVC, animated: true)
+    }
+}
+
+extension PlacesViewController: PlacesMBNCRUDDelegate {
+    func getPlacesMBNData() {
+        self.placesView.placesTableView.setup(places: self.placesMBNDataLoader.places)
     }
 }
 

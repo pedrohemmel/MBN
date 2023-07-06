@@ -42,6 +42,8 @@
 		BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */; };
 		BBD2CD282A55FA7100F41DDE /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD272A55FA7100F41DDE /* PlaceView.swift */; };
 		BBD2CD2A2A55FF1200F41DDE /* PlaceMBN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */; };
+		BBD2CD2C2A56399A00F41DDE /* placesMBN.json in Resources */ = {isa = PBXBuildFile; fileRef = BBD2CD2B2A56399A00F41DDE /* placesMBN.json */; };
+		BBD2CD2E2A563C4900F41DDE /* PlacesMBNDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD2CD2D2A563C4900F41DDE /* PlacesMBNDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		BBD2CD252A55F9FA00F41DDE /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 		BBD2CD272A55FA7100F41DDE /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 		BBD2CD292A55FF1200F41DDE /* PlaceMBN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMBN.swift; sourceTree = "<group>"; };
+		BBD2CD2B2A56399A00F41DDE /* placesMBN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = placesMBN.json; sourceTree = "<group>"; };
+		BBD2CD2D2A563C4900F41DDE /* PlacesMBNDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesMBNDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,7 @@
 		BB10BB3B2A4B3CDD003C91E4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BBD2CD2B2A56399A00F41DDE /* placesMBN.json */,
 				BB10BB402A4B470A003C91E4 /* hinarioJSON.json */,
 			);
 			path = Source;
@@ -213,6 +218,7 @@
 			children = (
 				BB10BB502A4DEF39003C91E4 /* Components */,
 				BB10BB3E2A4B4013003C91E4 /* HinarioDataLoader.swift */,
+				BBD2CD2D2A563C4900F41DDE /* PlacesMBNDataLoader.swift */,
 				BB10BB422A4B5AD6003C91E4 /* protocols.swift */,
 			);
 			path = Utils;
@@ -393,6 +399,7 @@
 				BB10BB032A49E199003C91E4 /* LaunchScreen.storyboard in Resources */,
 				BB10BB412A4B470A003C91E4 /* hinarioJSON.json in Resources */,
 				BB10BB002A49E199003C91E4 /* Assets.xcassets in Resources */,
+				BBD2CD2C2A56399A00F41DDE /* placesMBN.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +443,7 @@
 				BB10BB4D2A4DD0F9003C91E4 /* ExampleController.swift in Sources */,
 				BBD2CD092A55B64E00F41DDE /* EmptyFavoriteView.swift in Sources */,
 				BBD2CD262A55F9FA00F41DDE /* PlaceViewController.swift in Sources */,
+				BBD2CD2E2A563C4900F41DDE /* PlacesMBNDataLoader.swift in Sources */,
 				BBD2CD232A55EE4600F41DDE /* PlacesTableViewCell.swift in Sources */,
 				BB10BB522A4DF2E2003C91E4 /* TabBarComponent.swift in Sources */,
 				BBD2CD062A55199400F41DDE /* FavoriteView.swift in Sources */,

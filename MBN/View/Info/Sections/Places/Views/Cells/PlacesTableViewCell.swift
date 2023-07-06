@@ -57,12 +57,14 @@ extension PlacesTableViewCell: ViewCode {
         NSLayoutConstraint.activate([
             self.title.topAnchor.constraint(equalTo: self.container.topAnchor, constant: 10),
             self.title.bottomAnchor.constraint(equalTo: self.street.topAnchor, constant: -5),
-            self.title.leadingAnchor.constraint(equalTo: self.container.leadingAnchor, constant: 15)
+            self.title.leadingAnchor.constraint(equalTo: self.container.leadingAnchor, constant: 15),
+            self.title.trailingAnchor.constraint(equalTo: self.container.trailingAnchor, constant: -15)
         ])
         NSLayoutConstraint.activate([
             self.street.topAnchor.constraint(equalTo: self.title.bottomAnchor, constant: 5),
             self.street.bottomAnchor.constraint(equalTo: self.container.bottomAnchor, constant: -10),
-            self.street.leadingAnchor.constraint(equalTo: self.container.leadingAnchor, constant: 15)
+            self.street.leadingAnchor.constraint(equalTo: self.container.leadingAnchor, constant: 15),
+            self.street.trailingAnchor.constraint(equalTo: self.container.trailingAnchor, constant: -15)
         ])
         
     }

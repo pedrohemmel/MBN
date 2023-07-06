@@ -19,7 +19,12 @@ class DetailHinoView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-    
+    var scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        return scrollView
+    }()
     lazy var hino: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
@@ -43,7 +48,8 @@ class DetailHinoView: UIView {
 
 extension DetailHinoView: ViewCode {
     func buildViewHierarchy() {
-        [self.title, self.hino].forEach({self.addSubview($0)})
+        self.scrollView.addSubview(self.hino)
+        [self.title, self.scrollView].forEach({self.addSubview($0)})
     }
     
     func setupConstraints() {
@@ -51,19 +57,26 @@ extension DetailHinoView: ViewCode {
             self.title.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 20),
             self.title.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
             self.title.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
-            self.title.bottomAnchor.constraint(equalTo: self.hino.topAnchor, constant: -20)
+            self.title.bottomAnchor.constraint(equalTo: self.scrollView.topAnchor, constant: -20)
         ])
         
         NSLayoutConstraint.activate([
-            self.hino.topAnchor.constraint(equalTo: self.title.bottomAnchor),
-            self.hino.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
-            self.hino.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            self.scrollView.topAnchor.constraint(equalTo: self.title.bottomAnchor, constant: 20),
+            self.scrollView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
+            self.scrollView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            self.scrollView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
+            
+        ])
+        
+        NSLayoutConstraint.activate([
+            self.hino.topAnchor.constraint(equalTo: self.scrollView.bottomAnchor),
+            self.hino.leadingAnchor.constraint(equalTo: self.scrollView.leadingAnchor),
+            self.hino.trailingAnchor.constraint(equalTo: self.scrollView.trailingAnchor),
+            self.hino.widthAnchor.constraint(equalTo: self.scrollView.widthAnchor)
         ])
     }
     
     func setupAdditionalConfiguration() {
-
+        self.scrollView.isScrollEnabled = true
     }
-    
-    
 }

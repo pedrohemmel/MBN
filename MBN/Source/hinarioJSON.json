@@ -2163,27 +2163,26 @@
     },
     {
         "hinarioId": 69,
-        "hinarioName": "CANTA AO SENHOR (CORINHO)",
+        "hinarioName": "ACLAME AO SENHOR (CORINHO)",
         "hinarioLyrics": [
             {
                 "lines": [
-                    "Meu Cristo, Meu Mestre,",
-                    "Nada é como Tu.",
-                    "Todos os dias quero adorar",
-                    "As maravilhas do Teu amor.",
-                    "",
-                    "Conforto, refúgio, torre de força e poder.",
-                    "Todo o meu ser, tudo o que sou",
-                    "Nunca cesse de adorar.",
-                    "",
-                    "Canta ao Senhor toda a criação.",
-                    "Honra e poder, majestade ao Rei.",
-                    "Montes cairão e o mar rugirá",
-                    "Ao soar o Teu nome.",
-                    "",
-                    "Canto com gozo ao olhar Teu poder.",
-                    "Pra sempre eu Te amarei e direi,",
-                    "Incomparáveis promessas eu tenho em Ti."
+                    "Meu Jesus, Salvador",
+                    "Outro igual não há",
+                    "Todos os dias quero louvar",
+                    "As maravilhas de Teu amor",
+                    "Consolo, abrigo",
+                    "Força e refúgio é o Senhor",
+                    "Com todo o meu ser",
+                    "Com tudo o que sou",
+                    "Sempre Te adorarei",
+                    "Aclame ao Senhor, toda a terra e cantemos",
+                    "Poder, majestade e louvores ao Rei",
+                    "Montanhas se prostrem e rujam os mares",
+                    "Ao som de Teu nome",
+                    "Alegre Te louvo por Teus grandes feitos",
+                    "Firmado estarei, sempre Te amarei",
+                    "Incomparáveis são Tuas promessas pra mim."
                 ]
             }
         ]
@@ -7491,16 +7490,36 @@
         "hinarioLyrics": [
             {
                 "lines": [
-                    "Ao Senhor irei, e renove o meu ser.",
-                    "Todo Seu favor derrame a mim",
-                    "As minhas fraquezas, de todo meu ser,",
-                    "Serão de nenhum valor",
-                    "Pela graça de Deus.",
-                    "Meu Senhor sempre me segure,",
-                    "Me guie aos Seus braços.",
-                    "As águias batendo asas voam.",
-                    "Eu junto com Senhor, levanto e andarei",
-                    "Pela graça de Deus."
+                    "Senhor, eis me aqui",
+                    "Vem transformar meu ser",
+                    "No fluir da graça",
+                    "Que encontrei em Ti",
+                    "Senhor, descobri",
+                    "Que as fraquezas que há em mim",
+                    "Podem ser vencidas",
+                    "No poder do Teu amor."
+                ]
+            },
+            {
+                "lines": [
+                    "Junto a Ti,",
+                    "Teu amor me envolve",
+                    "Atrai-me,",
+                    "Prá ao Teu lado estar",
+                    "Espero em Ti",
+                    "E subo como águia",
+                    "Nas asas do espírito",
+                    "Contigo voarei",
+                    "No poder do Teu amor",
+                    "Face a face",
+                    "Quero ver-Te, meu Senhor",
+                    "E conhecer o amor",
+                    "Que habita em mim",
+                    "Vem renovar",
+                    "Minha mente em teu querer",
+                    "Meus dias viverei",
+                    "No poder do Teu amor"
+
                 ]
             }
         ]

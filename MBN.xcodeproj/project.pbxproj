@@ -261,8 +261,6 @@
 			isa = PBXGroup;
 			children = (
 				BBD2CD0D2A55BFF800F41DDE /* InfoView.swift */,
-				88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */,
-				88930C672A56FF1700283536 /* AboutView.swift */,
 				BBD2CD1A2A55EDB500F41DDE /* Sections */,
 				BBD2CD112A55C59800F41DDE /* Views */,
 			);
@@ -289,6 +287,8 @@
 		BBD2CD1A2A55EDB500F41DDE /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				88930C6E2A571D0300283536 /* PrivacyPoliciesView.swift */,
+				88930C672A56FF1700283536 /* AboutView.swift */,
 				BBD2CD1D2A55EE1900F41DDE /* Places */,
 			);
 			path = Sections;

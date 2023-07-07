@@ -20,13 +20,13 @@ class DetailHinoView: UIView {
         return label
     }()
     
-    lazy var hino: UILabel = {
-        let label = UILabel()
-        label.numberOfLines = 0
-        label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
-        label.textColor = .white
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
+    lazy var detailTableView: DetailTableView = {
+        let detailTableView = DetailTableView()
+        detailTableView.backgroundColor = .clear
+        detailTableView.separatorColor = .white
+        detailTableView .separatorStyle = .none
+        detailTableView.translatesAutoresizingMaskIntoConstraints = false
+        return detailTableView
     }()
     
     override init(frame: CGRect) {
@@ -43,7 +43,7 @@ class DetailHinoView: UIView {
 
 extension DetailHinoView: ViewCode {
     func buildViewHierarchy() {
-        [self.title, self.hino].forEach({self.addSubview($0)})
+        [self.title, self.detailTableView].forEach({self.addSubview($0)})
     }
     
     func setupConstraints() {
@@ -51,13 +51,14 @@ extension DetailHinoView: ViewCode {
             self.title.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 20),
             self.title.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
             self.title.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
-            self.title.bottomAnchor.constraint(equalTo: self.hino.topAnchor, constant: -20)
+            self.title.bottomAnchor.constraint(equalTo: self.detailTableView.topAnchor, constant: -20)
         ])
         
         NSLayoutConstraint.activate([
-            self.hino.topAnchor.constraint(equalTo: self.title.bottomAnchor),
-            self.hino.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
-            self.hino.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            self.detailTableView.topAnchor.constraint(equalTo: self.title.bottomAnchor),
+            self.detailTableView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
+            self.detailTableView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            self.detailTableView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
     }
     

@@ -37,8 +37,7 @@ class DetailHinoViewController: UIViewController {
 extension DetailHinoViewController{
     func setup(_ hino: Hinario){
         self.detailView.title.text = hino.hinarioName
-        let hinoText = hino.hinarioLyrics.map { $0.lines.joined(separator: "\n") }.joined(separator: "\n\n")
-        self.detailView.hino.text = hinoText
+        self.detailView.detailTableView.hymn = hino
     }
     
     func verifyFavoriteHymn(hymn: Hinario) -> Bool {

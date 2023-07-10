@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AboutView: UIView {
+class AboutView: UIScrollView {
     
     private let label: UILabel = {
         var label = UILabel()
@@ -36,14 +36,19 @@ extension AboutView: ViewCode{
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            label.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor, constant: 20),
+            label.topAnchor.constraint(equalTo: self.topAnchor, constant: 20),
             label.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
-            label.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20)
-        ])
+            label.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            label.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -20),
+            label.widthAnchor.constraint(equalTo: widthAnchor, constant: -40)
+            ])
     }
     
     func setupAdditionalConfiguration() {
-    
+        self.showsVerticalScrollIndicator = true
+        self.showsHorizontalScrollIndicator = false
+        self.alwaysBounceVertical = true
+        self.backgroundColor = .clear
     }
     
     func setup(text: String){

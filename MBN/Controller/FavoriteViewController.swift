@@ -57,6 +57,9 @@ extension FavoriteViewController: HinoDelegate{
         let favoriteBtn = UIBarButtonItem(image: UIImage(systemName: "star"), style: .plain, target: self, action: #selector(favoriteHino))
         favoriteBtn.tintColor = .white
         hinoVC.navigationItem.rightBarButtonItem = favoriteBtn
+        
+        self.view.endEditing(true)
+        
         self.navigationController?.pushViewController(hinoVC, animated: true)
     }
 }

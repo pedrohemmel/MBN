@@ -42,6 +42,8 @@ extension HomeViewController: HinoDelegate{
         backBtn.tintColor = .white
         hinoVC.navigationItem.leftBarButtonItem = backBtn
         
+        self.view.endEditing(true)
+        
         self.navigationController?.pushViewController(hinoVC, animated: true)
     }
 }

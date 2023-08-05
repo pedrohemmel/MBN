@@ -21,7 +21,7 @@ class EmptyFavoriteView: UIView {
     
     private var label: UILabel = {
         let label = UILabel()
-        label.text = "Sem hinários favoritados até o momento."
+        label.text = "Sem hinos favoritados até o momento."
         label.textColor = .white
         label.font = UIFont.systemFont(ofSize: 12, weight: .light)
         label.translatesAutoresizingMaskIntoConstraints = false

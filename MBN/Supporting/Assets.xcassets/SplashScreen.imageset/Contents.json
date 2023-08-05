@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "SplashScreen.png",
+      "filename" : "SplashScreen.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
